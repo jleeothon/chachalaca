@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>
+      Escoger archivos
+      <form id="file-form">
+      <input type='file' id='file-input' webkitdirectory='' directory=''>
+      </form>
+    </p>
+    <script type='text/javascript' src='/javascripts/index.js'>
+    </script>
+  </body>
+</html>
