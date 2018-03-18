@@ -24,16 +24,29 @@ router.get('/', (req, res) => {
 router.post('/generateCsv', upload.array('files'), (req, res) => {
   const xmlFiles = Lazy(req.files).filter(f => f.originalname.endsWith('.xml'))
   const filePaths = xmlFiles.map(f => f.path)
+  console.log("file paths", filePaths.join(";"))
+  console.log("")
   const fileContents = filePaths.map(f => fs.readFileSync(f, {encoding: 'UTF-8', flag: 'r'}))
+  // console.log("file contents", fileContents.join(";"))
+  // console.log("")
   const parsedObjects = fileContents.map(f => parseInvoice(f))
-  const rows = parsedObjects.map(r => rowify(r))
-  const rows = parsedObjects.map(r => rowify(r))
-
-
-  const result = rowArrays.map(row => row.join(',')).join('\n')
-
-  res.send(result)
-  // res.download(req.files[0].path, 'filename.xml')
+  console.log("parsed objects size", parsedObjects.size())
+  console.log("")
+  const rows = parsedObjects.map(r => rowify(r)).filter(r => r !== null)
+  console.log("rows size", rows.size())
+  console.log("rows", rows.map(JSON.stringify).join(";"))
+  console.log("")
+	const tmpFilePath = tmp.tmpNameSync()
+  generateCsv(tmpFilePath, rows)
+  console.log(fs.readFileSync(tmpFilePath, {encoding: 'UTF-8', flag: 'r'}))
+  res.download(tmpFilePath, 'filename.xml', (err) => {
+    if (err) {
+      console.log("ERROR OCCURRED")
+    } else {
+      console.log("ALLES GUT")
+    }
+  })
+  // fs.unlinkSync(tmpFilePath)
 });
 
 
