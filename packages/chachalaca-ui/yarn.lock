@@ -31,6 +31,10 @@ basic-auth@~2.0.0:
   dependencies:
     safe-buffer "5.1.1"
 
+blob@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/blob/-/blob-0.0.4.tgz#bcf13052ca54463f30f9fc7e95b9a47630a94921"
+
 body-parser@~1.18.2:
   version "1.18.2"
   resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.18.2.tgz#87678a19d84b47d859b83199bd59bce222b10454"
@@ -64,10 +68,12 @@ bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
 
-chachalaca@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/chachalaca/-/chachalaca-0.1.1.tgz#21d956f367200bd1676778bb06209be8affefe47"
+chachalaca@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/chachalaca/-/chachalaca-0.1.2.tgz#4dd3a4c69e0276c2d12a6b20be65c45d532d292d"
   dependencies:
+    blob "^0.0.4"
+    commander "^2.15.1"
     glob "^7.1.2"
     lazy.js "^0.5.1"
     lodash "^4.17.5"
@@ -78,6 +84,10 @@ chachalaca@^0.1.1:
 commander@2.11.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
+
+commander@^2.15.1:
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
 
 concat-map@0.0.1:
   version "0.0.1"
