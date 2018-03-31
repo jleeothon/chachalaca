@@ -18,7 +18,7 @@ const getFileContents = function * (path) {
 }
 
 router.get('/', (req, res) => {
-  res.render('index', {title: 'Ortalis'});
+  res.render('index', {title: 'Erythroptera'});
 });
 
 router.post('/generateCsv', upload.array('files'), (req, res) => {
