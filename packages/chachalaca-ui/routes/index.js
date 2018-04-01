@@ -13,7 +13,7 @@ const upload = multer({dest: '/tmp'});
 const router = new express.Router();
 
 router.get('/', (req, res) => {
-	res.render('index', {title: 'Erythroptera'});
+	res.render('index', {title: 'Chachalaca'});
 });
 
 router.post('/generateCsv', upload.array('files'), (req, res) => {
