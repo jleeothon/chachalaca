@@ -1993,8 +1993,8 @@ optionator@^0.8.2:
     wordwrap "~1.0.0"
 
 ortalis@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/ortalis/-/ortalis-0.1.4.tgz#69829397f27180a10e6c011c0a3f3d4a29417f80"
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/ortalis/-/ortalis-0.1.6.tgz#e688f1dedb807c9df551af14530e49983fc24f0f"
   dependencies:
     blob "^0.0.4"
     commander "^2.15.1"
