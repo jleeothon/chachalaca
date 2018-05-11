@@ -2027,7 +2027,7 @@ optionator@^0.8.2:
     type-check "~0.3.2"
     wordwrap "~1.0.0"
 
-ortalis@^0.1.6:
+ortalis@^0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/ortalis/-/ortalis-0.1.7.tgz#a1f12c96bc488454d72a8f1bc6ae47f749ba994b"
   dependencies:

@@ -16,7 +16,7 @@
 		"lodash": "^4.17.5",
 		"morgan": "^1.9.0",
 		"multer": "^1.3.0",
-		"ortalis": "^0.1.6",
+		"ortalis": "^0.1.7",
 		"serve-favicon": "~2.4.5",
 		"tmp": "^0.0.33",
 		"xlsx-populate": "^1.14.0"
