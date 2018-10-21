@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"start": "node ./bin/www",
+		"start": "nodemon ./bin/www",
 		"lint": "xo"
 	},
 	"dependencies": {
@@ -24,6 +24,7 @@
 	"devDependencies": {
 		"eslint-plugin-jsdoc": "^3.5.0",
 		"express-generator": "^4.15.5",
+		"nodemon": "^1.18.4",
 		"xo": "^0.20.3"
 	},
 	"xo": {
