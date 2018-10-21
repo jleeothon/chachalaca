@@ -23,7 +23,7 @@ document.addEventListener(
 					window.URL.revokeObjectURL(url);
 				}
 			});
-			request.open('POST', '/generateCsv');
+			request.open('POST', '/generate-xlsx');
 			request.send(formData);
 		};
 

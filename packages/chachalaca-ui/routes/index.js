@@ -25,7 +25,7 @@ const handleDownloadError = err => {
 	}
 };
 
-router.post('/generateCsv', upload.array('files'), async (req, res) => {
+router.post('/generate-xlsx', upload.array('files'), async (req, res) => {
 	const xmlFiles = lazy(req.files).filter(f => f.originalname.endsWith('.xml'));
 	const filePaths = xmlFiles.map(f => f.path);
 	const fileContents = filePaths.map(f =>
@@ -38,7 +38,6 @@ router.post('/generateCsv', upload.array('files'), async (req, res) => {
 	await generateXlsxData(tmpFilePath, rows);
 	res.type('application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
 	res.sendFile(tmpFilePath, handleDownloadError);
-	console.log(`file  -----> ${tmpFilePath}`);
 });
 
 module.exports = router;
