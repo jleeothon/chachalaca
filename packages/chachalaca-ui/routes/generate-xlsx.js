@@ -24,19 +24,4 @@ const generateXlsx = async function(path, rows) {
 	await workbook.toFileAsync(path);
 };
 
-const generateXlsxData = async function(rows) {
-	const lazyRows = lazy(rows);
-	const workbook = await XlsxPopulate.fromBlankAsync();
-	const sheet1 = workbook.sheet('Sheet1');
-	lazyRows.forEach((r, i) => {
-		r.toArray().forEach((c, j) => {
-			const cell = coordinateToCell(i, j);
-			console.log(`${cell}: ${c}`);
-			sheet1.cell(cell).value(c);
-		});
-	});
-	await workbook.outputAsync();
-};
-
-
 module.exports = generateXlsx;
