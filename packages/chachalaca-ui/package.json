@@ -12,11 +12,12 @@
 		"debug": "~2.6.9",
 		"express": "~4.15.5",
 		"hjs": "~0.0.6",
+		"immutable": "^4.0.0-rc.10",
 		"lazy.js": "^0.5.1",
 		"lodash": "^4.17.5",
 		"morgan": "^1.9.0",
 		"multer": "^1.3.0",
-		"ortalis": "^0.1.7",
+		"ortalis": "^0.2.0",
 		"serve-favicon": "~2.4.5",
 		"tmp": "^0.0.33",
 		"xlsx-populate": "^1.14.0"

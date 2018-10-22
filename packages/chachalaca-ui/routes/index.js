@@ -7,7 +7,7 @@ const multer = require('multer');
 const {parse: parseInvoice} = require('ortalis');
 const {rowify} = require('ortalis');
 
-const generateXlsxData = require('./generate-xlsx');
+const generateXlsx = require('./generate-xlsx');
 
 const upload = multer({dest: '/tmp'});
 
@@ -35,7 +35,7 @@ router.post('/generate-xlsx', upload.array('files'), async (req, res) => {
 	const rows = parsedObjects.map(r => rowify(r)).filter(r => r !== null);
 
 	const tmpFilePath = tmp.tmpNameSync() + '.xlsx';
-	await generateXlsxData(tmpFilePath, rows);
+	await generateXlsx(tmpFilePath, rows);
 	res.type('application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
 	res.sendFile(tmpFilePath, handleDownloadError);
 });
