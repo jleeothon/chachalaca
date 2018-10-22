@@ -4,10 +4,8 @@ const tmp = require('tmp');
 const lazy = require('lazy.js');
 const express = require('express');
 const multer = require('multer');
-const {parse: parseInvoice} = require('ortalis');
-const {rowify} = require('ortalis');
 
-const generateXlsx = require('./generate-xlsx');
+const {generateXlsx, rowify, parse: parseInvoice} = require('ortalis');
 
 const upload = multer({dest: '/tmp'});
 

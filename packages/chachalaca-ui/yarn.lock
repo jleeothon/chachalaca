@@ -2337,9 +2337,9 @@ optionator@^0.8.2:
     type-check "~0.3.2"
     wordwrap "~1.0.0"
 
-ortalis@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/ortalis/-/ortalis-0.2.0.tgz#6836f8d10367c95a2d659035b3dc868505b349f0"
+ortalis@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/ortalis/-/ortalis-0.2.1.tgz#7c6740553f162450551a9541402a516f2a64da31"
   dependencies:
     blob "^0.0.4"
     commander "^2.15.1"
