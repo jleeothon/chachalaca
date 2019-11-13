@@ -7,10 +7,10 @@
 		"lint": "xo"
 	},
 	"dependencies": {
-		"body-parser": "^1.18.3",
+		"body-parser": "^1.19.0",
 		"cookie-parser": "^1.4.4",
 		"debug": "~2.6.9",
-		"express": "~4.15.5",
+		"express": "^4.17.1",
 		"hjs": "~0.0.6",
 		"immutable": "^4.0.0-rc.12",
 		"lazy.js": "^0.5.1",
