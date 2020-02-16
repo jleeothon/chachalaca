@@ -22,11 +22,24 @@ document.addEventListener(
 				document.body.appendChild(a);
 				const url = window.URL.createObjectURL(this.response);
 				a.href = url;
-				const date = new Date().toLocaleString().replace(/[^\d]/g, '-');
-				a.download = `facturas-${date}.xlsx`;
+				a.download = `comprobantes-${getDate()}.xlsx`;
 				a.click();
 				window.URL.revokeObjectURL(url);
 			}
+		}
+
+		function getDate() {
+			const d = new Date();
+			const pad = x => x.toString(10).padStart(2, '0');
+			const parts = [
+				d.getFullYear(),
+				pad(d.getMonth() + 1),
+				pad(d.getDate()),
+				pad(d.getHours()),
+				pad(d.getMinutes()),
+				pad(d.getSeconds()),
+			];
+			return parts.join('-');
 		}
 
 		const fileInput = document.getElementById('file-input');
