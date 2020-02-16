@@ -1,11 +1,22 @@
 const fs = require('fs');
 const tmp = require('tmp');
 
-const lazy = require('lazy.js');
+const {Seq: seq} = require('immutable');
+const bunyan = require('bunyan');
 const express = require('express');
 const multer = require('multer');
 
-const {generateXlsx, rowify, parse: parseInvoice} = require('ortalis');
+const log = bunyan.createLogger({name: 'chachalaca'});
+
+module.exports = log;
+
+const {
+	generateXlsx,
+	parse: parseInvoice,
+	rowifyComprobanteRetencion,
+	rowifyFactura,
+	triageAutorizacion,
+} = require('ortalis');
 
 const upload = multer({dest: '/tmp'});
 
@@ -15,27 +26,54 @@ router.get('/', (req, res) => {
 	res.render('index', {title: 'Chachalaca'});
 });
 
-const handleDownloadError = err => {
-	if (err) {
-		console.log('ERROR OCCURRED');
-	} else {
-		console.log('ALLES GUT');
+router.post(
+	'/generate-xlsx',
+	upload.array('files'),
+	logError,
+	async (req, res) => {
+		const xmlFiles = seq(req.files).filter(f =>
+			f.originalname.endsWith('.xml')
+		);
+		const filePaths = xmlFiles.map(f => f.path);
+		const fileContents = filePaths.map(f =>
+			fs.readFileSync(f, {encoding: 'UTF-8', flag: 'r'})
+		);
+		const parsedObjects = fileContents.map(f => parseInvoice(f));
+		const triagedObs = parsedObjects.groupBy(triageAutorizacion).toJS();
+		const {
+			factura: facturaArr,
+			comprobanteRetencion: comprobanteRetencionArr,
+			notaCredito: notaCreditoArr,
+		} = triagedObs;
+
+		const facturaRows = facturaArr.map(r => rowifyFactura(r));
+		const comprobanteRetencionRows = comprobanteRetencionArr.map(r =>
+			rowifyComprobanteRetencion(r)
+		);
+
+		const tmpFilePath = tmp.tmpNameSync() + '.xlsx';
+		await generateXlsx(tmpFilePath, facturaRows, comprobanteRetencionRows);
+		const responseType =
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+		res.type(responseType);
+		res.sendFile(tmpFilePath, handleDownloadError);
 	}
-};
+);
 
-router.post('/generate-xlsx', upload.array('files'), async (req, res) => {
-	const xmlFiles = lazy(req.files).filter(f => f.originalname.endsWith('.xml'));
-	const filePaths = xmlFiles.map(f => f.path);
-	const fileContents = filePaths.map(f =>
-		fs.readFileSync(f, {encoding: 'UTF-8', flag: 'r'})
-	);
-	const parsedObjects = fileContents.map(f => parseInvoice(f));
-	const rows = parsedObjects.map(r => rowify(r)).filter(r => r !== null);
+function handleDownloadError(err) {
+	if (err) {
+		log.error('Error occurred sending file');
+	} else {
+		log.info('Successfully sent file');
+	}
+}
 
-	const tmpFilePath = tmp.tmpNameSync() + '.xlsx';
-	await generateXlsx(tmpFilePath, rows);
-	res.type('application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-	res.sendFile(tmpFilePath, handleDownloadError);
-});
+async function logError(req, res, next) {
+	try {
+		await next();
+	} catch (e) {
+		log.error(e);
+	}
+}
 
 module.exports = router;
