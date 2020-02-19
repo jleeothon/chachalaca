@@ -41,9 +41,9 @@ router.post(
 		const parsedObjects = fileContents.map(f => parseInvoice(f));
 		const triagedObs = parsedObjects.groupBy(triageAutorizacion).toJS();
 		const {
-			factura: facturaArr,
-			comprobanteRetencion: comprobanteRetencionArr,
-			notaCredito: notaCreditoArr,
+			factura: facturaArr = [],
+			comprobanteRetencion: comprobanteRetencionArr = [],
+			notaCredito: notaCreditoArr = [],
 		} = triagedObs;
 
 		const facturaRows = facturaArr.map(r => rowifyFactura(r));
