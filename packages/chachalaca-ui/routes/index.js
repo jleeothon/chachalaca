@@ -52,7 +52,7 @@ router.post(
 		);
 
 		const tmpFilePath = tmp.tmpNameSync() + '.xlsx';
-		await generateXlsx(tmpFilePath, facturaRows, comprobanteRetencionRows);
+		await generateXlsx(tmpFilePath, facturaRows, comprobanteRetencionRows, notaCreditoArr);
 		const responseType =
 			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
 		res.type(responseType);
