@@ -1,0 +1,18 @@
+{
+  "autorizacion": "numero-autorizacion-factura-2",
+  "codigo": "",
+  "concepto": "",
+  "estab": "068",
+  "fecha": "24/09/2018",
+  "formaDePago": "EFECT",
+  "ice": 0,
+  "iva": 7.81,
+  "proveedor": "RAZON SOCIAL DUMMY 2",
+  "ptoEmi": "017",
+  "ruc": "1790710319001",
+  "secuencial": "000325207",
+  "tarifa0": 0,
+  "tarifa12": 65.08,
+  "tarifa15": 0,
+  "total": 72.89
+}

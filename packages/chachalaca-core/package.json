@@ -1,0 +1,52 @@
+{
+	"name": "chachalaca-core",
+	"version": "0.4.4",
+	"description": "Turn XML into CSV files",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"lint": "eslint --fix --ext ts .",
+		"manual:gen": "mkdir -p manual-test-output && node dist/bin/ortalis generate manual-test-input manual-test-output/`date +%Y-%m-%d-%H-%M-%S`.xlsx | bunyan",
+		"manual:open": "ls manual-test-output/*.xlsx | sort | tail -n 1 | xargs open",
+		"pretest": "npm run lint",
+		"release": "np",
+		"test": "./copy-test-data.sh && ava"
+	},
+	"repository": "git+https://github.com/jleeothon/ortalis.git",
+	"author": "Johnny Lee-Othon",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jleeothon/ortalis/issues"
+	},
+	"engines": {
+		"node": "~12.14.1"
+	},
+	"homepage": "https://github.com/jleeothon/ortalis#readme",
+	"dependencies": {
+		"@sindresorhus/is": "^2.1.0",
+		"@types/bunyan": "^1.8.6",
+		"@types/node": "^12.12.27",
+		"blob": "0.0.5",
+		"bunyan": "^1.8.12",
+		"commander": "^4.1.1",
+		"date-fns": "^2.12.0",
+		"dot-prop": "^5.2.0",
+		"glob": "^7.1.6",
+		"immutable": "^3.8.2",
+		"p-map": "^3.0.0",
+		"xlsx-populate": "^1.21.0",
+		"xml2js": "^0.4.23"
+	},
+	"devDependencies": {
+		"@ava/typescript": "^1.1.1",
+		"@typescript-eslint/eslint-plugin": "^2.20.0",
+		"@typescript-eslint/parser": "^2.20.0",
+		"ava": "^2.4.0",
+		"eslint": "^6.8.0",
+		"eslint-config-xo": "^0.29.1",
+		"eslint-config-xo-typescript": "^0.26.0",
+		"np": "^2.20.1",
+		"tmp": "^0.0.33",
+		"typescript": "^3.7.5"
+	}
+}

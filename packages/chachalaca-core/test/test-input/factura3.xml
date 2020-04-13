@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>NUMERODEAUTORIZACIONDUMMY</numeroAutorizacion>
+<fechaAutorizacion>2019-10-31T18:21:06-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+
+<infoTributaria>
+   <ambiente>2</ambiente>
+   <tipoEmision>1</tipoEmision>
+   <razonSocial>RAZON SOCIAL DUMMY 2</razonSocial>
+   <nombreComercial>NOMBRE COMERCIAL</nombreComercial>
+   <ruc>RUC-FACTURA-3</ruc>
+   <claveAcceso>NUMERODEAUTORIZACIONDUMMY</claveAcceso>
+   <codDoc>01</codDoc>
+   <estab>001</estab>
+   <ptoEmi>011</ptoEmi>
+   <secuencial>000042579</secuencial>
+   <dirMatriz>DIR MATRIZ DUMMY</dirMatriz>
+      </infoTributaria>
+   <infoFactura>
+   <fechaEmision>31/10/2019</fechaEmision>
+   <dirEstablecimiento>DIR ESTAB DUMMUY</dirEstablecimiento>
+   <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+   <razonSocialComprador>DIR RAZONS SOCIAL</razonSocialComprador>
+   <identificacionComprador>123456890</identificacionComprador>
+   <totalSinImpuestos>205.81</totalSinImpuestos>
+   <totalDescuento>197.58</totalDescuento>
+ <totalConImpuestos>
+    <totalImpuesto>
+   <codigo>2</codigo>
+   <codigoPorcentaje>2</codigoPorcentaje>
+   <baseImponible>205.81</baseImponible>
+   <valor>24.70</valor>
+   </totalImpuesto>
+</totalConImpuestos>
+   <propina>0.00</propina>
+   <importeTotal>230.51</importeTotal>
+   <moneda>DOLAR</moneda>
+ <pagos>
+    <pago>
+   <formaPago>20</formaPago>
+   <total>230.51</total>
+   <plazo>0</plazo>
+   <unidadTiempo>dias</unidadTiempo>
+   </pago>
+</pagos>
+   </infoFactura>
+ <detalles>
+    <detalle>
+   <codigoPrincipal>COD PRIN</codigoPrincipal>
+   <codigoAuxiliar>COD AUX</codigoAuxiliar>
+   <descripcion>DESCRIPCION</descripcion>
+   <cantidad>2.090000</cantidad>
+   <precioUnitario>28.8000</precioUnitario>
+   <descuento>21.05</descuento>
+   <precioTotalSinImpuesto>39.10</precioTotalSinImpuesto>
+   <detallesAdicionales>
+   <detAdicional nombre="MT2" valor="unidadMedida"/>
+   <detAdicional nombre="2" valor="cajas"/>
+   <detAdicional nombre="0" valor="unidades"/>
+</detallesAdicionales>
+ <impuestos>
+    <impuesto>
+   <codigo>2</codigo>
+   <codigoPorcentaje>2</codigoPorcentaje>
+   <tarifa>12.00</tarifa>
+   <baseImponible>39.10</baseImponible>
+   <valor>4.69</valor>
+   </impuesto>
+</impuestos>
+   </detalle>
+    <detalle>
+   <codigoPrincipal>COD PRIN</codigoPrincipal>
+   <codigoAuxiliar>COD AUX</codigoAuxiliar>
+   <descripcion>DESCRIPCION</descripcion>
+   <cantidad>2.880000</cantidad>
+   <precioUnitario>70.0000</precioUnitario>
+   <descuento>141.12</descuento>
+   <precioTotalSinImpuesto>60.48</precioTotalSinImpuesto>
+   <detallesAdicionales>
+   <detAdicional nombre="MT2" valor="unidadMedida"/>
+   <detAdicional nombre="2" valor="cajas"/>
+   <detAdicional nombre="0" valor="unidades"/>
+</detallesAdicionales>
+ <impuestos>
+    <impuesto>
+   <codigo>2</codigo>
+   <codigoPorcentaje>2</codigoPorcentaje>
+   <tarifa>12.00</tarifa>
+   <baseImponible>60.48</baseImponible>
+   <valor>7.26</valor>
+   </impuesto>
+</impuestos>
+   </detalle>
+    <detalle>
+   <codigoPrincipal>COD PRIN</codigoPrincipal>
+   <codigoAuxiliar>COD AUX</codigoAuxiliar>
+   <descripcion>DESCRIPCION</descripcion>
+   <cantidad>16.470000</cantidad>
+   <precioUnitario>8.6000</precioUnitario>
+   <descuento>35.41</descuento>
+   <precioTotalSinImpuesto>106.23</precioTotalSinImpuesto>
+   <detallesAdicionales>
+   <detAdicional nombre="MT2" valor="unidadMedida"/>
+   <detAdicional nombre="9" valor="cajas"/>
+   <detAdicional nombre="0" valor="unidades"/>
+</detallesAdicionales>
+ <impuestos>
+    <impuesto>
+   <codigo>2</codigo>
+   <codigoPorcentaje>2</codigoPorcentaje>
+   <tarifa>12.00</tarifa>
+   <baseImponible>106.23</baseImponible>
+   <valor>12.75</valor>
+   </impuesto>
+</impuestos>
+   </detalle>
+</detalles>
+   <infoAdicional>
+   <campoAdicional nombre="Direccion">CAMPO ADICIONAL DUMMY</campoAdicional>
+   <campoAdicional nombre="Email">info@example.com</campoAdicional>
+</infoAdicional>
+
+<ds:Signature Id="Signature1007923" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:KeyInfo Id="Certificate1907777">
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature1007923-Object719408"><etsi:QualifyingProperties Target="#Signature1007923"><etsi:SignedProperties Id="Signature1007923-SignedProperties330568"><etsi:SignedSignatureProperties><etsi:SigningTime>2019-10-31T18:21:04-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>SPdvODE3O3otZb3EQtm/9U6BURc=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1515940117</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-268340"><etsi:Description>Documento de ejemplo</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>

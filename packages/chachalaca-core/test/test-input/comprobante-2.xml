@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>NUMAUTORIZACION12345</numeroAutorizacion>
+<fechaAutorizacion>2020-02-29T04:17:27-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<comprobanteRetencion id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>BANCO 123</razonSocial>
+    <nombreComercial>BANCO 123</nombreComercial>
+    <ruc>RUC123</ruc>
+    <claveAcceso>NUMAUTORIZACION12345</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>023</estab>
+    <ptoEmi>045</ptoEmi>
+    <secuencial>000190123</secuencial>
+    <dirMatriz>DIR MATRIZ 1</dirMatriz>
+  </infoTributaria>
+  <infoCompRetencion>
+    <fechaEmision>28/02/2020</fechaEmision>
+    <dirEstablecimiento>DIR ESTAB COMPROBANTE 2</dirEstablecimiento>
+    <contribuyenteEspecial>123CONTRIBUYENTEESPECIAL</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+    <razonSocialSujetoRetenido>RAZON SOCIAL SUJETO RETENIDO</razonSocialSujetoRetenido>
+    <identificacionSujetoRetenido>123SUJETORETENIDO</identificacionSujetoRetenido>
+    <periodoFiscal>02/2020</periodoFiscal>
+  </infoCompRetencion>
+  <impuestos>
+    <impuesto>
+      <codigo>1</codigo>
+      <codigoRetencion>323B1</codigoRetencion>
+      <baseImponible>1.2000</baseImponible>
+      <porcentajeRetener>2.00</porcentajeRetener>
+      <valorRetenido>0.0200</valorRetenido>
+      <codDocSustento>00</codDocSustento>
+    </impuesto>
+  </impuestos>
+  <infoAdicional>
+    <campoAdicional nombre="Email">a@b.com</campoAdicional>
+    <campoAdicional nombre="Ref">123ref</campoAdicional>
+  </infoAdicional>
+</comprobanteRetencion>]]></comprobante>
+<mensajes/>
+</autorizacion>

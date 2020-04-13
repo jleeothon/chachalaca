@@ -1,0 +1,18 @@
+{
+  "autRetencion": "?",
+  "baseImpIva": "",
+  "baseRenta": "1.2000",
+  "beneficiario": "BANCO 123",
+  "compRetencion1": "023",
+  "compRetencion2": "045",
+  "compRetencion3": "000190123",
+  "concepto": "",
+  "fecha": null,
+  "numeroAutorizacionFactura": "?",
+  "numeroFacturaEmitida": "",
+  "porcentajeIva": 0,
+  "porcentajeRenta": 0.02,
+  "retIva": 0,
+  "retRenta": 0.02,
+  "rucBeneficiario": "RUC123"
+}

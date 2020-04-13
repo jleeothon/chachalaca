@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>numero-autorizacion-factura-2</numeroAutorizacion>
+<fechaAutorizacion>2018-09-24T09:28:50-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>RAZON SOCIAL DUMMY 2</razonSocial>
+        <nombreComercial>DIRECCION DUMMY 2</nombreComercial>
+        <ruc>1790710319001</ruc>
+        <claveAcceso>clave-acceso-factura-2</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>068</estab>
+        <ptoEmi>017</ptoEmi>
+        <secuencial>000325207</secuencial>
+        <dirMatriz>DIR MATRIZ DUMMY</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>24/09/2018</fechaEmision>
+        <dirEstablecimiento>DIR ESTABLECIMIENTO DUMMY</dirEstablecimiento>
+        <contribuyenteEspecial>9999</contribuyenteEspecial>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+        <razonSocialComprador>RAZON SOCIAL COMPRADOR DUMMY</razonSocialComprador>
+        <identificacionComprador>88888888</identificacionComprador>
+        <totalSinImpuestos>65.08</totalSinImpuestos>
+        <totalDescuento>0</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>0.00</baseImponible>
+                <tarifa>0</tarifa>
+                <valor>0.00</valor>
+            </totalImpuesto>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <baseImponible>65.08</baseImponible>
+                <tarifa>12</tarifa>
+                <valor>7.81</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>72.89</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>72.89</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>161310</codigoPrincipal>
+            <descripcion>DESCRIPCION 1</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>15.54</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>15.54</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>15.54</baseImponible>
+                    <valor>1.86</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>169560</codigoPrincipal>
+            <descripcion>DESCRIPCION 2</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>19.14</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>19.14</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>19.14</baseImponible>
+                    <valor>2.30</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>241265</codigoPrincipal>
+            <descripcion>DESCRIPCION 3</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>1.26</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>1.26</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>1.26</baseImponible>
+                    <valor>0.15</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>40409</codigoPrincipal>
+            <descripcion>DESCRIPCION 4</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>3.78</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>3.78</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>3.78</baseImponible>
+                    <valor>0.45</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>7289</codigoPrincipal>
+            <descripcion>DESCRIPCION 5</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>2.11</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>2.11</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>2.11</baseImponible>
+                    <valor>0.25</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>193704</codigoPrincipal>
+            <descripcion>DESCRIPCION 6</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>14.58</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>14.58</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>14.58</baseImponible>
+                    <valor>1.75</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>188565</codigoPrincipal>
+            <descripcion>DESCRIPCION 7</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>4.44</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>4.44</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>4.44</baseImponible>
+                    <valor>0.53</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>220964</codigoPrincipal>
+            <descripcion>DESCRIPCION 8</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>2</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>2</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>2.00</baseImponible>
+                    <valor>0.24</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>220970</codigoPrincipal>
+            <descripcion>DESCRIPCION 9</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>2.23</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>2.23</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>2.23</baseImponible>
+                    <valor>0.27</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>100146052</codigoPrincipal>
+            <descripcion>DESCRIPCION 10</descripcion>
+            <cantidad>8</cantidad>
+            <precioUnitario>0</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>0</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>0.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>100159353</codigoPrincipal>
+            <descripcion>DESCRIPCION 11</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>0</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>0</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>0.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>100159263</codigoPrincipal>
+            <descripcion>DESCRIPCION 12</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>0</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>0</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>0.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>100159262</codigoPrincipal>
+            <descripcion>DESCRIPCION 13</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>0</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>0</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>0.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>100159253</codigoPrincipal>
+            <descripcion>DESCRIPCION 14</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>0</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>0</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>0.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="DESCUENTO">3.37</campoAdicional>
+        <campoAdicional nombre="DEDUCIBLE ALIMENTOS">4.23</campoAdicional>
+        <campoAdicional nombre="DOCUMENTO INTERNO">1773801</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature442887"><ds:SignedInfo Id="Signature-SignedInfo742032"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod><ds:Reference Id="SignedPropertiesID956472" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature442887-SignedProperties986455"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>v2H45A2OHwttJ+6sIF7yx4R7rpU=</ds:DigestValue></ds:Reference><ds:Reference URI="#Certificate1312951"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>HJfeWx8ewr1XK8xU0ZMoQKXs+Ss=</ds:DigestValue></ds:Reference><ds:Reference Id="Reference-ID-991848" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>I/c1jGoE8svyZEwIrWT6qofYnUY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue485069">O2Qyuz68bgY2IJTBnn2Wlw35J8A6/NDOKUDBPrc6A8rC7Ld1k6mVeihto4yMIKAjvHx11najJC1uDT3TUYMZ8RtIydKcHwDFGrSUOCnDg8oKWQSMM6NdGi/LUfrLbPNFJjWqY3KrQ3QEQ2o8J5o9g1AkK+dJexsxmaGAaOMUDFM1SWCH8pU+G9HbWouHgZXfk5L1m3h0N5yItFBVhdWpI9QwjsNrXAAJm8ybupW3kygKFthMuHqenyL0lT6+fSEdg8ZsA8yhfPt/P8+1O0De/y8mbFeLtj7R9mEm8MfMHfQCxhAiZxzi0wGbWHieLl3+r82y5wKo3U6zfO7Ot7s9kA==</ds:SignatureValue><ds:KeyInfo Id="Certificate1312951"><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>
+sKnpX21gGGzFM0T2DIYPaZXRSCnsiCpVoqLMdeX7h6YHyV92ucu8H5H6tK2zh3DQkjzP2OqzR+x3OkDm6vXMACHrW9pcjq7f67a3Ok2f3TBbaLRPMF2yGC4sPMOLc+nY13Xwr7pt4lJrXuO/MQyTOkxEvvUG1cPZkj3Z1uYO2g7AFrCPfF2rDX8KTGA0YoD/PyuxACpH8eDRjOPJ+jkuh6eJ6a3i3mKkNdk+x42dSfbGfkkQn8+DkJFHWB1AMajlYHF+PXldluHgsQeIbXZVZcr4eI2dfPOsHjwGBuLFpB0Xabn+dtTw/D8Ir9fs84P5kUc8i6DP1AchlBmLqRdAsw==
+</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="Signature442887-Object666235"><etsi:QualifyingProperties Target="#Signature442887"><etsi:SignedProperties Id="Signature442887-SignedProperties986455"><etsi:SignedSignatureProperties><etsi:SigningTime>2018-09-24T09:28:44-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>fzFCX5vw/4Q2wrsQP1eDJDX73KQ=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1484677298</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-991848"><etsi:Description>Contenido Comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
