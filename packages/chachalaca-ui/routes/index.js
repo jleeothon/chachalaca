@@ -15,6 +15,7 @@ const {
 	parse: parseInvoice,
 	rowifyComprobanteRetencion,
 	rowifyFactura,
+	rowifyNotaCredito,
 	triageAutorizacion,
 } = require('ortalis');
 
@@ -50,9 +51,15 @@ router.post(
 		const comprobanteRetencionRows = comprobanteRetencionArr.map(r =>
 			rowifyComprobanteRetencion(r)
 		);
+		const notaCreditoRows = notaCreditoArr.map(r => rowifyNotaCredito(r));
 
 		const tmpFilePath = tmp.tmpNameSync() + '.xlsx';
-		await generateXlsx(tmpFilePath, facturaRows, comprobanteRetencionRows, notaCreditoArr);
+		await generateXlsx(
+			tmpFilePath,
+			facturaRows,
+			comprobanteRetencionRows,
+			notaCreditoRows
+		);
 		const responseType =
 			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
 		res.type(responseType);
