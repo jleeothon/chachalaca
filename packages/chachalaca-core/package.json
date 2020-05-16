@@ -1,5 +1,5 @@
 {
-	"name": "chachalaca-core",
+	"name": "@jleeothon/chachalaca-core",
 	"version": "0.4.5",
 	"description": "Turn XML into CSV files",
 	"main": "dist/index.js",
@@ -12,7 +12,7 @@
 		"release": "np",
 		"test": "./copy-test-data.sh && ava"
 	},
-	"repository": "git+https://github.com/jleeothon/ortalis.git",
+	"repository": "jleeothon/chachalaca",
 	"author": "Johnny Lee-Othon",
 	"license": "ISC",
 	"bugs": {
