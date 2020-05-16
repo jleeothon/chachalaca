@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "tsc",
 		"lint": "eslint --fix --ext ts .",
-		"manual:gen": "mkdir -p manual-test-output && node dist/bin/ortalis generate manual-test-input manual-test-output/`date +%Y-%m-%d-%H-%M-%S`.xlsx | bunyan",
+		"manual:gen": "mkdir -p manual-test-output && node dist/bin/chachalaca generate manual-test-input manual-test-output/`date +%Y-%m-%d-%H-%M-%S`.xlsx | bunyan",
 		"manual:open": "ls manual-test-output/*.xlsx | sort | tail -n 1 | xargs open",
 		"pretest": "npm run lint",
 		"release": "np",
@@ -16,12 +16,12 @@
 	"author": "Johnny Lee-Othon",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/jleeothon/ortalis/issues"
+		"url": "https://github.com/jleeothon/chachalaca/issues"
 	},
 	"engines": {
 		"node": "~12.14.1"
 	},
-	"homepage": "https://github.com/jleeothon/ortalis#readme",
+	"homepage": "https://github.com/jleeothon/chachalaca#readme",
 	"dependencies": {
 		"@sindresorhus/is": "^2.1.0",
 		"@types/bunyan": "^1.8.6",
@@ -48,5 +48,6 @@
 		"np": "^2.20.1",
 		"tmp": "^0.0.33",
 		"typescript": "^3.8.3"
-	}
+	},
+	"gitHead": "f7b9096a5b993b881bd8dd62b9854712c32fe287"
 }
