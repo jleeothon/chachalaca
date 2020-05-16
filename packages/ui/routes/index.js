@@ -17,7 +17,7 @@ const {
 	rowifyFactura,
 	rowifyNotaCredito,
 	triageAutorizacion,
-} = require('ortalis');
+} = require('@jleeothon/chachalaca-core');
 
 const upload = multer({dest: '/tmp'});
 
