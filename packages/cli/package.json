@@ -5,6 +5,9 @@
   "author": "Johnny Lee-Othon <jleeothon@icloud.com>",
   "homepage": "https://github.com/jleeothon/chachalaca#readme",
   "license": "ISC",
+	"engines": {
+		"node": "~14.4.0"
+	},
   "bin": {
     "chachalaca": "index.js"
   },
