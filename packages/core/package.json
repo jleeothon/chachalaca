@@ -5,7 +5,7 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "tsc",
-		"lint": "eslint --fix --ext ts .",
+		"lint": "xo",
 		"manual:gen": "mkdir -p manual-test-output && node dist/bin/chachalaca generate manual-test-input manual-test-output/`date +%Y-%m-%d-%H-%M-%S`.xlsx | bunyan",
 		"manual:open": "ls manual-test-output/*.xlsx | sort | tail -n 1 | xargs open",
 		"pretest": "npm run lint",
@@ -28,8 +28,6 @@
 		"@types/node": "^12.12.44",
 		"blob": "0.0.5",
 		"bunyan": "^1.8.12",
-		"commander": "^4.1.1",
-		"date-fns": "^2.14.0",
 		"dot-prop": "^5.2.0",
 		"glob": "^7.1.6",
 		"immutable": "^3.8.2",
@@ -39,15 +37,12 @@
 	},
 	"devDependencies": {
 		"@ava/typescript": "^1.1.1",
-		"@typescript-eslint/eslint-plugin": "^2.34.0",
-		"@typescript-eslint/parser": "^2.34.0",
-		"ava": "^2.4.0",
-		"eslint": "^6.8.0",
-		"eslint-config-xo": "^0.29.1",
-		"eslint-config-xo-typescript": "^0.26.0",
+		"ava": "^3.8.2",
+		"eslint": "^7.1.0",
 		"np": "^2.20.1",
 		"tmp": "^0.0.33",
-		"typescript": "^3.9.5"
+		"typescript": "^3.9.5",
+		"xo": "^0.32.0"
 	},
 	"gitHead": "a1b29478947233fcfb952d85692b81f2fd9f3a53"
 }
