@@ -1,6 +1,6 @@
 {
   "name": "@jleeothon/chachalaca-cli",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "CLI for chachalaca",
   "author": "Johnny Lee-Othon <jleeothon@icloud.com>",
   "homepage": "https://github.com/jleeothon/chachalaca#readme",
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/jleeothon/chachalaca.git"
   },
   "dependencies": {
-    "@jleeothon/chachalaca-core": "^0.3.0",
+    "@jleeothon/chachalaca-core": "^0.3.1",
     "commander": "^5.1.0",
     "date-fns": "^2.14.0"
   },
