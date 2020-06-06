@@ -6,8 +6,6 @@
 	"scripts": {
 		"build": "tsc",
 		"lint": "eslint --fix --ext ts .",
-		"manual:gen": "mkdir -p manual-test-output && node dist/bin/chachalaca generate manual-test-input manual-test-output/`date +%Y-%m-%d-%H-%M-%S`.xlsx | bunyan",
-		"manual:open": "ls manual-test-output/*.xlsx | sort | tail -n 1 | xargs open",
 		"pretest": "npm run lint",
 		"release": "np",
 		"test": "./copy-test-data.sh && ava"
