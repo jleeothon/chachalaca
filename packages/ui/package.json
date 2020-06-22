@@ -21,7 +21,6 @@
 		"tmp": "0.2.1"
 	},
 	"devDependencies": {
-		"express-generator": "^4.16.1",
 		"nodemon": "^2.0.4",
 		"xo": "^0.32.0"
 	},
