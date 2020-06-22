@@ -14,7 +14,7 @@ interface Totals {
 	total: string;
 }
 
-function get(obj: object, path: string, defaultValue?: string): string {
+function get(obj: Record<string, unknown>, path: string, defaultValue?: string): string {
 	const value = dotProp.get(obj, path, defaultValue);
 	if (is.undefined(value)) {
 		throw new Error(`Path ${path} not found`);
