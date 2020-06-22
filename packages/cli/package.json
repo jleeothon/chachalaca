@@ -20,5 +20,11 @@
     "commander": "^5.1.0",
     "date-fns": "^2.14.0"
   },
-  "gitHead": "a1b29478947233fcfb952d85692b81f2fd9f3a53"
+  "gitHead": "a1b29478947233fcfb952d85692b81f2fd9f3a53",
+  "devDependencies": {
+    "xo": "^0.32.0"
+  },
+  "scripts": {
+    "lint": "xo --prettier"
+  }
 }
