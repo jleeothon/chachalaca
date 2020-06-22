@@ -11,7 +11,10 @@ import RowCr from './row-comprobante-retencion';
 import RowFactura from './row-factura';
 import RowNotaCredito from './row-nota-credito';
 
-function addComprobanteRetencionSheet(workbook, comprobanteRetencionRows: RowCr[]): void {
+function addComprobanteRetencionSheet(
+	workbook,
+	comprobanteRetencionRows: RowCr[]
+): void {
 	const sheet = workbook.addSheet('Comprobantes');
 
 	headersCr.forEach((h: Header, i: number) => {
@@ -20,9 +23,9 @@ function addComprobanteRetencionSheet(workbook, comprobanteRetencionRows: RowCr[
 	});
 	sheet.row(1).style('numberFormat', '@');
 
-	comprobanteRetencionRows.forEach((r, rowNum) => {
-		r.toArray().forEach((c, colNum) => {
-			const cell = coordinateToCell(rowNum + 2, colNum);
+	comprobanteRetencionRows.forEach((r, rowNumber) => {
+		r.toArray().forEach((c, colNumber) => {
+			const cell = coordinateToCell(rowNumber + 2, colNumber);
 			sheet.cell(cell).value(c);
 		});
 	});
@@ -39,15 +42,18 @@ function addFacturaSheet(workbook, facturaRows: RowFactura[]): void {
 	sheet.row(1).style('numberFormat', '@');
 
 	// Values
-	facturaRows.forEach((r, rowNum) => {
-		r.toArray().forEach((c, colNum) => {
-			const cell = coordinateToCell(rowNum + 2, colNum);
+	facturaRows.forEach((r, rowNumber) => {
+		r.toArray().forEach((c, colNumber) => {
+			const cell = coordinateToCell(rowNumber + 2, colNumber);
 			sheet.cell(cell).value(c);
 		});
 	});
 }
 
-function addNotaCreditoSheet(workbook, notaCreditoRows: RowNotaCredito[]): void {
+function addNotaCreditoSheet(
+	workbook,
+	notaCreditoRows: RowNotaCredito[]
+): void {
 	const sheet = workbook.addSheet('Notas de Crédito');
 
 	// Headers and styles
@@ -58,9 +64,9 @@ function addNotaCreditoSheet(workbook, notaCreditoRows: RowNotaCredito[]): void 
 	sheet.row(1).style('numberFormat', '@');
 
 	// Values
-	notaCreditoRows.forEach((r, rowNum) => {
-		r.toArray().forEach((c, colNum) => {
-			const cell = coordinateToCell(rowNum + 2, colNum);
+	notaCreditoRows.forEach((r, rowNumber) => {
+		r.toArray().forEach((c, colNumber) => {
+			const cell = coordinateToCell(rowNumber + 2, colNumber);
 			sheet.cell(cell).value(c);
 		});
 	});

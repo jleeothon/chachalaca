@@ -5,7 +5,7 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "tsc",
-		"lint": "eslint --fix --ext ts .",
+		"lint": "xo --prettier",
 		"pretest": "npm run lint",
 		"release": "np",
 		"test": "./copy-test-data.sh && ava"
@@ -41,11 +41,11 @@
 		"@typescript-eslint/parser": "^3.4.0",
 		"ava": "^3.9.0",
 		"eslint": "^7.3.0",
-		"eslint-config-xo": "^0.31.0",
-		"eslint-config-xo-typescript": "^0.31.0",
+		"eslint-import-resolver-webpack": "^0.12.2",
 		"np": "^6.2.4",
 		"tmp": "^0.2.1",
-		"typescript": "^3.9.5"
+		"typescript": "^3.9.5",
+		"xo": "^0.32.0"
 	},
 	"gitHead": "a1b29478947233fcfb952d85692b81f2fd9f3a53"
 }

@@ -14,8 +14,12 @@ interface Totals {
 	total: string;
 }
 
-function get(obj: Record<string, unknown>, path: string, defaultValue?: string): string {
-	const value = dotProp.get(obj, path, defaultValue);
+function get(
+	object: Record<string, unknown>,
+	path: string,
+	defaultValue?: string
+): string {
+	const value = dotProp.get(object, path, defaultValue);
 	if (is.undefined(value)) {
 		throw new Error(`Path ${path} not found`);
 	}
@@ -37,10 +41,14 @@ No Objeto de Impuesto => 6
 Exento de IVA => 7
 */
 
-function findImpuesto(totalImpuestoArr: TotalImpuesto[], codigo: string, codigoPorcentaje?: string): Partial<TotalImpuesto> {
-	const result = totalImpuestoArr.find(elem => {
-		const [codigo2] = elem.codigo;
-		const [codigoPorcentaje2] = elem.codigoPorcentaje;
+function findImpuesto(
+	totalImpuestoArray: TotalImpuesto[],
+	codigo: string,
+	codigoPorcentaje?: string
+): Partial<TotalImpuesto> {
+	const result = totalImpuestoArray.find((element) => {
+		const [codigo2] = element.codigo;
+		const [codigoPorcentaje2] = element.codigoPorcentaje;
 		if (codigoPorcentaje) {
 			return codigo2 === codigo && codigoPorcentaje2 === codigoPorcentaje;
 		}
@@ -55,13 +63,14 @@ function findImpuesto(totalImpuestoArr: TotalImpuesto[], codigo: string, codigoP
 }
 
 function getTotalsFromFactura(factura: Factura): Totals {
-	const totalImpuestoArr = factura.infoFactura[0].totalConImpuestos[0].totalImpuesto;
+	const totalImpuestoArray =
+		factura.infoFactura[0].totalConImpuestos[0].totalImpuesto;
 
-	const summary0 = findImpuesto(totalImpuestoArr, '2', '0');
-	const summary12 = findImpuesto(totalImpuestoArr, '2', '2');
-	const summary15 = findImpuesto(totalImpuestoArr, '3');
+	const summary0 = findImpuesto(totalImpuestoArray, '2', '0');
+	const summary12 = findImpuesto(totalImpuestoArray, '2', '2');
+	const summary15 = findImpuesto(totalImpuestoArray, '3');
 
-	const summariesStr = {
+	const summariesString = {
 		tarifa0: get(summary0, 'baseImponible.0', '0'),
 		tarifa12: get(summary12, 'baseImponible.0', '0'),
 		tarifa15: get(summary15, 'baseImponible.0', '0'),
@@ -69,7 +78,10 @@ function getTotalsFromFactura(factura: Factura): Totals {
 		ice: get(summary15, 'valor.0', '0')
 	};
 
-	const mappedSummaries = Object.entries(summariesStr).map(([k, v]) => [k, parseFloat(v)]);
+	const mappedSummaries = Object.entries(summariesString).map(([k, v]) => [
+		k,
+		Number.parseFloat(v)
+	]);
 	const summaries = Object.fromEntries(mappedSummaries);
 	return {
 		...summaries,
@@ -77,16 +89,16 @@ function getTotalsFromFactura(factura: Factura): Totals {
 	};
 }
 
-function formaPagoToString(num: string): string {
-	if (num === '20') {
+function formaPagoToString(number: string): string {
+	if (number === '20') {
 		return 'TC';
 	}
 
-	if (num === '01') {
+	if (number === '01') {
 		return 'EFECT';
 	}
 
-	return num;
+	return number;
 }
 
 export default function rowifyFactura(autorizacion: Autorizacion): RowFactura {
@@ -97,15 +109,19 @@ export default function rowifyFactura(autorizacion: Autorizacion): RowFactura {
 
 	const totals = getTotalsFromFactura(factura);
 	const rawFecha = get(factura, 'infoFactura.0.fechaEmision.0');
-	const [day, month, year] = rawFecha.split('/').map(s => parseInt(s, 10));
+	const [day, month, year] = rawFecha
+		.split('/')
+		.map((s) => Number.parseInt(s, 10));
 	const fecha = new Date(year, month - 1, day);
 
-	const numFacPaths = [
+	const numberFacPaths = [
 		'infoTributaria.0.estab.0',
 		'infoTributaria.0.ptoEmi.0',
 		'infoTributaria.0.secuencial.0'
 	];
-	const [estabRaw, ptoEmiRaw, secuencialRaw] = numFacPaths.map(path => get(factura, path));
+	const [estabRaw, ptoEmiRaw, secuencialRaw] = numberFacPaths.map((path) =>
+		get(factura, path)
+	);
 	const estab = estabRaw.padStart(3, '0');
 	const ptoEmi = ptoEmiRaw.padStart(3, '0');
 	const secuencial = secuencialRaw.padStart(9, '0');
@@ -114,23 +130,32 @@ export default function rowifyFactura(autorizacion: Autorizacion): RowFactura {
 		autorizacion,
 		'comprobante.factura.infoTributaria.0.razonSocial.0'
 	);
-	const ruc = get(
-		autorizacion,
-		'comprobante.factura.infoTributaria.0.ruc.0'
-	);
+	const ruc = get(autorizacion, 'comprobante.factura.infoTributaria.0.ruc.0');
 
-	const formaDePagoRaw = get(factura, 'infoFactura.0.pagos.0.pago.0.formaPago.0', null);
-	const formaDePago = (formaDePagoRaw && formaPagoToString(formaDePagoRaw)) || '';
+	const formaDePagoRaw = get(
+		factura,
+		'infoFactura.0.pagos.0.pago.0.formaPago.0',
+		null
+	);
+	const formaDePago =
+		(formaDePagoRaw && formaPagoToString(formaDePagoRaw)) || '';
 
 	const codigo = '';
-	const numAutorizacion = `${autorizacion.numeroAutorizacion[0]}`;
+	const numberAutorizacion = `${autorizacion.numeroAutorizacion[0]}`;
 
-	const row = new RowFactura(
-		{
-			fecha, estab, ptoEmi, secuencial, proveedor, formaDePago, ruc,
-			autorizacion: numAutorizacion, concepto: '', codigo, ...totals
-		}
-	);
+	const row = new RowFactura({
+		fecha,
+		estab,
+		ptoEmi,
+		secuencial,
+		proveedor,
+		formaDePago,
+		ruc,
+		autorizacion: numberAutorizacion,
+		concepto: '',
+		codigo,
+		...totals
+	});
 
 	return row;
 }
