@@ -64,9 +64,4 @@ test(
 	'comprobante-2.json'
 );
 
-test(
-	'Nota de crédito 1',
-	testNota,
-	'nota-1.xml',
-	'nota-1.json'
-);
+test('Nota de crédito 1', testNota, 'nota-1.xml', 'nota-1.json');

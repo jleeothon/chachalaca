@@ -61,7 +61,7 @@ export default class RowNotaCredito {
 		this.total = total;
 	}
 
-	toArray(): Array<string|Date> {
+	toArray(): Array<string | Date> {
 		return [
 			this.fecha,
 			this.estab,

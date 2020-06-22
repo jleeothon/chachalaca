@@ -69,7 +69,7 @@ export default class RowCr {
 		this.rucBeneficiario = rucBeneficiario;
 	}
 
-	toArray(): Array<string|Date|number> {
+	toArray(): Array<string | Date | number> {
 		return [
 			this.fecha,
 			this.concepto,

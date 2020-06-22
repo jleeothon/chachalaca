@@ -31,7 +31,9 @@ export default function (content: string): Autorizacion {
 
 		const {factura, comprobanteRetencion, notaCredito} = value;
 		if (!factura && !comprobanteRetencion && !notaCredito) {
-			throw new Error('Could not find factura or comprobanteRetencion or notaCredito');
+			throw new Error(
+				'Could not find factura or comprobanteRetencion or notaCredito'
+			);
 		}
 
 		comprobanteObject = {factura, comprobanteRetencion, notaCredito};
