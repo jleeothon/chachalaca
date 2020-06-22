@@ -24,21 +24,21 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 
 // Catch 404 and forward to error handler
-app.use((req, res, next) => {
+app.use((request, response, next) => {
 	const err = new Error('Not Found');
 	err.status = 404;
 	next(err);
 });
 
 // Error handler
-app.use((err, req, res, _) => {
+app.use((err, request, response, _) => {
 	// Set locals, only providing error in development
-	res.locals.message = err.message;
-	res.locals.error = req.app.get('env') === 'development' ? err : {};
+	response.locals.message = err.message;
+	response.locals.error = request.app.get('env') === 'development' ? err : {};
 
 	// Render the error page
-	res.status(err.status || 500);
-	res.render('error');
+	response.status(err.status || 500);
+	response.render('error');
 });
 
 module.exports = app;

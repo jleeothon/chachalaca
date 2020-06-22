@@ -16,54 +16,54 @@ const {
 	rowifyComprobanteRetencion,
 	rowifyFactura,
 	rowifyNotaCredito,
-	triageAutorizacion,
+	triageAutorizacion
 } = require('@jleeothon/chachalaca-core');
 
 const upload = multer({dest: '/tmp'});
 
 const router = new express.Router();
 
-router.get('/', (req, res) => {
-	res.render('index', {title: 'Chachalaca'});
+router.get('/', (_request, response) => {
+	response.render('index', {title: 'Chachalaca'});
 });
 
 router.post(
 	'/generate-xlsx',
 	upload.array('files'),
 	logError,
-	async (req, res) => {
-		const xmlFiles = seq(req.files).filter(f =>
+	async (request, response) => {
+		const xmlFiles = seq(request.files).filter((f) =>
 			f.originalname.endsWith('.xml')
 		);
-		const filePaths = xmlFiles.map(f => f.path);
-		const fileContents = filePaths.map(f =>
+		const filePaths = xmlFiles.map((f) => f.path);
+		const fileContents = filePaths.map((f) =>
 			fs.readFileSync(f, {encoding: 'UTF-8', flag: 'r'})
 		);
-		const parsedObjects = fileContents.map(f => parseInvoice(f));
+		const parsedObjects = fileContents.map((f) => parseInvoice(f));
 		const triagedObs = parsedObjects.groupBy(triageAutorizacion).toJS();
 		const {
-			factura: facturaArr = [],
-			comprobanteRetencion: comprobanteRetencionArr = [],
-			notaCredito: notaCreditoArr = [],
+			factura: facturaArray = [],
+			comprobanteRetencion: comprobanteRetencionArray = [],
+			notaCredito: notaCreditoArray = []
 		} = triagedObs;
 
-		const facturaRows = facturaArr.map(r => rowifyFactura(r));
-		const comprobanteRetencionRows = comprobanteRetencionArr.map(r =>
+		const facturaRows = facturaArray.map((r) => rowifyFactura(r));
+		const comprobanteRetencionRows = comprobanteRetencionArray.map((r) =>
 			rowifyComprobanteRetencion(r)
 		);
-		const notaCreditoRows = notaCreditoArr.map(r => rowifyNotaCredito(r));
+		const notaCreditoRows = notaCreditoArray.map((r) => rowifyNotaCredito(r));
 
-		const tmpFilePath = tmp.tmpNameSync() + '.xlsx';
+		const temporaryFilePath = tmp.tmpNameSync() + '.xlsx';
 		await generateXlsx(
-			tmpFilePath,
+			temporaryFilePath,
 			facturaRows,
 			comprobanteRetencionRows,
 			notaCreditoRows
 		);
 		const responseType =
 			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
-		res.type(responseType);
-		res.sendFile(tmpFilePath, handleDownloadError);
+		response.type(responseType);
+		response.sendFile(temporaryFilePath, handleDownloadError);
 	}
 );
 
@@ -75,11 +75,11 @@ function handleDownloadError(err) {
 	}
 }
 
-async function logError(req, res, next) {
+async function logError(_request, _response, next) {
 	try {
 		await next();
-	} catch (e) {
-		log.error(e);
+	} catch (error) {
+		log.error(error);
 	}
 }
 

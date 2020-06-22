@@ -26,7 +26,6 @@
 	},
 	"xo": {
 		"prettier": true,
-		"extends": "ukumari",
 		"overrides": [
 			{
 				"files": "public/**/*.js",

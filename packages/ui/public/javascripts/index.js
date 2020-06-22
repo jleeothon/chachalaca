@@ -3,7 +3,7 @@ document.addEventListener(
 	() => {
 		function fileInputOnChange() {
 			const formData = new FormData();
-			const fileInput = document.getElementById('file-input');
+			const fileInput = document.querySelector('#file-input');
 			for (const f of fileInput.files) {
 				formData.append('files', f);
 			}
@@ -19,7 +19,7 @@ document.addEventListener(
 			if (this.status === 200) {
 				const a = document.createElement('a');
 				a.style = 'display: none';
-				document.body.appendChild(a);
+				document.body.append(a);
 				const url = window.URL.createObjectURL(this.response);
 				a.href = url;
 				a.download = `comprobantes-${getDate()}.xlsx`;
@@ -30,19 +30,19 @@ document.addEventListener(
 
 		function getDate() {
 			const d = new Date();
-			const pad = x => x.toString(10).padStart(2, '0');
+			const pad = (x) => x.toString(10).padStart(2, '0');
 			const parts = [
 				d.getFullYear(),
 				pad(d.getMonth() + 1),
 				pad(d.getDate()),
 				pad(d.getHours()),
 				pad(d.getMinutes()),
-				pad(d.getSeconds()),
+				pad(d.getSeconds())
 			];
 			return parts.join('-');
 		}
 
-		const fileInput = document.getElementById('file-input');
+		const fileInput = document.querySelector('#file-input');
 		fileInput.addEventListener('change', fileInputOnChange);
 	},
 	false
