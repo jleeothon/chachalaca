@@ -16,7 +16,7 @@ function parseInput(filePath): Autorizacion {
 	return parsedObject;
 }
 
-function parseOutput(filePath): object {
+function parseOutput(filePath): Record<string, unknown> {
 	const resultPath = path.join(__dirname, 'test-input', filePath);
 	const content = fs.readFileSync(resultPath, {flag: 'r', encoding: 'utf-8'});
 	const object = JSON.parse(content);
