@@ -1,7 +1,6 @@
 const fs = require('fs');
 const tmp = require('tmp');
 
-const {Seq: seq} = require('immutable');
 const bunyan = require('bunyan');
 const express = require('express');
 const multer = require('multer');
@@ -32,7 +31,7 @@ router.post(
 	upload.array('files'),
 	logError,
 	async (request, response) => {
-		const xmlFiles = seq(request.files).filter((f) =>
+		const xmlFiles = request.files.filter((f) =>
 			f.originalname.endsWith('.xml')
 		);
 		const filePaths = xmlFiles.map((f) => f.path);
@@ -40,12 +39,13 @@ router.post(
 			fs.readFileSync(f, {encoding: 'UTF-8', flag: 'r'})
 		);
 		const parsedObjects = fileContents.map((f) => parseInvoice(f));
-		const triagedObs = parsedObjects.groupBy(triageAutorizacion).toJS();
+		const groupedObjs = {factura: [], comprobanteRetencion: [], notaCredito: []};
+		parsedObjects.forEach(o => groupedObjs[triageAutorizacion(o)].push(o));
 		const {
 			factura: facturaArray = [],
 			comprobanteRetencion: comprobanteRetencionArray = [],
 			notaCredito: notaCreditoArray = []
-		} = triagedObs;
+		} = groupedObjs;
 
 		const facturaRows = facturaArray.map((r) => rowifyFactura(r));
 		const comprobanteRetencionRows = comprobanteRetencionArray.map((r) =>
