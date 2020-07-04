@@ -3,5 +3,9 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.20.2"
+  },
+  "dependencies": {
+    "@jleeothon/chachalaca-cli": "^0.3.1",
+    "@jleeothon/chachalaca-core": "^0.3.1"
   }
 }
