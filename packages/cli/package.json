@@ -2,29 +2,27 @@
   "name": "@jleeothon/chachalaca-cli",
   "version": "0.3.1",
   "description": "CLI for chachalaca",
-  "author": "Johnny Lee-Othon <jleeothon@icloud.com>",
   "homepage": "https://github.com/jleeothon/chachalaca#readme",
-  "license": "ISC",
-  "engines": {
-    "node": "~14.4.0"
-  },
-  "bin": {
-    "chachalaca": "index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jleeothon/chachalaca.git"
+  },
+  "license": "ISC",
+  "author": "Johnny Lee-Othon <jleeothon@icloud.com>",
+  "bin": {
+    "chachalaca": "index.js"
+  },
+  "scripts": {
+    "lint": "xo --prettier"
   },
   "dependencies": {
     "@jleeothon/chachalaca-core": "^0.3.1",
     "commander": "^5.1.0",
     "date-fns": "^2.14.0"
   },
-  "gitHead": "a1b29478947233fcfb952d85692b81f2fd9f3a53",
-  "devDependencies": {
-    "xo": "^0.32.0"
+  "devDependencies": {},
+  "engines": {
+    "node": "~14.4.0"
   },
-  "scripts": {
-    "lint": "xo --prettier"
-  }
+  "gitHead": "a1b29478947233fcfb952d85692b81f2fd9f3a53"
 }
