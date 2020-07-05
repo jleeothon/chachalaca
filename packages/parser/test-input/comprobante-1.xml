@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>numero-autorizacion-comprobante-1</numeroAutorizacion>
+<fechaAutorizacion>2019-12-20T12:05:15-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<comprobanteRetencion id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>RAZON SOCIAL COMPROBANTE 1</razonSocial>
+    <nombreComercial>RAZON SOCIAL COMPROBANTE 1</nombreComercial>
+    <ruc>ruc-comprobante-1</ruc>
+    <claveAcceso>numero-autorizacion-comprobante-1</claveAcceso>
+    <codDoc>07</codDoc>
+    <estab>001</estab>
+    <ptoEmi>002</ptoEmi>
+    <secuencial>00000123</secuencial>
+    <dirMatriz>Direccion Comprobante 1</dirMatriz>
+  </infoTributaria>
+  <infoCompRetencion>
+    <fechaEmision>18/12/2019</fechaEmision>
+    <dirEstablecimiento>Direccion Comprobante 1</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+    <razonSocialSujetoRetenido>RAZON SOCIAL SUJETO RETENIDO 1</razonSocialSujetoRetenido>
+    <identificacionSujetoRetenido>IDENTIFICACION SUJETO RETENIDO COMPROBANTE 1</identificacionSujetoRetenido>
+    <periodoFiscal>12/2019</periodoFiscal>
+  </infoCompRetencion>
+  <impuestos>
+    <impuesto>
+      <codigo>1</codigo>
+      <codigoRetencion>312</codigoRetencion>
+      <baseImponible>118.50</baseImponible>
+      <porcentajeRetener>1.00</porcentajeRetener>
+      <valorRetenido>1.19</valorRetenido>
+      <codDocSustento>01</codDocSustento>
+      <numDocSustento>NUM DOC SUSTENTO COMPROBANTE 1</numDocSustento>
+      <fechaEmisionDocSustento>18/12/2019</fechaEmisionDocSustento>
+    </impuesto>
+    <impuesto>
+      <codigo>2</codigo>
+      <codigoRetencion>1</codigoRetencion>
+      <baseImponible>14.22</baseImponible>
+      <porcentajeRetener>30.00</porcentajeRetener>
+      <valorRetenido>4.27</valorRetenido>
+      <codDocSustento>01</codDocSustento>
+      <numDocSustento>NUM DOC SUSTENTO COMPROBANTE 1</numDocSustento>
+      <fechaEmisionDocSustento>18/12/2019</fechaEmisionDocSustento>
+    </impuesto>
+  </impuestos>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">Direccion Comprobante 1 - 2</campoAdicional>
+    <campoAdicional nombre="Telefono">9999999999-</campoAdicional>
+  </infoAdicional>
+</comprobanteRetencion>
+]]></comprobante>
+<mensajes/>
+</autorizacion>
