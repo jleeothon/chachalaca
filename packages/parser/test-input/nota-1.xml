@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>NUM-AUTORIZACION-NOTA-1</numeroAutorizacion>
+<fechaAutorizacion>2019-12-26T10:49:13-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notaCredito id="comprobante" version="1.0.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>RAZON SOCIAL NOTA 1</razonSocial>
+		<nombreComercial>RAZON SOCIAL NOTA 1</nombreComercial>
+		<ruc>RUC-NOTA-1</ruc>
+		<claveAcceso>NUM-AUTORIZACION-NOTA-1</claveAcceso>
+		<codDoc>04</codDoc>
+		<estab>001</estab>
+		<ptoEmi>002</ptoEmi>
+		<secuencial>000001234</secuencial>
+		<dirMatriz>DIR MATRIZ NOTA 1</dirMatriz>
+	</infoTributaria>
+	<infoNotaCredito>
+		<fechaEmision>23/12/2019</fechaEmision>
+		<dirEstablecimiento>DIR MATRIZ NOTA 1</dirEstablecimiento>
+		<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+		<razonSocialComprador>RAZON SOCIAL COMPRADOR 1</razonSocialComprador>
+		<identificacionComprador>IDENTIFICACION COMPRADOR 1</identificacionComprador>
+		<contribuyenteEspecial>000</contribuyenteEspecial>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<codDocModificado>01</codDocModificado>
+		<numDocModificado>001-002-000002345</numDocModificado>
+		<fechaEmisionDocSustento>27/08/2019</fechaEmisionDocSustento>
+		<totalSinImpuestos>42.62</totalSinImpuestos>
+		<valorModificacion>47.73</valorModificacion>
+		<moneda>DOLAR</moneda>
+		<totalConImpuestos>
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>2</codigoPorcentaje>
+				<baseImponible>42.62</baseImponible>
+				<valor>5.11</valor>
+			</totalImpuesto>
+		</totalConImpuestos>
+		<motivo>DESCUENTO</motivo>
+	</infoNotaCredito>
+	<detalles>
+		<detalle>
+			<codigoInterno>DESCUENTO</codigoInterno>
+			<codigoAdicional>DESCUENTO</codigoAdicional>
+			<descripcion>DESCUENTO POR PRONTO PAGO</descripcion>
+			<cantidad>1</cantidad>
+			<precioUnitario>42.62</precioUnitario>
+			<precioTotalSinImpuesto>42.62</precioTotalSinImpuesto>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>2</codigoPorcentaje>
+					<tarifa>12.00</tarifa>
+					<baseImponible>42.62</baseImponible>
+					<valor>5.11</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+	</detalles>
+</notaCredito>]]></comprobante>
+<mensajes/>
+</autorizacion>

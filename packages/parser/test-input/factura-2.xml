@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>numero-autorizacion-factura-2</numeroAutorizacion>
+<fechaAutorizacion>2018-09-24T09:28:50-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>RAZON SOCIAL DUMMY 2</razonSocial>
+        <nombreComercial>DIRECCION DUMMY 2</nombreComercial>
+        <ruc>1790710319001</ruc>
+        <claveAcceso>clave-acceso-factura-2</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>068</estab>
+        <ptoEmi>017</ptoEmi>
+        <secuencial>000325207</secuencial>
+        <dirMatriz>DIR MATRIZ DUMMY</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>24/09/2018</fechaEmision>
+        <dirEstablecimiento>DIR ESTABLECIMIENTO DUMMY</dirEstablecimiento>
+        <contribuyenteEspecial>9999</contribuyenteEspecial>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+        <razonSocialComprador>RAZON SOCIAL COMPRADOR DUMMY</razonSocialComprador>
+        <identificacionComprador>88888888</identificacionComprador>
+        <totalSinImpuestos>65.08</totalSinImpuestos>
+        <totalDescuento>0</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>0.00</baseImponible>
+                <tarifa>0</tarifa>
+                <valor>0.00</valor>
+            </totalImpuesto>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <baseImponible>65.08</baseImponible>
+                <tarifa>12</tarifa>
+                <valor>7.81</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>72.89</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>72.89</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>161310</codigoPrincipal>
+            <descripcion>DESCRIPCION 1</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>15.54</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>15.54</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>15.54</baseImponible>
+                    <valor>1.86</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>169560</codigoPrincipal>
+            <descripcion>DESCRIPCION 2</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>19.14</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>19.14</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>19.14</baseImponible>
+                    <valor>2.30</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>241265</codigoPrincipal>
+            <descripcion>DESCRIPCION 3</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>1.26</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>1.26</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>1.26</baseImponible>
+                    <valor>0.15</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>40409</codigoPrincipal>
+            <descripcion>DESCRIPCION 4</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>3.78</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>3.78</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>3.78</baseImponible>
+                    <valor>0.45</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>7289</codigoPrincipal>
+            <descripcion>DESCRIPCION 5</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>2.11</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>2.11</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>2.11</baseImponible>
+                    <valor>0.25</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>193704</codigoPrincipal>
+            <descripcion>DESCRIPCION 6</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>14.58</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>14.58</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>14.58</baseImponible>
+                    <valor>1.75</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>188565</codigoPrincipal>
+            <descripcion>DESCRIPCION 7</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>4.44</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>4.44</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>4.44</baseImponible>
+                    <valor>0.53</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>220964</codigoPrincipal>
+            <descripcion>DESCRIPCION 8</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>2</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>2</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>2.00</baseImponible>
+                    <valor>0.24</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>220970</codigoPrincipal>
+            <descripcion>DESCRIPCION 9</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>2.23</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>2.23</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>2.23</baseImponible>
+                    <valor>0.27</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>100146052</codigoPrincipal>
+            <descripcion>DESCRIPCION 10</descripcion>
+            <cantidad>8</cantidad>
+            <precioUnitario>0</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>0</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>0.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>100159353</codigoPrincipal>
+            <descripcion>DESCRIPCION 11</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>0</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>0</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>0.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>100159263</codigoPrincipal>
+            <descripcion>DESCRIPCION 12</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>0</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>0</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>0.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>100159262</codigoPrincipal>
+            <descripcion>DESCRIPCION 13</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>0</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>0</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>0.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>100159253</codigoPrincipal>
+            <descripcion>DESCRIPCION 14</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>0</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>0</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>0.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="DESCUENTO">3.37</campoAdicional>
+        <campoAdicional nombre="DEDUCIBLE ALIMENTOS">4.23</campoAdicional>
+        <campoAdicional nombre="DOCUMENTO INTERNO">1773801</campoAdicional>
+    </infoAdicional>
+</factura>]]>
+</comprobante>
+<mensajes/>
+</autorizacion>
