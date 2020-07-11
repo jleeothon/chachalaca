@@ -1,24 +1,28 @@
 {
-  "name": "root",
-  "private": true,
-  "scripts": {
-    "pre-commit": "npm run sort-package-json",
-    "sort-package-json": "sort-package-json package.json packages/*/package.json"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run pre-commit"
-    }
-  },
-  "dependencies": {
-    "@jleeothon/chachalaca-cli": "^0.3.1",
-    "@jleeothon/chachalaca-core": "^0.3.1"
-  },
-  "devDependencies": {
-    "ava": "^3.9.0",
-    "husky": "^4.2.5",
-    "lerna": "^3.20.2",
-    "sort-package-json": "^1.44.0",
-    "xo": "^0.32.1"
-  }
+	"name": "root",
+	"private": true,
+	"scripts": {
+		"lint": "xo",
+		"pre-commit": "npm run sort-package-json && npm run lint",
+		"sort-package-json": "sort-package-json package.json packages/*/package.json"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm run pre-commit"
+		}
+	},
+	"xo": {
+		"prettier": true
+	},
+	"dependencies": {
+		"@jleeothon/chachalaca-cli": "^0.3.1",
+		"@jleeothon/chachalaca-core": "^0.3.1"
+	},
+	"devDependencies": {
+		"ava": "^3.9.0",
+		"husky": "^4.2.5",
+		"lerna": "^3.20.2",
+		"sort-package-json": "^1.44.0",
+		"xo": "^0.32.1"
+	}
 }
