@@ -113,11 +113,19 @@ function processNotaCredito(raw) {
 	const infoNotaCredito = {
 		fechaEmision: get(raw, 'infoNotaCredito.0.fechaEmision.0'),
 		razonSocialComprador: get(raw, 'infoNotaCredito.0.razonSocialComprador.0'),
-		identificacionComprador: get(raw, 'infoNotaCredito.0.identificacionComprador.0'),
-		valorModificacion: Number.parseFloat(get(raw, 'infoNotaCredito.0.valorModificacion.0'))
+		identificacionComprador: get(
+			raw,
+			'infoNotaCredito.0.identificacionComprador.0'
+		),
+		valorModificacion: Number.parseFloat(
+			get(raw, 'infoNotaCredito.0.valorModificacion.0')
+		)
 	};
 
-	const impuestos = get(raw, 'infoNotaCredito.0.totalConImpuestos.0.totalImpuesto');
+	const impuestos = get(
+		raw,
+		'infoNotaCredito.0.totalConImpuestos.0.totalImpuesto'
+	);
 	impuestos.totalIva = impuestos.find(
 		(i) => i.codigo === '2' && i.codigoPorcentaje === '2'
 	);
