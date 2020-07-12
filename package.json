@@ -15,14 +15,25 @@
 		"prettier": true
 	},
 	"dependencies": {
-		"@jleeothon/chachalaca-cli": "^0.3.1",
-		"@jleeothon/chachalaca-core": "^0.3.1"
+		"@jleeothon/chachalaca-cli": "file:packages/cli",
+		"@jleeothon/chachalaca-core": "file:packages/core",
+		"@jleeothon/chachalaca-parser": "file:packages/parser",
+		"chachalaca-ui": "file:packages/ui"
 	},
 	"devDependencies": {
+		"@ava/typescript": "^1.1.1",
+		"@typescript-eslint/eslint-plugin": "^3.5.0",
+		"@typescript-eslint/parser": "^3.5.0",
 		"ava": "^3.9.0",
 		"husky": "^4.2.5",
 		"lerna": "^3.20.2",
+		"nodemon": "^2.0.4",
 		"sort-package-json": "^1.44.0",
+		"tmp": "^0.2.1",
+		"typescript": "^3.9.6",
 		"xo": "^0.32.1"
+	},
+	"engines": {
+		"node": "~14.4.0"
 	}
 }

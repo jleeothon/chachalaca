@@ -32,13 +32,6 @@
 		"xlsx-populate": "^1.21.0",
 		"xml2js": "^0.4.23"
 	},
-	"devDependencies": {
-		"@ava/typescript": "^1.1.1",
-		"@typescript-eslint/eslint-plugin": "^3.5.0",
-		"@typescript-eslint/parser": "^3.5.0",
-		"tmp": "^0.2.1",
-		"typescript": "^3.9.6"
-	},
 	"engines": {
 		"node": "~14.4.0"
 	},

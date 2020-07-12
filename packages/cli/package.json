@@ -16,11 +16,10 @@
     "lint": "xo --prettier"
   },
   "dependencies": {
-    "@jleeothon/chachalaca-core": "^0.3.1",
+    "@jleeothon/chachalaca-core": "file:../core",
     "commander": "^5.1.0",
     "date-fns": "^2.14.0"
   },
-  "devDependencies": {},
   "engines": {
     "node": "~14.4.0"
   },
