@@ -3,7 +3,8 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-import {Seq as seq} from 'immutable';
+import * as VError from 'verror';
+
 import * as glob from 'glob';
 
 import generateXlsx from './generate-xlsx';
@@ -16,11 +17,35 @@ import triageAutorizacion from './triage-autorizacion';
 import RowFactura from './row-factura';
 import RowCr from './row-comprobante-retencion';
 import RowNotaCredito from './row-nota-credito';
-import {Autorizacion} from './autorizacion';
 
 const {readFile} = fs.promises;
 
-export default async function generateAction(
+declare type AnyRow = RowFactura | RowCr | RowNotaCredito;
+
+async function doProcessFile(
+	path: string
+): Promise<{type: string; row: AnyRow}> {
+	const content = await readFile(path, 'utf-8');
+	const parsedObject = await parseInvoice(content);
+	const type = triageAutorizacion(parsedObject);
+	const mapping = {
+		factura: rowifyFactura,
+		comprobanteRetencion: rowifyComprobanteRetencion,
+		notaCredito: rowifyNotaCredito
+	};
+	const row = mapping[type](parsedObject);
+	return {type, row};
+}
+
+async function processFile(path: string): Promise<{type: string; row: AnyRow}> {
+	try {
+		return await doProcessFile(path);
+	} catch (error) {
+		throw new VError(error, 'Error parsing "%s"', path);
+	}
+}
+
+export default async function generate(
 	source: string,
 	destination: string
 ): Promise<void> {
@@ -31,37 +56,30 @@ export default async function generateAction(
 
 	const xmlFiles = fileCandidates.filter((f) => f.endsWith('.xml'));
 
-	const readOptions = {encoding: 'UTF-8', flag: 'r'};
-	const fileContentsArray = await Promise.all(
-		xmlFiles.map(async (f: string) => readFile(f, readOptions))
+	const processed = await Promise.all(
+		xmlFiles.map(async (path) => processFile(path))
 	);
-	const parsedObjects = await Promise.all(
-		fileContentsArray.map(async (c: string) => parseInvoice(c))
-	);
-	const triagedObs = seq(parsedObjects).groupBy(triageAutorizacion).toJS();
+
+	const arrays: {
+		factura: RowFactura[];
+		comprobanteRetencion: RowCr[];
+		notaCredito: RowNotaCredito[];
+	} = {factura: [], comprobanteRetencion: [], notaCredito: []};
+	processed.forEach(({type, row}) => {
+		arrays[type].push(row);
+	});
 	const {
-		factura: fArray = [],
-		comprobanteRetencion: crArray = [],
-		notaCredito: ncArray = []
-	}: {
-		factura: Autorizacion[];
-		comprobanteRetencion: Autorizacion[];
-		notaCredito: Autorizacion[];
-	} = triagedObs;
+		factura: facturaRows,
+		comprobanteRetencion: crRows,
+		notaCredito: ncRows
+	} = arrays;
 
 	const counts = {
-		facturaCount: fArray.length,
-		comprobanteRetencionCount: crArray.length,
-		notaCreditoCount: ncArray.length
+		factura: facturaRows.length,
+		comprobanteRetencion: crRows.length,
+		notaCredito: ncRows.length
 	};
 	log.info(counts, 'Comprobante count');
 
-	const rowPromises = (await Promise.all([
-		Promise.all(fArray.map(async (i) => rowifyFactura(i))),
-		Promise.all(crArray.map(async (i) => rowifyComprobanteRetencion(i))),
-		Promise.all(ncArray.map(async (i) => rowifyNotaCredito(i)))
-	])) as [RowFactura[], RowCr[], RowNotaCredito[]];
-
-	const [facturaRows, crRows, ncRows] = rowPromises;
 	await generateXlsx(destination, facturaRows, crRows, ncRows);
 }

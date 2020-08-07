@@ -1,7 +1,7 @@
 const {parseStringPromise} = require('xml2js');
 
-module.exports.getRawAutorizacion = async function (text) {
-	const value = await parseStringPromise(text, {trim: true});
+module.exports.parseRaw = async function (content) {
+	const value = await parseStringPromise(content, {trim: true});
 	if (!value.autorizacion) {
 		throw new Error('No authorization found');
 	}

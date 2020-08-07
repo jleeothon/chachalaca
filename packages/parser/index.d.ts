@@ -1,79 +1,88 @@
-export interface Autorizacion {
-	comprobante: Comprobante;
-	numeroAutorizacion: string[];
-}
+declare function parse(content: string): Promise<parse.Autorizacion>;
 
-export interface Comprobante {
-	factura?: Factura;
-	comprobanteRetencion?: ComprobanteRetencion;
-	notaCredito?: NotaCredito;
-}
+export = parse;
 
-export interface Factura {
-	infoTributaria: InfoTributaria;
-	infoFactura: InfoFactura;
-}
+declare namespace parse {
+	interface Autorizacion {
+		comprobante: Comprobante;
+		numeroAutorizacion: string;
+	}
 
-export interface ComprobanteRetencion {
-	infoTributaria: InfoTributaria;
-	infoCompRetencion: InfoCompRetencion;
-	impuestos: Impuesto[];
-}
+	interface Comprobante {
+		factura?: Factura;
+		comprobanteRetencion?: ComprobanteRetencion;
+		notaCredito?: NotaCredito;
+	}
 
-export interface NotaCredito {
-	infoTributaria: InfoTributaria;
-	infoNotaCredito: InfoNotaCredito;
-}
+	interface Factura {
+		infoTributaria: InfoTributaria;
+		infoFactura: InfoFactura;
+	}
 
-export interface InfoTributaria {
-	estab: string;
-	ptoEmi: string;
-	secuencial: string;
-}
+	interface ComprobanteRetencion {
+		infoTributaria: InfoTributaria;
+		infoCompRetencion: InfoCompRetencion;
+		impuestos: Impuesto[];
+	}
 
-export interface InfoFactura {
-	fechaEmision: string;
-	totalConImpuestos: TotalConImpuestos[];
-	importeTotal: string;
-	pagos: Pago[];
-}
+	interface NotaCredito {
+		infoTributaria: InfoTributaria;
+		infoNotaCredito: InfoNotaCredito;
+	}
 
-export interface InfoCompRetencion {
-	fechaEmision: string;
-	dirEstablecimiento: string;
-	obligadoContabilidad: string;
-	tipoIdentificacionSujetoRetenido: string;
-	razonSocialSujetoRetenido: string;
-	identificacionSujetoRetenido: string;
-	periodoFiscal: string;
-}
+	interface InfoTributaria {
+		estab: string;
+		ptoEmi: string;
+		secuencial: string;
+		razonSocial: string;
+		nombreComercial?: string;
+		ruc: string;
+	}
 
-export interface Pago {
-	formaPago: string;
-	total: string;
-}
+	interface InfoFactura {
+		fechaEmision: Date;
+		totalConImpuestos: TotalImpuesto[];
+		importeTotal: number;
+		pagos?: Pago[];
+	}
 
-export interface InfoNotaCredito {
-	fechaEmision: string;
-	totalConImpuestos: TotalConImpuestos[];
-}
+	interface InfoCompRetencion {
+		fechaEmision: Date;
+		dirEstablecimiento: string;
+		obligadoContabilidad: string;
+		tipoIdentificacionSujetoRetenido: string;
+		razonSocialSujetoRetenido: string;
+		identificacionSujetoRetenido: string;
+		periodoFiscal: string;
+	}
 
-export interface TotalConImpuestos {
-	// There _are_ a few entries for each
-	totalImpuesto: TotalImpuesto[];
-}
+	interface Pago {
+		formaPago: string;
+		total: string;
+	}
 
-export interface TotalImpuesto {
-	codigo: string;
-	codigoPorcentaje: string;
-	baseImponible: string;
-	tarifa: string;
-	valor: string;
-}
+	interface InfoNotaCredito {
+		fechaEmision: Date;
+		totalConImpuestos: TotalImpuesto[];
+		valorModificacion: number;
+	}
 
-export interface Impuesto {
-	codigo: string;
-	codigoPorcentaje: string;
-}
+	interface TotalImpuesto {
+		codigo: string;
+		codigoPorcentaje: string;
+		baseImponible: number;
+		tarifa?: number;
+		valor?: number;
+	}
 
-export function parse(content: string): Autorizacion;
+	interface Impuesto {
+		codigo: string;
+		codigoPorcentaje: string;
+		baseImponible: number;
+		porcentajeRetener: number;
+		valorRetenido: number;
+		codDocSustento: string;
+		numDocSustento: string;
+		fechaEmisionDocSustento: Date;
+	}
+}

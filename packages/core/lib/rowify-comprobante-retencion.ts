@@ -1,8 +1,7 @@
-import {getS, getO} from './safe-get';
-
 import RowCr from './row-comprobante-retencion';
 import {Autorizacion, Impuesto} from './autorizacion';
-import processDate from './process-date';
+
+import * as parser from '@jleeothon/chachalaca-parser';
 
 /*
 Tabla 21
@@ -10,69 +9,49 @@ a continuación se detallan los valores sub totales y totales con impuestos que
 deben constar en los comprobantes de venta, según el caso.
 */
 
-function findImpuesto(impuestoArray: Impuesto[], codigo: string): Impuesto {
-	return impuestoArray.find((impuesto) => {
-		return getS(impuesto, 'codigo.0') === codigo;
-	});
+function findImpuesto(
+	impuestos: parser.Impuesto[],
+	codigo: string
+): parser.Impuesto {
+	return impuestos.find((impuesto) => impuesto.codigo === codigo);
 }
 
 export default function rowifyComprobanteRetencion(
-	autorizacion: Autorizacion
+	autorizacion: parser.Autorizacion
 ): RowCr {
 	const {comprobanteRetencion} = autorizacion.comprobante;
 	if (!comprobanteRetencion) {
 		throw new Error('Not comprobanteRetencion');
 	}
 
-	const impuestos = getO(
-		comprobanteRetencion,
-		'impuestos.0.impuesto'
-	) as Impuesto[];
+	const {impuestos} = comprobanteRetencion;
 	const impuestoRenta = findImpuesto(impuestos, '1');
 	const impuestoIva = findImpuesto(impuestos, '2');
 
-	const rawFecha: string = getS(
-		comprobanteRetencion,
-		'infoCompRetencion.0.fechaEmision.0'
-	);
+	const fecha = comprobanteRetencion.infoCompRetencion.fechaEmision;
 
-	const fecha = processDate(rawFecha);
 	const concepto = '';
-	const baseRenta = getS(impuestoRenta, 'baseImponible.0', '');
-	const baseImpIva = getS(impuestoIva, 'baseImponible.0', '');
-	const porcentajeRenta =
-		Number.parseFloat(getS(impuestoRenta, 'porcentajeRetener.0', '0')) / 100;
-	const porcentajeIva =
-		Number.parseFloat(getS(impuestoIva, 'porcentajeRetener.0', '0')) / 100;
-	const numeroFacturaEmitida = getS(impuestoRenta, 'numDocSustento.0', '');
+	const baseRenta = impuestoRenta?.baseImponible;
+	const baseImpIva = impuestoIva?.baseImponible;
+	const porcentajeRenta = impuestoRenta?.porcentajeRetener / 100;
+	const porcentajeIva = impuestoIva?.porcentajeRetener / 100;
+
+	const numeroFacturaEmitida = impuestoRenta?.numDocSustento;
 	const numeroAutorizacionFactura = '?';
-	const rucBeneficiario = getS(comprobanteRetencion, 'infoTributaria.0.ruc.0');
-	const beneficiario = getS(
-		comprobanteRetencion,
-		'infoTributaria.0.razonSocial.0'
-	);
-	const compRetencion1 = getS(comprobanteRetencion, 'infoTributaria.0.estab.0');
-	const compRetencion2 = getS(
-		comprobanteRetencion,
-		'infoTributaria.0.ptoEmi.0'
-	);
-	const compRetencion3 = getS(
-		comprobanteRetencion,
-		'infoTributaria.0.secuencial.0'
-	);
-	const returnValueRenta = Number.parseFloat(
-		getS(impuestoRenta, 'valorRetenido.0', '0.00')
-	);
-	const returnValueIva = Number.parseFloat(
-		getS(impuestoIva, 'valorRetenido.0', '0.00')
-	);
+	const rucBeneficiario = comprobanteRetencion.infoTributaria.ruc;
+	const beneficiario = comprobanteRetencion.infoTributaria.razonSocial;
+	const compRetencion1 = comprobanteRetencion.infoTributaria.estab;
+	const compRetencion2 = comprobanteRetencion.infoTributaria.ptoEmi;
+	const compRetencion3 = comprobanteRetencion.infoTributaria.secuencial;
+	const returnValueRenta = impuestoRenta?.valorRetenido;
+	const returnValueIva = impuestoIva?.valorRetenido;
 	const autRetencion = '?';
 
 	const row = new RowCr({
 		fecha,
 		concepto,
-		baseRenta,
 		baseImpIva,
+		baseRenta,
 		porcentajeRenta,
 		porcentajeIva,
 		numeroFacturaEmitida,

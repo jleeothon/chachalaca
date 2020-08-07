@@ -39,8 +39,12 @@ router.post(
 			fs.readFileSync(f, {encoding: 'UTF-8', flag: 'r'})
 		);
 		const parsedObjects = fileContents.map((f) => parseInvoice(f));
-		const groupedObjs = {factura: [], comprobanteRetencion: [], notaCredito: []};
-		parsedObjects.forEach(o => groupedObjs[triageAutorizacion(o)].push(o));
+		const groupedObjs = {
+			factura: [],
+			comprobanteRetencion: [],
+			notaCredito: []
+		};
+		parsedObjects.forEach((o) => groupedObjs[triageAutorizacion(o)].push(o));
 		const {
 			factura: facturaArray = [],
 			comprobanteRetencion: comprobanteRetencionArray = [],

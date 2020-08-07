@@ -1,9 +1,7 @@
 module.exports = {
 	numeroAutorizacion: 'numero-autorizacion-comprobante-1',
-	fechaAutorizacion: '2019-12-20T12:05:15-05:00',
+	fechaAutorizacion: new Date('2019-12-20T17:05:15.000Z'),
 	comprobante: {
-		factura: undefined,
-		notaCredito: undefined,
 		comprobanteRetencion: {
 			infoTributaria: {
 				tipoEmision: '1',
@@ -16,7 +14,7 @@ module.exports = {
 				dirMatriz: 'Direccion Comprobante 1'
 			},
 			infoCompRetencion: {
-				fechaEmision: '18/12/2019',
+				fechaEmision: new Date('2019-12-18T05:00:00.000Z'),
 				dirEstablecimiento: 'Direccion Comprobante 1',
 				obligadoContabilidad: 'SI',
 				tipoIdentificacionSujetoRetenido: '04',
@@ -27,24 +25,24 @@ module.exports = {
 			},
 			impuestos: [
 				{
-					baseImponible: 118.5,
-					codDocSustento: '01',
 					codigo: '1',
 					codigoRetencion: '312',
-					fechaEmisionDocSustento: '18/12/2019',
-					numDocSustento: 'NUM DOC SUSTENTO COMPROBANTE 1',
+					baseImponible: 118.5,
 					porcentajeRetener: 1,
-					valorRetenido: 1.19
+					valorRetenido: 1.19,
+					codDocSustento: '01',
+					numDocSustento: 'NUM DOC SUSTENTO COMPROBANTE 1',
+					fechaEmisionDocSustento: new Date('2019-12-18T05:00:00.000Z')
 				},
 				{
-					baseImponible: 14.22,
-					codDocSustento: '01',
 					codigo: '2',
 					codigoRetencion: '1',
-					fechaEmisionDocSustento: '18/12/2019',
-					numDocSustento: 'NUM DOC SUSTENTO COMPROBANTE 1',
+					baseImponible: 14.22,
 					porcentajeRetener: 30,
-					valorRetenido: 4.27
+					valorRetenido: 4.27,
+					codDocSustento: '01',
+					numDocSustento: 'NUM DOC SUSTENTO COMPROBANTE 1',
+					fechaEmisionDocSustento: new Date('2019-12-18T05:00:00.000Z')
 				}
 			]
 		}
