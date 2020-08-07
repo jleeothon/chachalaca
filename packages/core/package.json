@@ -14,7 +14,7 @@
 		"build": "tsc"
 	},
 	"dependencies": {
-		"@jleeothon/chachalaca-parser": "file:../parser",
+		"@jleeothon/chachalaca-parser": "^0.4.0",
 		"@types/bunyan": "^1.8.6",
 		"@types/node": "^14.0.14",
 		"blob": "0.1.0",
@@ -32,5 +32,5 @@
 	"engines": {
 		"node": "~14.4.0"
 	},
-	"gitHead": "a1b29478947233fcfb952d85692b81f2fd9f3a53"
+	"gitHead": "a273acc7d21a07d907e62df999ed12178ea356a6"
 }
