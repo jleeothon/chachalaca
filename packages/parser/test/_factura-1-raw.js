@@ -13,7 +13,7 @@ module.exports = {
 						tipoEmision: ['1'],
 						razonSocial: ['EMPRESA X'],
 						nombreComercial: ['EMPRESA X'],
-						ruc: ['12345678910'],
+						ruc: ['ruc-456'],
 						claveAcceso: ['clave-acceso-factura-1'],
 						codDoc: ['01'],
 						estab: ['002'],
@@ -31,7 +31,7 @@ module.exports = {
 						tipoIdentificacionComprador: ['04'],
 						razonSocialComprador: ['EMPRESA ABC'],
 						identificacionComprador: ['3948756'],
-						direccionComprador: ['GUAYAQUIL / GUAYAS / AV. Quito 8765'],
+						direccionComprador: ['DIR COMPRADOR 1234'],
 						totalSinImpuestos: ['19.34'],
 						totalDescuento: ['10.40'],
 						totalConImpuestos: [

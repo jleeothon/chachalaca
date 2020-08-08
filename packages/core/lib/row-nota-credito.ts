@@ -2,17 +2,17 @@ export default class RowNotaCredito {
 	readonly autorizacion: string;
 	readonly concepto: string;
 	readonly fecha: Date;
-	readonly iva: string;
-	readonly ice: string;
+	readonly iva: number;
+	readonly ice: number;
 	readonly estab: string;
 	readonly ptoEmi: string;
 	readonly secuencial: string;
 	readonly proveedor: string;
 	readonly ruc: string;
-	readonly tarifa0: string;
-	readonly tarifa12: string;
-	readonly tarifa15: string;
-	readonly total: string;
+	readonly tarifa0: number;
+	readonly tarifa12: number;
+	readonly tarifa15: number;
+	readonly total: number;
 
 	constructor({
 		autorizacion,
@@ -33,17 +33,17 @@ export default class RowNotaCredito {
 		autorizacion: string;
 		concepto: string;
 		fecha: Date;
-		iva: string;
-		ice: string;
+		iva: number;
+		ice: number;
 		estab: string;
 		ptoEmi: string;
 		secuencial: string;
 		proveedor: string;
 		ruc: string;
-		tarifa0: string;
-		tarifa12: string;
-		tarifa15: string;
-		total: string;
+		tarifa0: number;
+		tarifa12: number;
+		tarifa15: number;
+		total: number;
 	}) {
 		this.autorizacion = autorizacion;
 		this.concepto = concepto;
@@ -61,7 +61,7 @@ export default class RowNotaCredito {
 		this.total = total;
 	}
 
-	toArray(): Array<string | Date> {
+	toArray(): Array<string | number | Date> {
 		return [
 			this.fecha,
 			this.estab,

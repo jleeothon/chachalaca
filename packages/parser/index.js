@@ -1,10 +1,10 @@
 'use strict';
 
-const {getRawAutorizacion} = require('./lib/raw-parser');
-const {processAutorizacion} = require('./lib/processors');
+const {parseRaw} = require('./lib/parse-raw');
+const {processAutorizacion} = require('./lib/process-autorizacion');
 
 module.exports = async function (content) {
-	const rawAutorizacion = await getRawAutorizacion(content);
+	const rawAutorizacion = await parseRaw(content);
 	const autorizacion = processAutorizacion(rawAutorizacion);
 	return autorizacion;
 };

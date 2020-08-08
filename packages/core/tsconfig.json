@@ -3,9 +3,8 @@
     "target": "es2019",
 		"lib": ["es2019", "es2020.string", "es2020.symbol.wellknown"],
     "module": "commonjs",
-    "allowJs": true,                       /* Allow javascript files to be compiled. */
-    // "checkJs": true,                       /* Report errors in .js files. */
-    "outDir": "./dist",                        /* Redirect output structure to the directory. */
+    "allowJs": false,
+    "outDir": "./dist", /* Redirect output structure to the directory. */
 
 		"downlevelIteration": true,
 

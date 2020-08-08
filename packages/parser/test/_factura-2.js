@@ -1,9 +1,7 @@
 module.exports = {
 	numeroAutorizacion: 'numero-autorizacion-factura-2',
-	fechaAutorizacion: '2018-09-24T09:28:50-05:00',
+	fechaAutorizacion: new Date('2018-09-24T09:28:50-05:00'),
 	comprobante: {
-		comprobanteRetencion: undefined,
-		notaCredito: undefined,
 		factura: {
 			infoTributaria: {
 				dirMatriz: 'DIR MATRIZ DUMMY',
@@ -17,7 +15,7 @@ module.exports = {
 			},
 			infoFactura: {
 				dirEstablecimiento: 'DIR ESTABLECIMIENTO DUMMY',
-				fechaEmision: '24/09/2018',
+				fechaEmision: new Date('2018-09-24T00:00:00-05:00'),
 				identificacionComprador: '88888888',
 				razonSocialComprador: 'RAZON SOCIAL COMPRADOR DUMMY',
 				tipoIdentificacionComprador: '05',
@@ -38,7 +36,15 @@ module.exports = {
 						valor: 7.81
 					}
 				],
-				totalSinImpuestos: 65.08
+				totalSinImpuestos: 65.08,
+				importeTotal: 72.89,
+				moneda: 'DOLAR',
+				pagos: [
+					{
+						formaPago: '01',
+						total: 72.89
+					}
+				]
 			}
 		}
 	}

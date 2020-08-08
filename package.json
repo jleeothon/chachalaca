@@ -12,6 +12,14 @@
 		}
 	},
 	"xo": {
+		"overrides": [
+			{
+				"files": "packages/ui/**/*.js",
+				"env": [
+					"browser"
+				]
+			}
+		],
 		"prettier": true
 	},
 	"dependencies": {

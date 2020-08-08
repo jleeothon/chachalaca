@@ -12,7 +12,7 @@
       <tipoEmision>1</tipoEmision>
       <razonSocial>EMPRESA X</razonSocial>
       <nombreComercial>EMPRESA X</nombreComercial>
-      <ruc>12345678910</ruc>
+      <ruc>ruc-456</ruc>
       <claveAcceso>clave-acceso-factura-1</claveAcceso>
       <codDoc>01</codDoc>
       <estab>002</estab>
@@ -28,7 +28,7 @@
       <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
       <razonSocialComprador>EMPRESA ABC</razonSocialComprador>
       <identificacionComprador>3948756</identificacionComprador>
-      <direccionComprador>GUAYAQUIL / GUAYAS / AV. Quito 8765</direccionComprador>
+      <direccionComprador>DIR COMPRADOR 1234</direccionComprador>
       <totalSinImpuestos>19.34</totalSinImpuestos>
       <totalDescuento>10.40</totalDescuento>
       <totalConImpuestos>

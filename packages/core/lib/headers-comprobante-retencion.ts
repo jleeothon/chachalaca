@@ -1,6 +1,6 @@
 import {text, date, currency} from './header';
 
-export default [
+const headers = [
 	{name: 'Fecha', numberFormat: date},
 	{name: 'Concepto', numberFormat: text},
 	{name: 'Base Renta', numberFormat: currency},
@@ -18,3 +18,5 @@ export default [
 	{name: 'Ret. IVA', numberFormat: currency},
 	{name: '# Aut. Retencion', numberFormat: text}
 ];
+
+export default headers;

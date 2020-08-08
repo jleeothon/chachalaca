@@ -4,17 +4,17 @@ export default class RowFactura {
 	readonly concepto: string;
 	readonly fecha: Date;
 	readonly formaDePago: string;
-	readonly iva: string;
-	readonly ice: string;
+	readonly iva: number;
+	readonly ice: number;
 	readonly estab: string;
 	readonly ptoEmi: string;
 	readonly secuencial: string;
 	readonly proveedor: string;
 	readonly ruc: string;
-	readonly tarifa0: string;
-	readonly tarifa12: string;
-	readonly tarifa15: string;
-	readonly total: string;
+	readonly tarifa0: number;
+	readonly tarifa12: number;
+	readonly tarifa15: number;
+	readonly total: number;
 
 	constructor({
 		autorizacion,
@@ -39,17 +39,17 @@ export default class RowFactura {
 		concepto: string;
 		fecha: Date;
 		formaDePago: string;
-		iva: string;
-		ice: string;
+		iva: number;
+		ice: number;
 		estab: string;
 		ptoEmi: string;
 		secuencial: string;
 		proveedor: string;
 		ruc: string;
-		tarifa0: string;
-		tarifa12: string;
-		tarifa15: string;
-		total: string;
+		tarifa0: number;
+		tarifa12: number;
+		tarifa15: number;
+		total: number;
 	}) {
 		this.autorizacion = autorizacion;
 		this.codigo = codigo;
@@ -69,7 +69,7 @@ export default class RowFactura {
 		this.total = total;
 	}
 
-	toArray(): Array<string | Date> {
+	toArray(): Array<string | number | Date> {
 		return [
 			this.formaDePago,
 			this.fecha,

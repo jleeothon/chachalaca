@@ -1,38 +1,35 @@
 module.exports = {
+	numeroAutorizacion: 'NUMERODEAUTORIZACIONDUMMY',
+	fechaAutorizacion: new Date('2019-10-31T23:21:06.000Z'),
 	comprobante: {
-		comprobanteRetencion: undefined,
-		notaCredito: undefined,
 		factura: {
+			infoTributaria: {
+				tipoEmision: '1',
+				razonSocial: 'RAZON SOCIAL DUMMY 2',
+				nombreComercial: 'NOMBRE COMERCIAL',
+				ruc: 'RUC-FACTURA-3',
+				estab: '001',
+				ptoEmi: '011',
+				secuencial: '000042579',
+				dirMatriz: 'DIR MATRIZ DUMMY'
+			},
 			infoFactura: {
 				dirEstablecimiento: 'DIR ESTAB FACTURA 3',
-				fechaEmision: '31/10/2019',
-				identificacionComprador: '123456890',
-				razonSocialComprador: 'DIR RAZONS SOCIAL',
 				tipoIdentificacionComprador: '04',
-				totalConImpuestos: [
-					{
-						baseImponible: 205.81,
-						codigo: '2',
-						codigoPorcentaje: '2',
-						tarifa: Number.NaN,
-						valor: 24.7
-					}
-				],
+				razonSocialComprador: 'DIR RAZONS SOCIAL',
+				identificacionComprador: '123456890',
+				totalSinImpuestos: 205.81,
 				totalDescuento: 197.58,
-				totalSinImpuestos: 205.81
-			},
-			infoTributaria: {
-				dirMatriz: 'DIR MATRIZ DUMMY',
-				estab: '001',
-				nombreComercial: 'NOMBRE COMERCIAL',
-				ptoEmi: '011',
-				razonSocial: 'RAZON SOCIAL DUMMY 2',
-				ruc: 'RUC-FACTURA-3',
-				secuencial: '000042579',
-				tipoEmision: '1'
+				fechaEmision: new Date('2019-10-31T05:00:00.000Z'),
+				totalConImpuestos: [
+					{codigo: '2', codigoPorcentaje: '2', baseImponible: 205.81}
+				],
+				importeTotal: 230.51,
+				moneda: 'DOLAR',
+				pagos: [
+					{formaPago: '20', total: 230.51, plazo: 0, unidadTiempo: 'dias'}
+				]
 			}
 		}
-	},
-	fechaAutorizacion: '2019-10-31T18:21:06-05:00',
-	numeroAutorizacion: 'NUMERODEAUTORIZACIONDUMMY'
+	}
 };

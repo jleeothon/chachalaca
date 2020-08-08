@@ -1,12 +1,11 @@
 {
 	"name": "chachalaca-ui",
-	"version": "0.3.2",
+	"version": "0.4.0",
 	"scripts": {
-		"lint": "xo",
 		"start": "([ \"$NODE_ENV\" = production ] && node ./bin/www || nodemon ./bin/www) | bunyan"
 	},
 	"dependencies": {
-		"@jleeothon/chachalaca-core": "file:../core",
+		"@jleeothon/chachalaca-core": "^0.4.0",
 		"body-parser": "^1.19.0",
 		"bunyan": "^1.8.12",
 		"cookie-parser": "^1.4.5",
@@ -21,5 +20,6 @@
 	},
 	"engines": {
 		"node": "~14.4.0"
-	}
+	},
+	"gitHead": "a273acc7d21a07d907e62df999ed12178ea356a6"
 }

@@ -1,7 +1,7 @@
 export default class RowCr {
 	readonly autRetencion: string;
-	readonly baseImpIva: string;
-	readonly baseRenta: string;
+	readonly baseRenta: number;
+	readonly baseImpIva: number;
 	readonly beneficiario: string;
 	readonly compRetencion1: string;
 	readonly compRetencion2: string;
@@ -35,8 +35,8 @@ export default class RowCr {
 		rucBeneficiario
 	}: {
 		autRetencion: string;
-		baseImpIva: string;
-		baseRenta: string;
+		baseImpIva: number;
+		baseRenta: number;
 		beneficiario: string;
 		compRetencion1: string;
 		compRetencion2: string;

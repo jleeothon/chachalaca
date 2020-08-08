@@ -1,27 +1,26 @@
 module.exports = {
 	numeroAutorizacion: 'numero-autorizacion-factura-1',
-	fechaAutorizacion: '2018-02-01T17:53:25-05:00',
+	fechaAutorizacion: new Date('2018-02-01T22:53:25.000Z'),
 	comprobante: {
-		comprobanteRetencion: undefined,
-		notaCredito: undefined,
 		factura: {
 			infoTributaria: {
-				dirMatriz: 'Av. Quito 1234',
-				estab: '002',
-				nombreComercial: 'EMPRESA X',
-				ptoEmi: '003',
+				tipoEmision: '1',
 				razonSocial: 'EMPRESA X',
-				ruc: '12345678910',
+				nombreComercial: 'EMPRESA X',
+				ruc: 'ruc-456',
+				estab: '002',
+				ptoEmi: '003',
 				secuencial: '999999999',
-				tipoEmision: '1'
+				dirMatriz: 'Av. Quito 1234'
 			},
 			infoFactura: {
 				dirEstablecimiento: 'Av. Quito 1234',
-				fechaEmision: '01/02/2018',
-				identificacionComprador: '3948756',
-				razonSocialComprador: 'EMPRESA ABC',
 				tipoIdentificacionComprador: '04',
+				razonSocialComprador: 'EMPRESA ABC',
+				identificacionComprador: '3948756',
+				totalSinImpuestos: 19.34,
 				totalDescuento: 10.4,
+				fechaEmision: new Date('2018-02-01T05:00:00.000Z'),
 				totalConImpuestos: [
 					{
 						codigo: '3',
@@ -38,7 +37,11 @@ module.exports = {
 						valor: 2.86
 					}
 				],
-				totalSinImpuestos: 19.34
+				importeTotal: 26.66,
+				moneda: 'DOLARES',
+				pagos: [
+					{formaPago: '20', total: 26.66, plazo: 30, unidadTiempo: 'dias'}
+				]
 			}
 		}
 	}

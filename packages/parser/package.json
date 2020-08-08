@@ -1,6 +1,6 @@
 {
 	"name": "@jleeothon/chachalaca-parser",
-	"version": "0.3.2",
+	"version": "0.4.0",
 	"description": "Parses invoices",
 	"homepage": "https://github.com/jleeothon/chachalaca#readme",
 	"bugs": {
@@ -22,16 +22,17 @@
 		"lint": "xo",
 		"test": "ava"
 	},
-	"xo": {
-		"prettier": true
-	},
 	"dependencies": {
-		"@sindresorhus/is": "^3.0.0",
 		"bunyan": "^1.8.14",
+		"date-fns": "^2.15.0",
 		"dot-prop": "^5.2.0",
 		"xml2js": "^0.4.23"
 	},
+	"devDependencies": {
+		"ava": "^3.11.0"
+	},
 	"engines": {
 		"node": "~14.4.0"
-	}
+	},
+	"gitHead": "a273acc7d21a07d907e62df999ed12178ea356a6"
 }
