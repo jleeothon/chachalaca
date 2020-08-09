@@ -16,10 +16,9 @@
 	"dependencies": {
 		"@jleeothon/chachalaca-parser": "^0.4.1",
 		"@types/bunyan": "^1.8.6",
-		"@types/node": "^14.0.14",
+		"@types/node": "^14.0.27",
 		"blob": "0.1.0",
 		"bunyan": "^1.8.14",
-		"commander": "^5.1.0",
 		"date-fns": "^2.15.0",
 		"dot-prop": "^5.2.0",
 		"glob": "^7.1.6",
