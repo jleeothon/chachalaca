@@ -7,9 +7,9 @@
 	"dependencies": {
 		"@jleeothon/chachalaca-core": "^0.4.2",
 		"body-parser": "^1.19.0",
-		"bunyan": "^1.8.12",
+		"bunyan": "^1.8.14",
 		"cookie-parser": "^1.4.5",
-		"date-fns": "^2.14.0",
+		"date-fns": "^2.15.0",
 		"debug": "^4.1.1",
 		"express": "^4.17.1",
 		"hjs": "0.0.6",
@@ -21,5 +21,8 @@
 	"engines": {
 		"node": "~14.4.0"
 	},
-	"gitHead": "a273acc7d21a07d907e62df999ed12178ea356a6"
+	"gitHead": "a273acc7d21a07d907e62df999ed12178ea356a6",
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
 }

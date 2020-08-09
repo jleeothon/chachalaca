@@ -7,16 +7,9 @@ const multer = require('multer');
 
 const log = bunyan.createLogger({name: 'chachalaca'});
 
-module.exports = log;
+const chachalacaCore = require('@jleeothon/chachalaca-core');
 
-const {
-	generateXlsx,
-	parse: parseInvoice,
-	rowifyComprobanteRetencion,
-	rowifyFactura,
-	rowifyNotaCredito,
-	triageAutorizacion
-} = require('@jleeothon/chachalaca-core');
+const {generateFromFiles} = chachalacaCore;
 
 const upload = multer({dest: '/tmp'});
 
@@ -31,39 +24,11 @@ router.post(
 	upload.array('files'),
 	logError,
 	async (request, response) => {
-		const xmlFiles = request.files.filter((f) =>
-			f.originalname.endsWith('.xml')
-		);
+		const xmlFiles = request.files.filter( (f) => f.mimetype === 'text/xml');
 		const filePaths = xmlFiles.map((f) => f.path);
-		const fileContents = filePaths.map((f) =>
-			fs.readFileSync(f, {encoding: 'UTF-8', flag: 'r'})
-		);
-		const parsedObjects = fileContents.map((f) => parseInvoice(f));
-		const groupedObjs = {
-			factura: [],
-			comprobanteRetencion: [],
-			notaCredito: []
-		};
-		parsedObjects.forEach((o) => groupedObjs[triageAutorizacion(o)].push(o));
-		const {
-			factura: facturaArray = [],
-			comprobanteRetencion: comprobanteRetencionArray = [],
-			notaCredito: notaCreditoArray = []
-		} = groupedObjs;
-
-		const facturaRows = facturaArray.map((r) => rowifyFactura(r));
-		const comprobanteRetencionRows = comprobanteRetencionArray.map((r) =>
-			rowifyComprobanteRetencion(r)
-		);
-		const notaCreditoRows = notaCreditoArray.map((r) => rowifyNotaCredito(r));
-
 		const temporaryFilePath = tmp.tmpNameSync() + '.xlsx';
-		await generateXlsx(
-			temporaryFilePath,
-			facturaRows,
-			comprobanteRetencionRows,
-			notaCreditoRows
-		);
+		await generateFromFiles(filePaths, temporaryFilePath);
+
 		const responseType =
 			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
 		response.type(responseType);

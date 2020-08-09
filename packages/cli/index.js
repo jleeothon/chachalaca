@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 const lightFormat = require('date-fns/lightFormat');
-const {generate} = require('@jleeothon/chachalaca-core');
+const {generateFromDirectory} = require('@jleeothon/chachalaca-core');
 const {program} = require('commander');
 
 function date() {
@@ -10,7 +10,7 @@ function date() {
 
 async function action(source, destination = null) {
 	destination = destination || ['comprobantes', '-', date(), '.xlsx'].join('');
-	return generate(source, destination);
+	return generateFromDirectory(source, destination);
 }
 
 program.arguments('<source> [destination]').action(action);

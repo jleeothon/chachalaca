@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -21,6 +19,8 @@ import RowNotaCredito from './row-nota-credito';
 const {readFile} = fs.promises;
 
 declare type AnyRow = RowFactura | RowCr | RowNotaCredito;
+
+// TODO instead of using logger, use an event emitter
 
 async function doProcessFile(
 	path: string
@@ -45,19 +45,12 @@ async function processFile(path: string): Promise<{type: string; row: AnyRow}> {
 	}
 }
 
-export default async function generate(
-	source: string,
+async function generateFromFiles(
+	paths: string[],
 	destination: string
 ): Promise<void> {
-	const globPath = path.join(source, '**', '*.xml');
-	log.info({path: globPath}, 'Glob to search');
-	const fileCandidates = glob.sync(globPath);
-	log.info({files: fileCandidates}, 'Getting files');
-
-	const xmlFiles = fileCandidates.filter((f) => f.endsWith('.xml'));
-
 	const processed = await Promise.all(
-		xmlFiles.map(async (path) => processFile(path))
+		paths.map(async (path) => processFile(path))
 	);
 
 	const arrays: {
@@ -83,3 +76,18 @@ export default async function generate(
 
 	await generateXlsx(destination, facturaRows, crRows, ncRows);
 }
+
+async function generateFromDirectory(
+	source: string,
+	destination: string
+): Promise<void> {
+	const globPath = path.join(source, '**', '*.xml');
+	log.info({path: globPath}, 'Glob to search');
+	const fileCandidates = glob.sync(globPath);
+	log.info({files: fileCandidates}, 'Getting files');
+
+	const xmlFilePaths = fileCandidates.filter((f) => f.endsWith('.xml'));
+	generateFromFiles(xmlFilePaths, destination);
+}
+
+export default {generateFromDirectory, generateFromFiles};
