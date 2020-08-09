@@ -1,6 +1,6 @@
 {
 	"name": "@jleeothon/chachalaca-core",
-	"version": "0.4.2",
+	"version": "0.5.0",
 	"description": "Turn XML into CSV files",
 	"homepage": "https://github.com/jleeothon/chachalaca#readme",
 	"bugs": {
@@ -14,7 +14,7 @@
 		"build": "tsc"
 	},
 	"dependencies": {
-		"@jleeothon/chachalaca-parser": "^0.4.1",
+		"@jleeothon/chachalaca-parser": "^0.5.0",
 		"@types/bunyan": "^1.8.6",
 		"@types/node": "^14.0.27",
 		"blob": "0.1.0",

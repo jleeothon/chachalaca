@@ -1,6 +1,6 @@
 {
 	"name": "@jleeothon/chachalaca-parser",
-	"version": "0.4.1",
+	"version": "0.5.0",
 	"description": "Parses invoices",
 	"homepage": "https://github.com/jleeothon/chachalaca#readme",
 	"bugs": {
