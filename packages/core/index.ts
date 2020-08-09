@@ -6,8 +6,11 @@ import rowifyFactura from './lib/rowify-factura';
 import rowifyNotaCredito from './lib/rowify-nota-credito';
 import triageAutorizacion from './lib/triage-autorizacion';
 
+const {generateFromDirectory, generateFromFiles} = generate;
+
 export {
-	generate,
+	generateFromDirectory,
+	generateFromFiles,
 	generateXlsx,
 	parse,
 	rowifyComprobanteRetencion,
