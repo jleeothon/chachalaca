@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "@jleeothon/chachalaca-core": "^0.4.2",
-    "commander": "^5.1.0",
-    "date-fns": "^2.14.0"
+    "commander": "^6.0.0",
+    "date-fns": "^2.15.0"
   },
   "engines": {
     "node": "~14.4.0"
