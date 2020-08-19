@@ -16,7 +16,7 @@
 	"dependencies": {
 		"@jleeothon/chachalaca-parser": "^0.5.0",
 		"@types/bunyan": "^1.8.6",
-		"@types/node": "^14.0.27",
+		"@types/node": "^14.6.0",
 		"blob": "0.1.0",
 		"bunyan": "^1.8.14",
 		"date-fns": "^2.15.0",
