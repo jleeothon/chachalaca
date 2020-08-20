@@ -24,7 +24,7 @@ router.post(
 	upload.array('files'),
 	logError,
 	async (request, response) => {
-		const xmlFiles = request.files.filter( (f) => f.mimetype === 'text/xml');
+		const xmlFiles = request.files.filter((f) => f.mimetype === 'text/xml');
 		const filePaths = xmlFiles.map((f) => f.path);
 		const temporaryFilePath = tmp.tmpNameSync() + '.xlsx';
 		await generateFromFiles(filePaths, temporaryFilePath);

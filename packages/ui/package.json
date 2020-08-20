@@ -18,11 +18,11 @@
 		"serve-favicon": "^2.5.0",
 		"tmp": "0.2.1"
 	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	},
 	"engines": {
 		"node": "~14.4.0"
 	},
-	"gitHead": "a273acc7d21a07d907e62df999ed12178ea356a6",
-	"devDependencies": {
-		"nodemon": "^2.0.4"
-	}
+	"gitHead": "a273acc7d21a07d907e62df999ed12178ea356a6"
 }
