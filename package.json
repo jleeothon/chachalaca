@@ -22,12 +22,7 @@
 		],
 		"prettier": true
 	},
-	"dependencies": {
-		"@jleeothon/chachalaca-cli": "file:packages/cli",
-		"@jleeothon/chachalaca-core": "file:packages/core",
-		"@jleeothon/chachalaca-parser": "file:packages/parser",
-		"chachalaca-ui": "file:packages/ui"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"@ava/typescript": "^1.1.1",
 		"@typescript-eslint/eslint-plugin": "^3.5.0",
