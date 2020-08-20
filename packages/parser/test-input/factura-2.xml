@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <autorizacion>
-<estado>AUTORIZADO</estado>
-<numeroAutorizacion>numero-autorizacion-factura-2</numeroAutorizacion>
-<fechaAutorizacion>2018-09-24T09:28:50-05:00</fechaAutorizacion>
-<ambiente>PRODUCCIÓN</ambiente>
-<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+    <estado>AUTORIZADO</estado>
+    <numeroAutorizacion>numero-autorizacion-factura-2</numeroAutorizacion>
+    <fechaAutorizacion>2018-09-24T09:28:50-05:00</fechaAutorizacion>
+    <ambiente>PRODUCCIÓN</ambiente>
+    <comprobante><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
 <factura id="comprobante" version="1.1.0">
     <infoTributaria>
         <ambiente>2</ambiente>
@@ -300,7 +301,8 @@
         <campoAdicional nombre="DEDUCIBLE ALIMENTOS">4.23</campoAdicional>
         <campoAdicional nombre="DOCUMENTO INTERNO">1773801</campoAdicional>
     </infoAdicional>
-</factura>]]>
-</comprobante>
-<mensajes/>
+</factura>
+]]></comprobante>
+    <mensajes />
 </autorizacion>
+

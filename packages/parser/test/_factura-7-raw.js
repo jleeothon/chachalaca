@@ -240,22 +240,7 @@ module.exports = {
 						]
 					}
 				],
-				infoAdicional: [
-					{
-						campoAdicional: [
-							{_: 'mlamilla@oselda.ec', $: {nombre: 'emailCliente'}},
-							{
-								_: 'AV. QUITO 4018 E/ EL ORO Y MARACAIBO',
-								$: {nombre: 'Dirección:'}
-							},
-							{_: 'Contado', $: {nombre: 'Forma de Pago:'}},
-							{_: '14', $: {nombre: 'O/C:'}},
-							{_: 'MARIELA LAMILLA', $: {nombre: 'Vendedor:'}},
-							{_: 'GUAYAQUIL', $: {nombre: 'Ciudad:'}},
-							{_: '2-443171', $: {nombre: 'Teléfono(s):'}}
-						]
-					}
-				]
+				infoAdicional: ['\n    ']
 			}
 		}
 	],

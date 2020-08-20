@@ -1,46 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <autorizacion>
-<estado>AUTORIZADO</estado>
-<numeroAutorizacion>CLAVE-DE-ACCESO</numeroAutorizacion>
-<fechaAutorizacion>2019-12-19T13:08:41-05:00</fechaAutorizacion>
-<ambiente>PRODUCCIÓN</ambiente>
-<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+    <estado>AUTORIZADO</estado>
+    <numeroAutorizacion>CLAVE-DE-ACCESO</numeroAutorizacion>
+    <fechaAutorizacion>2019-12-19T13:08:41-05:00</fechaAutorizacion>
+    <ambiente>PRODUCCIÓN</ambiente>
+    <comprobante><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
 <comprobanteRetencion id="comprobante" version="1.0.0">
-<infoTributaria>
-<ambiente>2</ambiente>
-<tipoEmision>1</tipoEmision>
-<razonSocial>RAZON-SOCIAL-F6</razonSocial>
-<ruc>RUC-F6</ruc>
-<claveAcceso>CLAVE-DE-ACCESO</claveAcceso>
-<codDoc>07</codDoc>
-<estab>002</estab>
-<ptoEmi>002</ptoEmi>
-<secuencial>000003226</secuencial>
-<dirMatriz>DIR MATRIZ F6</dirMatriz>
-</infoTributaria>
-<infoCompRetencion>
-<fechaEmision>13/12/2019</fechaEmision>
-<dirEstablecimiento>DIR MATRIZ F6</dirEstablecimiento>
-<obligadoContabilidad>SI</obligadoContabilidad>
-<tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
-<razonSocialSujetoRetenido>RAZON SOCIAL 7890</razonSocialSujetoRetenido>
-<identificacionSujetoRetenido>1708866346001</identificacionSujetoRetenido>
-<periodoFiscal>12/2019</periodoFiscal>
-</infoCompRetencion>
-<impuestos>
-<impuesto>
-<codigo>1</codigo>
-<codigoRetencion>312</codigoRetencion>
-<baseImponible>3.80</baseImponible>
-<porcentajeRetener>1.00</porcentajeRetener>
-<valorRetenido>0.04</valorRetenido>
-<codDocSustento>01</codDocSustento>
-<numDocSustento>001001000011944</numDocSustento>
-<fechaEmisionDocSustento>13/12/2019</fechaEmisionDocSustento>
-</impuesto>
-</impuestos>
-<infoAdicional>
-<campoAdicional nombre="Direccion">DIRECCION - F6</campoAdicional><campoAdicional nombre="Telefono">04042NO</campoAdicional><campoAdicional nombre="CIATelefono">2444314</campoAdicional><campoAdicional nombre="CodRetencion">Fte:312</campoAdicional></infoAdicional>
-</comprobanteRetencion>]]></comprobante>
-<mensajes/>
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>RAZON-SOCIAL-F6</razonSocial>
+        <ruc>RUC-F6</ruc>
+        <claveAcceso>CLAVE-DE-ACCESO</claveAcceso>
+        <codDoc>07</codDoc>
+        <estab>002</estab>
+        <ptoEmi>002</ptoEmi>
+        <secuencial>000003226</secuencial>
+        <dirMatriz>DIR MATRIZ F6</dirMatriz>
+    </infoTributaria>
+    <infoCompRetencion>
+        <fechaEmision>13/12/2019</fechaEmision>
+        <dirEstablecimiento>DIR MATRIZ F6</dirEstablecimiento>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+        <razonSocialSujetoRetenido>RAZON SOCIAL 7890</razonSocialSujetoRetenido>
+        <identificacionSujetoRetenido>1708866346001</identificacionSujetoRetenido>
+        <periodoFiscal>12/2019</periodoFiscal>
+    </infoCompRetencion>
+    <impuestos>
+        <impuesto>
+            <codigo>1</codigo>
+            <codigoRetencion>312</codigoRetencion>
+            <baseImponible>3.80</baseImponible>
+            <porcentajeRetener>1.00</porcentajeRetener>
+            <valorRetenido>0.04</valorRetenido>
+            <codDocSustento>01</codDocSustento>
+            <numDocSustento>001001000011944</numDocSustento>
+            <fechaEmisionDocSustento>13/12/2019</fechaEmisionDocSustento>
+        </impuesto>
+    </impuestos>
+    <infoAdicional>
+        <campoAdicional nombre="Direccion">DIRECCION - F6</campoAdicional>
+        <campoAdicional nombre="Telefono">04042NO</campoAdicional>
+        <campoAdicional nombre="CIATelefono">2444314</campoAdicional>
+        <campoAdicional nombre="CodRetencion">Fte:312</campoAdicional>
+    </infoAdicional>
+</comprobanteRetencion>
+]]></comprobante>
+    <mensajes />
 </autorizacion>
+

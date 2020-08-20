@@ -1,17 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <autorizacion>
-<estado>AUTORIZADO</estado>
-<numeroAutorizacion>CLAVE ACCESO F5</numeroAutorizacion>
-<fechaAutorizacion>2019-12-22T17:13:31-05:00</fechaAutorizacion>
-<ambiente>PRODUCCIÓN</ambiente>
-<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?><factura version="1.1.0" id="comprobante">
-<infoTributaria>
-  <ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>RAZON SOCIAL F5</razonSocial><nombreComercial>NOMBRE COMERCIAL F5</nombreComercial><ruc>RUC-F5</ruc><claveAcceso>CLAVE ACCESO F5</claveAcceso><codDoc>01</codDoc><estab>476</estab><ptoEmi>023</ptoEmi><secuencial>000049819</secuencial><dirMatriz>DIR MATRIZ F5</dirMatriz>
-</infoTributaria>
-<infoFactura>
-  <fechaEmision>22/12/2019</fechaEmision><dirEstablecimiento>DIR ESTAB F5</dirEstablecimiento><contribuyenteEspecial>6925</contribuyenteEspecial><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>05</tipoIdentificacionComprador><razonSocialComprador>COMPRADOR 12345</razonSocialComprador><identificacionComprador>1708866346</identificacionComprador><totalSinImpuestos>55.25</totalSinImpuestos><totalDescuento>16.81</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><baseImponible>16.80</baseImponible><valor>0.00</valor></totalImpuesto><totalImpuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><baseImponible>38.45</baseImponible><valor>4.61</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>59.86</importeTotal><moneda>DOLAR</moneda>
-</infoFactura>
-</factura>]]></comprobante>
-<mensajes/>
+    <estado>AUTORIZADO</estado>
+    <numeroAutorizacion>CLAVE ACCESO F5</numeroAutorizacion>
+    <fechaAutorizacion>2019-12-22T17:13:31-05:00</fechaAutorizacion>
+    <ambiente>PRODUCCIÓN</ambiente>
+    <comprobante><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<factura version="1.1.0" id="comprobante">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>RAZON SOCIAL F5</razonSocial>
+        <nombreComercial>NOMBRE COMERCIAL F5</nombreComercial>
+        <ruc>RUC-F5</ruc>
+        <claveAcceso>CLAVE ACCESO F5</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>476</estab>
+        <ptoEmi>023</ptoEmi>
+        <secuencial>000049819</secuencial>
+        <dirMatriz>DIR MATRIZ F5</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>22/12/2019</fechaEmision>
+        <dirEstablecimiento>DIR ESTAB F5</dirEstablecimiento>
+        <contribuyenteEspecial>6925</contribuyenteEspecial>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+        <razonSocialComprador>COMPRADOR 12345</razonSocialComprador>
+        <identificacionComprador>1708866346</identificacionComprador>
+        <totalSinImpuestos>55.25</totalSinImpuestos>
+        <totalDescuento>16.81</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>16.80</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <baseImponible>38.45</baseImponible>
+                <valor>4.61</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>59.86</importeTotal>
+        <moneda>DOLAR</moneda>
+    </infoFactura>
+</factura>
+]]></comprobante>
+    <mensajes />
 </autorizacion>
 

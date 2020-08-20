@@ -1,128 +1,130 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <autorizacion>
-<estado>AUTORIZADO</estado>
-<numeroAutorizacion>NUMERODEAUTORIZACIONDUMMY</numeroAutorizacion>
-<fechaAutorizacion>2019-10-31T18:21:06-05:00</fechaAutorizacion>
-<ambiente>PRODUCCIÓN</ambiente>
-<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+    <estado>AUTORIZADO</estado>
+    <numeroAutorizacion>NUMERODEAUTORIZACIONDUMMY</numeroAutorizacion>
+    <fechaAutorizacion>2019-10-31T18:21:06-05:00</fechaAutorizacion>
+    <ambiente>PRODUCCIÓN</ambiente>
+    <comprobante><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
 <factura id="comprobante" version="1.0.0">
-<infoTributaria>
-   <ambiente>2</ambiente>
-   <tipoEmision>1</tipoEmision>
-   <razonSocial>RAZON SOCIAL DUMMY 2</razonSocial>
-   <nombreComercial>NOMBRE COMERCIAL</nombreComercial>
-   <ruc>RUC-FACTURA-3</ruc>
-   <claveAcceso>NUMERODEAUTORIZACIONDUMMY</claveAcceso>
-   <codDoc>01</codDoc>
-   <estab>001</estab>
-   <ptoEmi>011</ptoEmi>
-   <secuencial>000042579</secuencial>
-   <dirMatriz>DIR MATRIZ DUMMY</dirMatriz>
-      </infoTributaria>
-   <infoFactura>
-   <fechaEmision>31/10/2019</fechaEmision>
-   <dirEstablecimiento>DIR ESTAB FACTURA 3</dirEstablecimiento>
-   <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
-   <razonSocialComprador>DIR RAZONS SOCIAL</razonSocialComprador>
-   <identificacionComprador>123456890</identificacionComprador>
-   <totalSinImpuestos>205.81</totalSinImpuestos>
-   <totalDescuento>197.58</totalDescuento>
- <totalConImpuestos>
-    <totalImpuesto>
-   <codigo>2</codigo>
-   <codigoPorcentaje>2</codigoPorcentaje>
-   <baseImponible>205.81</baseImponible>
-   <valor>24.70</valor>
-   </totalImpuesto>
-</totalConImpuestos>
-   <propina>0.00</propina>
-   <importeTotal>230.51</importeTotal>
-   <moneda>DOLAR</moneda>
- <pagos>
-    <pago>
-   <formaPago>20</formaPago>
-   <total>230.51</total>
-   <plazo>0</plazo>
-   <unidadTiempo>dias</unidadTiempo>
-   </pago>
-</pagos>
-   </infoFactura>
- <detalles>
-    <detalle>
-   <codigoPrincipal>COD PRIN</codigoPrincipal>
-   <codigoAuxiliar>COD AUX</codigoAuxiliar>
-   <descripcion>DESCRIPCION</descripcion>
-   <cantidad>2.090000</cantidad>
-   <precioUnitario>28.8000</precioUnitario>
-   <descuento>21.05</descuento>
-   <precioTotalSinImpuesto>39.10</precioTotalSinImpuesto>
-   <detallesAdicionales>
-   <detAdicional nombre="MT2" valor="unidadMedida"/>
-   <detAdicional nombre="2" valor="cajas"/>
-   <detAdicional nombre="0" valor="unidades"/>
-</detallesAdicionales>
- <impuestos>
-    <impuesto>
-   <codigo>2</codigo>
-   <codigoPorcentaje>2</codigoPorcentaje>
-   <tarifa>12.00</tarifa>
-   <baseImponible>39.10</baseImponible>
-   <valor>4.69</valor>
-   </impuesto>
-</impuestos>
-   </detalle>
-    <detalle>
-   <codigoPrincipal>COD PRIN</codigoPrincipal>
-   <codigoAuxiliar>COD AUX</codigoAuxiliar>
-   <descripcion>DESCRIPCION</descripcion>
-   <cantidad>2.880000</cantidad>
-   <precioUnitario>70.0000</precioUnitario>
-   <descuento>141.12</descuento>
-   <precioTotalSinImpuesto>60.48</precioTotalSinImpuesto>
-   <detallesAdicionales>
-   <detAdicional nombre="MT2" valor="unidadMedida"/>
-   <detAdicional nombre="2" valor="cajas"/>
-   <detAdicional nombre="0" valor="unidades"/>
-</detallesAdicionales>
- <impuestos>
-    <impuesto>
-   <codigo>2</codigo>
-   <codigoPorcentaje>2</codigoPorcentaje>
-   <tarifa>12.00</tarifa>
-   <baseImponible>60.48</baseImponible>
-   <valor>7.26</valor>
-   </impuesto>
-</impuestos>
-   </detalle>
-    <detalle>
-   <codigoPrincipal>COD PRIN</codigoPrincipal>
-   <codigoAuxiliar>COD AUX</codigoAuxiliar>
-   <descripcion>DESCRIPCION</descripcion>
-   <cantidad>16.470000</cantidad>
-   <precioUnitario>8.6000</precioUnitario>
-   <descuento>35.41</descuento>
-   <precioTotalSinImpuesto>106.23</precioTotalSinImpuesto>
-   <detallesAdicionales>
-   <detAdicional nombre="MT2" valor="unidadMedida"/>
-   <detAdicional nombre="9" valor="cajas"/>
-   <detAdicional nombre="0" valor="unidades"/>
-</detallesAdicionales>
- <impuestos>
-    <impuesto>
-   <codigo>2</codigo>
-   <codigoPorcentaje>2</codigoPorcentaje>
-   <tarifa>12.00</tarifa>
-   <baseImponible>106.23</baseImponible>
-   <valor>12.75</valor>
-   </impuesto>
-</impuestos>
-   </detalle>
-</detalles>
-   <infoAdicional>
-   <campoAdicional nombre="Direccion">CAMPO ADICIONAL DUMMY</campoAdicional>
-   <campoAdicional nombre="Email">info@example.com</campoAdicional>
-</infoAdicional>
-
-</factura>]]></comprobante>
-<mensajes/>
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>RAZON SOCIAL DUMMY 2</razonSocial>
+        <nombreComercial>NOMBRE COMERCIAL</nombreComercial>
+        <ruc>RUC-FACTURA-3</ruc>
+        <claveAcceso>NUMERODEAUTORIZACIONDUMMY</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>011</ptoEmi>
+        <secuencial>000042579</secuencial>
+        <dirMatriz>DIR MATRIZ DUMMY</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>31/10/2019</fechaEmision>
+        <dirEstablecimiento>DIR ESTAB FACTURA 3</dirEstablecimiento>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>DIR RAZONS SOCIAL</razonSocialComprador>
+        <identificacionComprador>123456890</identificacionComprador>
+        <totalSinImpuestos>205.81</totalSinImpuestos>
+        <totalDescuento>197.58</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <baseImponible>205.81</baseImponible>
+                <valor>24.70</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>230.51</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>230.51</total>
+                <plazo>0</plazo>
+                <unidadTiempo>dias</unidadTiempo>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>COD PRIN</codigoPrincipal>
+            <codigoAuxiliar>COD AUX</codigoAuxiliar>
+            <descripcion>DESCRIPCION</descripcion>
+            <cantidad>2.090000</cantidad>
+            <precioUnitario>28.8000</precioUnitario>
+            <descuento>21.05</descuento>
+            <precioTotalSinImpuesto>39.10</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="MT2" valor="unidadMedida" />
+                <detAdicional nombre="2" valor="cajas" />
+                <detAdicional nombre="0" valor="unidades" />
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12.00</tarifa>
+                    <baseImponible>39.10</baseImponible>
+                    <valor>4.69</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>COD PRIN</codigoPrincipal>
+            <codigoAuxiliar>COD AUX</codigoAuxiliar>
+            <descripcion>DESCRIPCION</descripcion>
+            <cantidad>2.880000</cantidad>
+            <precioUnitario>70.0000</precioUnitario>
+            <descuento>141.12</descuento>
+            <precioTotalSinImpuesto>60.48</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="MT2" valor="unidadMedida" />
+                <detAdicional nombre="2" valor="cajas" />
+                <detAdicional nombre="0" valor="unidades" />
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12.00</tarifa>
+                    <baseImponible>60.48</baseImponible>
+                    <valor>7.26</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>COD PRIN</codigoPrincipal>
+            <codigoAuxiliar>COD AUX</codigoAuxiliar>
+            <descripcion>DESCRIPCION</descripcion>
+            <cantidad>16.470000</cantidad>
+            <precioUnitario>8.6000</precioUnitario>
+            <descuento>35.41</descuento>
+            <precioTotalSinImpuesto>106.23</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="MT2" valor="unidadMedida" />
+                <detAdicional nombre="9" valor="cajas" />
+                <detAdicional nombre="0" valor="unidades" />
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12.00</tarifa>
+                    <baseImponible>106.23</baseImponible>
+                    <valor>12.75</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Direccion">CAMPO ADICIONAL DUMMY</campoAdicional>
+        <campoAdicional nombre="Email">info@example.com</campoAdicional>
+    </infoAdicional>
+</factura>
+]]></comprobante>
+    <mensajes />
 </autorizacion>
+
