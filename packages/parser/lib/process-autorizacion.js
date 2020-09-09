@@ -13,7 +13,6 @@ function filterObjectEntries(object, f) {
 function getInfoTributaria(raw) {
 	const infoTributaria = raw.infoTributaria[0];
 	// `raw` must be comprobanteRetencion or factura or notaCredito
-	// TODO change to optional property
 	const tipoEmision = get(infoTributaria, 'tipoEmision.0');
 	const razonSocial = get(infoTributaria, 'razonSocial.0');
 	const nombreComercial = get(infoTributaria, 'nombreComercial.0');
@@ -56,7 +55,7 @@ function processComprobanteRetencion(raw) {
 		periodoFiscal
 	};
 
-	const rawImpuestos = raw.impuestos[0].impuesto;
+	const rawImpuestos = raw.impuestos?.[0].impuesto || [];
 	const impuestos = rawImpuestos.map((impuesto) =>
 		filterObjectEntries({
 			codigo: impuesto.codigo[0],
