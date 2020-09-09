@@ -138,13 +138,13 @@ function processFactura(raw) {
 function getInfoNotaCredito(raw) {
 	const inc = raw.infoNotaCredito[0];
 	const fechaEmision = parseShortDate(inc.fechaEmision[0]);
-	const dirEstablecimiento = inc.dirEstablecimiento[0];
-	const tipoIdentificacionComprador = inc.tipoIdentificacionComprador[0];
-	const razonSocialComprador = inc.razonSocialComprador[0];
-	const identificacionComprador = inc.identificacionComprador[0];
+	const dirEstablecimiento = inc.dirEstablecimiento?.[0];
+	const tipoIdentificacionComprador = inc.tipoIdentificacionComprador?.[0];
+	const razonSocialComprador = inc.razonSocialComprador?.[0];
+	const identificacionComprador = inc.identificacionComprador?.[0];
 
 	const contribuyenteEspecial = inc.contribuyenteEspecial?.[0];
-	const obligadoContabilidad = inc.obligadoContabilidad[0];
+	const obligadoContabilidad = inc.obligadoContabilidad?.[0];
 
 	const codDocModificado = inc.codDocModificado[0];
 	const numberDocModificado = inc.numDocModificado[0];
