@@ -37,7 +37,7 @@ function getInfoTributaria(raw) {
 function processComprobanteRetencion(raw) {
 	const icr = raw.infoCompRetencion[0];
 	const fechaEmision = parseShortDate(icr.fechaEmision[0]);
-	const dirEstablecimiento = icr.dirEstablecimiento[0];
+	const dirEstablecimiento = icr.dirEstablecimiento?.[0];
 	const obligadoContabilidad = icr.obligadoContabilidad[0];
 	const tipoIdentificacionSujetoRetenido =
 		icr.tipoIdentificacionSujetoRetenido[0];
