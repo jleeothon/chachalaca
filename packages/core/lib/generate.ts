@@ -87,7 +87,9 @@ async function generateFromDirectory(
 	log.info({files: fileCandidates}, 'Getting files');
 
 	const xmlFilePaths = fileCandidates.filter((f) => f.endsWith('.xml'));
-	generateFromFiles(xmlFilePaths, destination);
+	await generateFromFiles(xmlFilePaths, destination);
 }
 
-export default {generateFromDirectory, generateFromFiles};
+const result = {generateFromDirectory, generateFromFiles};
+
+export default result;
