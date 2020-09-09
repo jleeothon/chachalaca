@@ -48,7 +48,7 @@ declare namespace parse {
 
 	interface InfoCompRetencion {
 		fechaEmision: Date;
-		dirEstablecimiento: string;
+		dirEstablecimiento?: string;
 		obligadoContabilidad: string;
 		tipoIdentificacionSujetoRetenido: string;
 		razonSocialSujetoRetenido: string;
