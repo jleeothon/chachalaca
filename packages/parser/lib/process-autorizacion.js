@@ -143,7 +143,7 @@ function getInfoNotaCredito(raw) {
 	const razonSocialComprador = inc.razonSocialComprador[0];
 	const identificacionComprador = inc.identificacionComprador[0];
 
-	const contribuyenteEspecial = inc.contribuyenteEspecial[0];
+	const contribuyenteEspecial = inc.contribuyenteEspecial?.[0];
 	const obligadoContabilidad = inc.obligadoContabilidad[0];
 
 	const codDocModificado = inc.codDocModificado[0];
