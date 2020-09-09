@@ -4,6 +4,7 @@ import * as path from 'path';
 import * as VError from 'verror';
 
 import * as glob from 'glob';
+import * as pMap from 'p-map';
 
 import generateXlsx from './generate-xlsx';
 import log from './log';
@@ -49,9 +50,7 @@ async function generateFromFiles(
 	paths: string[],
 	destination: string
 ): Promise<void> {
-	const processed = await Promise.all(
-		paths.map(async (path) => processFile(path))
-	);
+	const processed = await pMap(paths, async (path) => processFile(path));
 
 	const arrays: {
 		factura: RowFactura[];
