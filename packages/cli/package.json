@@ -1,6 +1,6 @@
 {
   "name": "@jleeothon/chachalaca-cli",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "CLI for chachalaca",
   "homepage": "https://github.com/jleeothon/chachalaca#readme",
   "repository": {
@@ -16,7 +16,7 @@
     "lint": "xo --prettier"
   },
   "dependencies": {
-    "@jleeothon/chachalaca-core": "^0.5.3",
+    "@jleeothon/chachalaca-core": "^0.5.4",
     "commander": "^6.1.0",
     "date-fns": "^2.16.1"
   },
