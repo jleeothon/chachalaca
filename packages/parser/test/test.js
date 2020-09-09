@@ -41,6 +41,15 @@ test('comprobante 2', async (t) => {
 	);
 });
 
+test('comprobante 3', async (t) => {
+	await twoStepTest(
+		t,
+		'comprobante-3.xml',
+		'./_comprobante-3-raw',
+		'./_comprobante-3'
+	);
+});
+
 test('Factura 1', async (t) => {
 	await twoStepTest(t, 'factura-1.xml', './_factura-1-raw', './_factura-1');
 });

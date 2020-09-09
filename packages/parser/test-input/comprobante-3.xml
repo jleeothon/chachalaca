@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+  <estado>AUTORIZADO</estado>
+  <numeroAutorizacion>NUMERO-AUTORIZACION-COMP-3</numeroAutorizacion>
+  <fechaAutorizacion>2020-08-04T00:12:25-05:00</fechaAutorizacion>
+  <ambiente>PRODUCCIÓN</ambiente>
+  <comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<comprobanteRetencion id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>RAZON SOCIAL COMP 3</razonSocial>
+    <ruc>RUC-COMP-3</ruc>
+    <claveAcceso>NUMERO-AUTORIZACION-COMP-3</claveAcceso>
+    <codDoc>07</codDoc>
+    <estab>001</estab>
+    <ptoEmi>004</ptoEmi>
+    <secuencial>1234567</secuencial>
+    <dirMatriz>DIR MATRIZ COMP 3</dirMatriz>
+  </infoTributaria>
+  <infoCompRetencion>
+    <fechaEmision>03/08/2020</fechaEmision>
+    <contribuyenteEspecial>6925</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+    <razonSocialSujetoRetenido>RAZON SOCIAL SUJETO RETENIDO COMP 3</razonSocialSujetoRetenido>
+    <identificacionSujetoRetenido>RUC IDENT SUJETO RETENIDO COMP 3</identificacionSujetoRetenido>
+    <periodoFiscal>08/2020</periodoFiscal>
+  </infoCompRetencion>
+  <impuestos>
+    <impuesto>
+      <codigo>2</codigo>
+      <codigoRetencion>1</codigoRetencion>
+      <baseImponible>55.31</baseImponible>
+      <porcentajeRetener>30.00</porcentajeRetener>
+      <valorRetenido>16.59</valorRetenido>
+      <codDocSustento>22</codDocSustento>
+      <numDocSustento>011220000123456</numDocSustento>
+      <fechaEmisionDocSustento>03/08/2020</fechaEmisionDocSustento>
+    </impuesto>
+    <impuesto>
+      <codigo>1</codigo>
+      <codigoRetencion>344A</codigoRetencion>
+      <baseImponible>460.94</baseImponible>
+      <porcentajeRetener>2.00</porcentajeRetener>
+      <valorRetenido>9.22</valorRetenido>
+      <codDocSustento>22</codDocSustento>
+      <numDocSustento>011220000123456</numDocSustento>
+      <fechaEmisionDocSustento>03/08/2020</fechaEmisionDocSustento>
+    </impuesto>
+  </impuestos>
+  <infoAdicional></infoAdicional>
+</comprobanteRetencion>]]></comprobante>
+  <mensajes/>
+</autorizacion>
