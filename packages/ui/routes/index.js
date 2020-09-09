@@ -1,4 +1,3 @@
-const fs = require('fs');
 const tmp = require('tmp');
 
 const bunyan = require('bunyan');
