@@ -3,6 +3,12 @@
 const lightFormat = require('date-fns/lightFormat');
 const {generateFromDirectory} = require('@jleeothon/chachalaca-core');
 const {program} = require('commander');
+const bunyan = require('bunyan');
+
+const log = bunyan.createLogger({
+	name: 'chachalaca',
+	serializers: bunyan.stdSerializers
+});
 
 function date() {
 	return lightFormat(new Date(), 'yyyy-MM-dd-HH-mm-ss');
@@ -13,5 +19,13 @@ async function action(source, destination = null) {
 	return generateFromDirectory(source, destination);
 }
 
-program.arguments('<source> [destination]').action(action);
+program
+	.arguments('<source> [destination]')
+	.action(async (source, destination) => {
+		try {
+			await action(source, destination);
+		} catch (error) {
+			log.error(error);
+		}
+	});
 program.parseAsync(process.argv);
