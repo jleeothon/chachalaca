@@ -1,55 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autorizacion>
-    <estado>AUTORIZADO</estado>
-    <numeroAutorizacion>CLAVE ACCESO F4</numeroAutorizacion>
-    <fechaAutorizacion>2019-12-04T21:10:28-05:00</fechaAutorizacion>
-    <ambiente>PRODUCCIÓN</ambiente>
-    <comprobante><![CDATA[
-<?xml version="1.0" encoding="UTF-8"?>
+  <estado>AUTORIZADO</estado>
+  <numeroAutorizacion>CLAVE ACCESO F4</numeroAutorizacion>
+  <fechaAutorizacion>2019-12-04T21:10:28-05:00</fechaAutorizacion>
+  <ambiente>PRODUCCIÓN</ambiente>
+  <comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <factura id="comprobante" version="1.1.0">
-    <infoTributaria>
-        <ambiente>2</ambiente>
-        <tipoEmision>1</tipoEmision>
-        <razonSocial>RAZON-SOCIAL-4</razonSocial>
-        <ruc>0990110662001</ruc>
-        <claveAcceso>CLAVE ACCESO F4</claveAcceso>
-        <codDoc>01</codDoc>
-        <estab>001</estab>
-        <ptoEmi>100</ptoEmi>
-        <secuencial>000051802</secuencial>
-        <dirMatriz>DIR MATRIZ F4</dirMatriz>
-    </infoTributaria>
-    <infoFactura>
-        <fechaEmision>04/12/2019</fechaEmision>
-        <contribuyenteEspecial>5505</contribuyenteEspecial>
-        <obligadoContabilidad>SI</obligadoContabilidad>
-        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
-        <razonSocialComprador>COMPRADOR 12345</razonSocialComprador>
-        <identificacionComprador>1708866346</identificacionComprador>
-        <direccionComprador>DIRECCOIN COMPRADOR F4</direccionComprador>
-        <totalSinImpuestos>561.32</totalSinImpuestos>
-        <totalDescuento>18.68</totalDescuento>
-        <totalConImpuestos>
-            <totalImpuesto>
-                <codigo>2</codigo>
-                <codigoPorcentaje>0</codigoPorcentaje>
-                <baseImponible>561.32</baseImponible>
-                <tarifa>0</tarifa>
-                <valor>0.00</valor>
-            </totalImpuesto>
-        </totalConImpuestos>
-        <propina>0.00</propina>
-        <importeTotal>561.32</importeTotal>
-        <moneda>DOLAR</moneda>
-        <pagos>
-            <pago>
-                <formaPago>20</formaPago>
-                <total>561.32</total>
-            </pago>
-        </pagos>
-    </infoFactura>
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>RAZON-SOCIAL-4</razonSocial>
+    <ruc>0990110662001</ruc>
+    <claveAcceso>CLAVE ACCESO F4</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>100</ptoEmi>
+    <secuencial>000051802</secuencial>
+    <dirMatriz>DIR MATRIZ F4</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>04/12/2019</fechaEmision>
+    <contribuyenteEspecial>5505</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>COMPRADOR 12345</razonSocialComprador>
+    <identificacionComprador>1708866346</identificacionComprador>
+    <direccionComprador>DIRECCOIN COMPRADOR F4</direccionComprador>
+    <totalSinImpuestos>561.32</totalSinImpuestos>
+    <totalDescuento>18.68</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>561.32</baseImponible>
+        <tarifa>0</tarifa>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>561.32</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>561.32</total>
+      </pago>
+    </pagos>
+  </infoFactura>
 </factura>
 ]]></comprobante>
-    <mensajes />
+  <mensajes/>
 </autorizacion>
-

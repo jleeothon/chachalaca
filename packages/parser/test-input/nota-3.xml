@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+  <estado>AUTORIZADO</estado>
+  <numeroAutorizacion>3108202004099215390300120010060000024868331943317</numeroAutorizacion>
+  <fechaAutorizacion>2020-08-31T12:12:44-05:00</fechaAutorizacion>
+  <ambiente>PRODUCCIÓN</ambiente>
+  <comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notaCredito id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>TRANSCASH S.A.</razonSocial>
+    <ruc>0992153903001</ruc>
+    <claveAcceso>3108202004099215390300120010060000024868331943317</claveAcceso>
+    <codDoc>04</codDoc>
+    <estab>001</estab>
+    <ptoEmi>006</ptoEmi>
+    <secuencial>000002486</secuencial>
+    <dirMatriz>Alborada XI Etapa Mz. 13 S.10</dirMatriz>
+  </infoTributaria>
+  <infoNotaCredito>
+    <fechaEmision>31/08/2020</fechaEmision>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>RAZON SOCIAL COMPRADOR MEXLR35</razonSocialComprador>
+    <identificacionComprador>IDENTIFICACION QBYOFK4</identificacionComprador>
+    <contribuyenteEspecial>0000</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <codDocModificado>01</codDocModificado>
+    <numDocModificado>001-006-000012593</numDocModificado>
+    <fechaEmisionDocSustento>21/08/2020</fechaEmisionDocSustento>
+    <totalSinImpuestos>11.71</totalSinImpuestos>
+    <valorModificacion>13.11</valorModificacion>
+    <moneda>DOLAR</moneda>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <baseImponible>11.71</baseImponible>
+        <valor>1.41</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <motivo>GENERADOS POR REGISTRO DE DEVOLUCIONES</motivo>
+  </infoNotaCredito>
+  <detalles>
+    <detalle>
+      <codigoInterno>CSLLUCBLA</codigoInterno>
+      <codigoAdicional>CSLLUCBLA</codigoAdicional>
+      <descripcion>CERAMICA CSL LUCIENNE BLANCO (45*45) 2.08M2</descripcion>
+      <cantidad>2.08</cantidad>
+      <precioUnitario>5.8036</precioUnitario>
+      <descuento>0.36</descuento>
+      <precioTotalSinImpuesto>11.71</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>11.71</baseImponible>
+          <valor>1.41</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">AGUIRRE 1316 Y AVDA.MACHALA</campoAdicional>
+    <campoAdicional nombre="tELEFONO">042511422  0992104508</campoAdicional>
+    <campoAdicional nombre="E-MAIL">VENTASBEST@OUTLOOK.COM;BESTSERVICEEC@HOTMAIL.COM;VENTASBESTSERVICE@OUTLOOK.COM</campoAdicional>
+  </infoAdicional>
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature628129">
+    <ds:SignedInfo Id="Signature-SignedInfo72298">
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <ds:Reference Id="SignedPropertiesID96306" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature628129-SignedProperties1037461">
+        <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <ds:DigestValue>dzppiafpj5XPbUWVDO8vqokXPX8=</ds:DigestValue>
+      </ds:Reference>
+      <ds:Reference URI="#Certificate1124320">
+        <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <ds:DigestValue>9uYw+AzvLWBZG4u2NAvoiC7u+38=</ds:DigestValue>
+      </ds:Reference>
+      <ds:Reference Id="Reference-ID-789503" URI="#comprobante">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <ds:DigestValue>NUKqNGAqiGy/DOweJFEvL9JgRBI=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue Id="SignatureValue99880">
+bIz604IlKMMXNG4zg2t0WSCE5QP554YmUyCR7/1JJ8YIOu6Ty7BCsXMj8m4cKtGn5ac/6EDInRUc
+ixveycV3MEoW8Waion5ttSzO52faCBv9k2Fu8pHWE/y0JMFiXA8nM9J6rXcxntmNlgPuJYOrftvI
+aV79UNMSgIvlm6PQLs3Q/bcWZsEkWBs/dVichBOe/2h+9ZtX4VXyqbzOZxe4fDPP9Nrttxr8xZLw
+jI/2QS6m9tctpwAqoHHLmBz29pPvJV4vOpNHzSfg5e9Fnw/G2F+POI1bwV9UnfHyzSaMi8egKVpz
+bhdyT8/mWvGzoGsniUvmdgqj9hp0E0rJTga1sQ==
+</ds:SignatureValue>
+    <ds:KeyInfo Id="Certificate1124320">
+      <ds:X509Data>
+        <ds:X509Certificate>
+MIILVTCCCT2gAwIBAgIEcKzPXzANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAxMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTEgU0VDVVJJVFkgREFUQTAeFw0yMDA3MTcxNTI4NDJaFw0yMjA3MTcxNTI4NDJaMIGbMQsw
+CQYDVQQGEwJFQzEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDExMDAuBgNVBAsMJ0VOVElE
+QUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEVMBMGA1UEBRMMMTcwNzIwMTAzODQx
+MSQwIgYDVQQDDBtKT1JHRSBBQlJBSEFNIFJPU0VSTyBNT1JFTk8wggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDQJRGzl6cZvb2iQ/sRe+bFDcW0Ndc2K4LiI8Neh8tXb8pWc0etuO4cJEii
+YniuwNsd2EnsVXJTxBsiG/F7aqHzMlvoV9inzOy7LDLPmaI7uWR6L0sFwQzNbNPvm16NRa+Z+3oL
+Kz+6TQa4BqbUETUjaUpST1nkeMNFdn/wCGY0+suhRdAFPa12kKQLJ/BM4v4kuAiBrl0cEf9Gfuo7
+KWh+n3btoO61bfOgGeLrQlvJ6OSHt+SpCxSLuRC0iKYe0j5qZXxMoSF0dAo3n+ZMWgx4EPXYJRFR
+RGkcY4uqN8SespwKBnPwS86tGInIxo/GZaxywellSIkq59+a6lBS2oSvAgMBAAGjggafMIIGmzBZ
+BggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5l
+dC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwHQYDVR0OBBYEFFasisczHBnaMGkfCwsA
+0OA1Dq/EMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUXA+FpHQQ/K0BLBoAPZMXCfo5AdYwKwYD
+VR0QBCQwIoAPMjAyMDA3MTcxNTI4NDJagQ8yMDIyMDcxNzE1Mjg0MlowgcwGA1UdLgSBxDCBwTCB
+vqCBu6CBuIaBtWxkYXA6Ly9sZGFwc2Quc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQg
+REUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0xIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJU
+SUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDEsQz1FQz9kZWx0
+YVJldm9jYXRpb25MaXN0P2Jhc2UwbQYDVR0gBGYwZDBiBgorBgEEAYKmcgIJMFQwUgYIKwYBBQUH
+AgIwRh5EAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFIAZQBwAHIAZQBzAGUAbgB0AGEA
+bgB0AGUAIABMAGUAZwBhAGwwggKeBgNVHR8EggKVMIICkTCB5aBBoD+GPWh0dHA6Ly9vY3NwZ3cu
+c2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3CigZ+kgZwwgZkx
+OTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTEgU0VDVVJJVFkgREFU
+QTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYD
+VQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMTELMAkGA1UEBhMCRUMwgcSggcGggb6GgbtsZGFwOi8v
+bGRhcHNkLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04g
+U1VCQ0EtMSBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZP
+Uk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAxLEM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9u
+TGlzdD9iYXNlMIHfoIHcoIHZhoHWaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3Iuc2VjdXJpdHlkYXRh
+Lm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1D
+Tj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0xIFNFQ1VSSVRZIERBVEEsT1U9RU5U
+SURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEu
+IDEsQz1FQzALBgNVHQ8EBAMCBeAwIwYDVR0RBBwwGoEYam9yZ2Vyb3Nlcm9tQGhvdG1haWwuY29t
+MBoGCisGAQQBgqZyAwEEDAwKMDkwMTI0NDg0ODAdBgorBgEEAYKmcgMCBA8MDUpPUkdFIEFCUkFI
+QU0wFgYKKwYBBAGCpnIDAwQIDAZST1NFUk8wFgYKKwYBBAGCpnIDBAQIDAZNT1JFTk8wGgYKKwYB
+BAGCpnIDBQQMDApQUkVTSURFTlRFMD0GCisGAQQBgqZyAwcELwwtQVYgTUFDSEFMQSAxNDM0IFkg
+Q0xFTUVOVEUgQkFMTEVOIFkgMTAgQUdPU1RPMBsGCisGAQQBgqZyAwgEDQwLNTkzNDM3MTEzOTAw
+GQYKKwYBBAGCpnIDCQQLDAlHVUFZQVFVSUwwHgYKKwYBBAGCpnIDCgQQDA5UUkFOU0NBU0ggUy5B
+LjAdBgorBgEEAYKmcgMLBA8MDTA5OTIxNTM5MDMwMDEwFwYKKwYBBAGCpnIDDAQJDAdFQ1VBRE9S
+MBIGCisGAQQBgqZyAx0EBAwCTm8wHwYKKwYBBAGCpnIDIAQRDA8wMDEwMDIwMDAwNDk4MTAwEwYK
+KwYBBAGCpnIDIQQFDANQRlgwEQYKKwYBBAGCpnIDIgQDDAEuMA0GCSqGSIb3DQEBCwUAA4ICAQAw
+Wjkf/Qejfj+C0HLwSTE+pK3ZiFRFBFYmaZXasbk+bTdM7E6TvncsM25jEi0VhzI99tS+OF9rwuTt
+L3Rg4+2pnGB1VM2O5u9QfeQiDZLoyRyC1FUB/yvw1yM/2IJDc3yr3if2k7ZU/ngii9vVIzvBh6vd
+sQ9Tu6Yh5UW3SGdi1LcudrsuI1di7DuOR4pj/q4cd4O0EyLAE1FaPTVp6RalPGBIwzYUKS/HmqoD
+49drRrbdElMdqrAOj9gk+DJfVDfLfZifLtnW3dfh3nN653BS2e1yxohM4Q2XoR6rtTgTGtBt5Zb8
+cMBc9Tm26AtrX1THPmEMNA5D/rgg77TvlMdXSmi4o5GzLd7I4HMrKuer8IdlxPBWP+Uvf0rgw4tb
+3uZAbH75ide9RP2FVXnwGDBFF1j+Nt/yXqx8E9X5upBte06NhWu+QGjHQRbybPJPNSSkfdRA/oSL
+UDurR06fWw0WvCptsbb6CapC/SO8xI8IzX0UXB5tRPJcZoncLVfw/TmUXm6EFq8BrBIJ9+E/AY3k
+2jIU9syxCHq7WF9RR8rPDO1VAOcW2Wh5yeScm45LPORVOCW7w8T+aPICKhfd/ZZ2jde93Jv3uJ/8
+jGHMOVk2YES9pHsQL9pQ3dWtWcsd7eGEvKnVOi/xSYDuOBMFGKuv194qYA7e1/MpeSXSTnrz8w==
+</ds:X509Certificate>
+      </ds:X509Data>
+      <ds:KeyValue>
+        <ds:RSAKeyValue>
+          <ds:Modulus>
+0CURs5enGb29okP7EXvmxQ3FtDXXNiuC4iPDXofLV2/KVnNHrbjuHCRIomJ4rsDbHdhJ7FVyU8Qb
+Ihvxe2qh8zJb6FfYp8zsuywyz5miO7lkei9LBcEMzWzT75tejUWvmft6Cys/uk0GuAam1BE1I2lK
+Uk9Z5HjDRXZ/8AhmNPrLoUXQBT2tdpCkCyfwTOL+JLgIga5dHBH/Rn7qOylofp927aDutW3zoBni
+60Jbyejkh7fkqQsUi7kQtIimHtI+amV8TKEhdHQKN5/mTFoMeBD12CURUURpHGOLqjfEnrKcCgZz
+8EvOrRiJyMaPxmWscsHpZUiJKuffmupQUtqErw==
+</ds:Modulus>
+          <ds:Exponent>AQAB</ds:Exponent>
+        </ds:RSAKeyValue>
+      </ds:KeyValue>
+    </ds:KeyInfo>
+    <ds:Object Id="Signature628129-Object337293">
+      <etsi:QualifyingProperties Target="#Signature628129">
+        <etsi:SignedProperties Id="Signature628129-SignedProperties1037461">
+          <etsi:SignedSignatureProperties>
+            <etsi:SigningTime>2020-08-31T12:06:28-05:00</etsi:SigningTime>
+            <etsi:SigningCertificate>
+              <etsi:Cert>
+                <etsi:CertDigest>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                  <ds:DigestValue>79OFT6JdzC0gOdnCouE2J3UbBlk=</ds:DigestValue>
+                </etsi:CertDigest>
+                <etsi:IssuerSerial>
+                  <ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-1 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 1,C=EC</ds:X509IssuerName>
+                  <ds:X509SerialNumber>1890373471</ds:X509SerialNumber>
+                </etsi:IssuerSerial>
+              </etsi:Cert>
+            </etsi:SigningCertificate>
+          </etsi:SignedSignatureProperties>
+          <etsi:SignedDataObjectProperties>
+            <etsi:DataObjectFormat ObjectReference="#Reference-ID-789503">
+              <etsi:Description>contenido comprobante</etsi:Description>
+              <etsi:MimeType>text/xml</etsi:MimeType>
+            </etsi:DataObjectFormat>
+          </etsi:SignedDataObjectProperties>
+        </etsi:SignedProperties>
+      </etsi:QualifyingProperties>
+    </ds:Object>
+  </ds:Signature>
+</notaCredito>
+]]></comprobante>
+  <mensajes/>
+</autorizacion>

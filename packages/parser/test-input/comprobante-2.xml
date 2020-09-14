@@ -1,44 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autorizacion>
-    <estado>AUTORIZADO</estado>
-    <numeroAutorizacion>CLAVE-DE-ACCESO</numeroAutorizacion>
-    <fechaAutorizacion>2020-02-29T04:17:27-05:00</fechaAutorizacion>
-    <ambiente>PRODUCCIÓN</ambiente>
-    <comprobante><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+  <estado>AUTORIZADO</estado>
+  <numeroAutorizacion>CLAVE-DE-ACCESO</numeroAutorizacion>
+  <fechaAutorizacion>2020-02-29T04:17:27-05:00</fechaAutorizacion>
+  <ambiente>PRODUCCIÓN</ambiente>
+  <comprobante><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <comprobanteRetencion id="comprobante" version="1.0.0">
-    <infoTributaria>
-        <ambiente>2</ambiente>
-        <tipoEmision>1</tipoEmision>
-        <razonSocial>RAZON SOCIAL C2</razonSocial>
-        <nombreComercial>RAZON SOCIAL C2</nombreComercial>
-        <ruc>ruc-123</ruc>
-        <claveAcceso>CLAVE-DE-ACCESO</claveAcceso>
-        <codDoc>07</codDoc>
-        <estab>002</estab>
-        <ptoEmi>011</ptoEmi>
-        <secuencial>000190334</secuencial>
-        <dirMatriz>dir matriz c2</dirMatriz>
-    </infoTributaria>
-    <infoCompRetencion>
-        <fechaEmision>28/02/2020</fechaEmision>
-        <dirEstablecimiento>DIR ESTAB C2</dirEstablecimiento>
-        <contribuyenteEspecial>5368</contribuyenteEspecial>
-        <obligadoContabilidad>SI</obligadoContabilidad>
-        <tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
-        <razonSocialSujetoRetenido>RAZON SOCIAL SR C2</razonSocialSujetoRetenido>
-        <identificacionSujetoRetenido>0992856823001</identificacionSujetoRetenido>
-        <periodoFiscal>02/2020</periodoFiscal>
-    </infoCompRetencion>
-    <impuestos>
-        <impuesto>
-            <codigo>1</codigo>
-            <codigoRetencion>323B1</codigoRetencion>
-            <baseImponible>1.2000</baseImponible>
-            <porcentajeRetener>2.00</porcentajeRetener>
-            <valorRetenido>0.0200</valorRetenido>
-            <codDocSustento>00</codDocSustento>
-        </impuesto>
-    </impuestos>
-</comprobanteRetencion>]]></comprobante>
-    <mensajes />
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>RAZON SOCIAL C2</razonSocial>
+    <nombreComercial>RAZON SOCIAL C2</nombreComercial>
+    <ruc>ruc-123</ruc>
+    <claveAcceso>CLAVE-DE-ACCESO</claveAcceso>
+    <codDoc>07</codDoc>
+    <estab>002</estab>
+    <ptoEmi>011</ptoEmi>
+    <secuencial>000190334</secuencial>
+    <dirMatriz>dir matriz c2</dirMatriz>
+  </infoTributaria>
+  <infoCompRetencion>
+    <fechaEmision>28/02/2020</fechaEmision>
+    <dirEstablecimiento>DIR ESTAB C2</dirEstablecimiento>
+    <contribuyenteEspecial>5368</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+    <razonSocialSujetoRetenido>RAZON SOCIAL SR C2</razonSocialSujetoRetenido>
+    <identificacionSujetoRetenido>0992856823001</identificacionSujetoRetenido>
+    <periodoFiscal>02/2020</periodoFiscal>
+  </infoCompRetencion>
+  <impuestos>
+    <impuesto>
+      <codigo>1</codigo>
+      <codigoRetencion>323B1</codigoRetencion>
+      <baseImponible>1.2000</baseImponible>
+      <porcentajeRetener>2.00</porcentajeRetener>
+      <valorRetenido>0.0200</valorRetenido>
+      <codDocSustento>00</codDocSustento>
+    </impuesto>
+  </impuestos>
+</comprobanteRetencion>
+]]></comprobante>
+  <mensajes/>
 </autorizacion>

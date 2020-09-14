@@ -1,120 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autorizacion>
-    <estado>AUTORIZADO</estado>
-    <numeroAutorizacion>numero-autorizacion-factura-1</numeroAutorizacion>
-    <fechaAutorizacion>2018-02-01T17:53:25-05:00</fechaAutorizacion>
-    <ambiente>PRODUCCIÓN</ambiente>
-    <comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+  <estado>AUTORIZADO</estado>
+  <numeroAutorizacion>numero-autorizacion-factura-1</numeroAutorizacion>
+  <fechaAutorizacion>2018-02-01T17:53:25-05:00</fechaAutorizacion>
+  <ambiente>PRODUCCIÓN</ambiente>
+  <comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <factura id="comprobante" version="1.1.0">
-    <infoTributaria>
-        <ambiente>2</ambiente>
-        <tipoEmision>1</tipoEmision>
-        <razonSocial>EMPRESA X</razonSocial>
-        <nombreComercial>EMPRESA X</nombreComercial>
-        <ruc>ruc-456</ruc>
-        <claveAcceso>clave-acceso-factura-1</claveAcceso>
-        <codDoc>01</codDoc>
-        <estab>002</estab>
-        <ptoEmi>003</ptoEmi>
-        <secuencial>999999999</secuencial>
-        <dirMatriz>Av. Quito 1234</dirMatriz>
-    </infoTributaria>
-    <infoFactura>
-        <fechaEmision>01/02/2018</fechaEmision>
-        <dirEstablecimiento>Av. Quito 1234</dirEstablecimiento>
-        <contribuyenteEspecial>111</contribuyenteEspecial>
-        <obligadoContabilidad>SI</obligadoContabilidad>
-        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
-        <razonSocialComprador>EMPRESA ABC</razonSocialComprador>
-        <identificacionComprador>3948756</identificacionComprador>
-        <direccionComprador>DIR COMPRADOR 1234</direccionComprador>
-        <totalSinImpuestos>19.34</totalSinImpuestos>
-        <totalDescuento>10.40</totalDescuento>
-        <totalConImpuestos>
-            <totalImpuesto>
-                <codigo>3</codigo>
-                <codigoPorcentaje>3092</codigoPorcentaje>
-                <baseImponible>29.74</baseImponible>
-                <tarifa>15</tarifa>
-                <valor>4.46</valor>
-            </totalImpuesto>
-            <totalImpuesto>
-                <codigo>2</codigo>
-                <codigoPorcentaje>2</codigoPorcentaje>
-                <baseImponible>23.80</baseImponible>
-                <tarifa>12.00</tarifa>
-                <valor>2.86</valor>
-            </totalImpuesto>
-        </totalConImpuestos>
-        <propina>0</propina>
-        <importeTotal>26.66</importeTotal>
-        <moneda>DOLARES</moneda>
-        <pagos>
-            <pago>
-                <formaPago>20</formaPago>
-                <total>26.66</total>
-                <plazo>30</plazo>
-                <unidadTiempo>dias</unidadTiempo>
-            </pago>
-        </pagos>
-    </infoFactura>
-    <detalles>
-        <detalle>
-            <codigoPrincipal>27</codigoPrincipal>
-            <codigoAuxiliar>27</codigoAuxiliar>
-            <descripcion>PRODUCTO XX</descripcion>
-            <cantidad>1</cantidad>
-            <precioUnitario>19.34</precioUnitario>
-            <descuento>0.00</descuento>
-            <precioTotalSinImpuesto>19.34</precioTotalSinImpuesto>
-            <impuestos>
-                <impuesto>
-                    <codigo>3</codigo>
-                    <codigoPorcentaje>3092</codigoPorcentaje>
-                    <tarifa>15</tarifa>
-                    <baseImponible>19.34</baseImponible>
-                    <valor>2.90</valor>
-                </impuesto>
-                <impuesto>
-                    <codigo>2</codigo>
-                    <codigoPorcentaje>2</codigoPorcentaje>
-                    <tarifa>12.00</tarifa>
-                    <baseImponible>22.24</baseImponible>
-                    <valor>2.67</valor>
-                </impuesto>
-            </impuestos>
-        </detalle>
-        <detalle>
-            <codigoPrincipal>1010</codigoPrincipal>
-            <codigoAuxiliar>1010</codigoAuxiliar>
-            <descripcion>RENTA DE EQUIPOS</descripcion>
-            <cantidad>1</cantidad>
-            <precioUnitario>10.40</precioUnitario>
-            <descuento>10.40</descuento>
-            <precioTotalSinImpuesto>0.00</precioTotalSinImpuesto>
-            <impuestos>
-                <impuesto>
-                    <codigo>3</codigo>
-                    <codigoPorcentaje>3092</codigoPorcentaje>
-                    <tarifa>15</tarifa>
-                    <baseImponible>10.40</baseImponible>
-                    <valor>1.56</valor>
-                </impuesto>
-                <impuesto>
-                    <codigo>2</codigo>
-                    <codigoPorcentaje>2</codigoPorcentaje>
-                    <tarifa>12.00</tarifa>
-                    <baseImponible>1.56</baseImponible>
-                    <valor>0.19</valor>
-                </impuesto>
-            </impuestos>
-        </detalle>
-    </detalles>
-    <infoAdicional>
-        <campoAdicional nombre="FechaPublicacion">01/02/2018</campoAdicional>
-    </infoAdicional>
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>EMPRESA X</razonSocial>
+    <nombreComercial>EMPRESA X</nombreComercial>
+    <ruc>ruc-456</ruc>
+    <claveAcceso>clave-acceso-factura-1</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>003</ptoEmi>
+    <secuencial>999999999</secuencial>
+    <dirMatriz>Av. Quito 1234</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>01/02/2018</fechaEmision>
+    <dirEstablecimiento>Av. Quito 1234</dirEstablecimiento>
+    <contribuyenteEspecial>111</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>EMPRESA ABC</razonSocialComprador>
+    <identificacionComprador>3948756</identificacionComprador>
+    <direccionComprador>DIR COMPRADOR 1234</direccionComprador>
+    <totalSinImpuestos>19.34</totalSinImpuestos>
+    <totalDescuento>10.40</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>3</codigo>
+        <codigoPorcentaje>3092</codigoPorcentaje>
+        <baseImponible>29.74</baseImponible>
+        <tarifa>15</tarifa>
+        <valor>4.46</valor>
+      </totalImpuesto>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <baseImponible>23.80</baseImponible>
+        <tarifa>12.00</tarifa>
+        <valor>2.86</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>26.66</importeTotal>
+    <moneda>DOLARES</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>26.66</total>
+        <plazo>30</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>27</codigoPrincipal>
+      <codigoAuxiliar>27</codigoAuxiliar>
+      <descripcion>PRODUCTO XX</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>19.34</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>19.34</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>3</codigo>
+          <codigoPorcentaje>3092</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>19.34</baseImponible>
+          <valor>2.90</valor>
+        </impuesto>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12.00</tarifa>
+          <baseImponible>22.24</baseImponible>
+          <valor>2.67</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>1010</codigoPrincipal>
+      <codigoAuxiliar>1010</codigoAuxiliar>
+      <descripcion>RENTA DE EQUIPOS</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>10.40</precioUnitario>
+      <descuento>10.40</descuento>
+      <precioTotalSinImpuesto>0.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>3</codigo>
+          <codigoPorcentaje>3092</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>10.40</baseImponible>
+          <valor>1.56</valor>
+        </impuesto>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12.00</tarifa>
+          <baseImponible>1.56</baseImponible>
+          <valor>0.19</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="FechaPublicacion">01/02/2018</campoAdicional>
+  </infoAdicional>
 </factura>
 ]]></comprobante>
-    <mensajes />
+  <mensajes/>
 </autorizacion>
-

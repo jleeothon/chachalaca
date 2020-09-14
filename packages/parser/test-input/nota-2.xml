@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+  <estado>AUTORIZADO</estado>
+  <numeroAutorizacion>NUMERO AUTORIZACION NOTA 2</numeroAutorizacion>
+  <fechaAutorizacion>2020-08-24T15:41:31-05:00</fechaAutorizacion>
+  <ambiente>PRODUCCIÓN</ambiente>
+  <comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notaCredito id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>NOTA 2 RAZON SOCIAL</razonSocial>
+    <nombreComercial>NOTA 2 RAZON SOCIAL CIA LTDA</nombreComercial>
+    <ruc>1792012929001</ruc>
+    <claveAcceso>NUMERO AUTORIZACION NOTA 2</claveAcceso>
+    <codDoc>04</codDoc>
+    <estab>001</estab>
+    <ptoEmi>003</ptoEmi>
+    <secuencial>000001567</secuencial>
+    <dirMatriz>DIR MATRIZ NOTA 2</dirMatriz>
+  </infoTributaria>
+  <infoNotaCredito>
+    <fechaEmision>24/08/2020</fechaEmision>
+    <dirEstablecimiento>DIR ESTABLECIMIENTO NOTA 2</dirEstablecimiento>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>RAZON SOCIAL COMPRADOR MEXLR35</razonSocialComprador>
+    <identificacionComprador>IDENTIFICACION QBYOFK4</identificacionComprador>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <codDocModificado>01</codDocModificado>
+    <numDocModificado>001-003-000009128</numDocModificado>
+    <fechaEmisionDocSustento>18/08/2020</fechaEmisionDocSustento>
+    <totalSinImpuestos>6.87</totalSinImpuestos>
+    <valorModificacion>7.69</valorModificacion>
+    <moneda>DOLAR</moneda>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <baseImponible>6.87</baseImponible>
+        <valor>0.82</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+  </infoNotaCredito>
+  <detalles>
+	</detalles>
+  <infoAdicional>
+	</infoAdicional>
+</notaCredito>
+]]></comprobante>
+  <mensajes/>
+</autorizacion>
