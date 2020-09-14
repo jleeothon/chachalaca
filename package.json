@@ -3,7 +3,7 @@
 	"private": true,
 	"scripts": {
 		"lint": "xo",
-		"pre-commit": "npm run sort-package-json && npm run lint",
+		"pre-commit": "npm run sort-package-json && npm run lint && ./lintxml.fish",
 		"sort-package-json": "sort-package-json package.json packages/*/package.json"
 	},
 	"husky": {
