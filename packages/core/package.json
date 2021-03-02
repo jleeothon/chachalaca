@@ -16,10 +16,10 @@
 	"dependencies": {
 		"@jleeothon/chachalaca-parser": "^0.5.5",
 		"@types/bunyan": "^1.8.6",
-		"@types/node": "^14.6.4",
+		"@types/node": "^14.14.31",
 		"blob": "0.1.0",
-		"bunyan": "^1.8.14",
-		"date-fns": "^2.16.1",
+		"bunyan": "^1.8.15",
+		"date-fns": "^2.18.0",
 		"dot-prop": "^5.3.0",
 		"glob": "^7.1.6",
 		"immutable": "^3.8.2",
