@@ -6,25 +6,25 @@
 	},
 	"dependencies": {
 		"@jleeothon/chachalaca-core": "^0.5.6",
-		"aws-sdk": "^2.856.0",
+		"aws-sdk": "^2.884.0",
 		"body-parser": "^1.19.0",
-		"bunyan": "^1.8.14",
+		"bunyan": "^1.8.15",
 		"cookie-parser": "^1.4.5",
-		"date-fns": "^2.18.0",
-		"debug": "^4.1.1",
+		"date-fns": "^2.20.1",
+		"debug": "^4.3.1",
 		"express": "^4.17.1",
-		"hjs": "0.0.6",
+		"hjs": "^0.0.6",
 		"morgan": "^1.10.0",
 		"multer": "^1.4.2",
 		"p-map": "^4.0.0",
 		"serve-favicon": "^2.5.0",
-		"tmp": "0.2.1"
+		"tmp": "^0.2.1"
 	},
 	"devDependencies": {
-		"nodemon": "^2.0.4"
+		"nodemon": "^2.0.7"
 	},
 	"engines": {
-		"node": "~14.4.0"
+		"node": "^14.4.0"
 	},
 	"gitHead": "a273acc7d21a07d907e62df999ed12178ea356a6"
 }

@@ -23,16 +23,19 @@
 		"test": "ava"
 	},
 	"dependencies": {
-		"bunyan": "^1.8.14",
-		"date-fns": "^2.16.1",
-		"dot-prop": "^5.3.0",
-		"xml2js": "^0.4.23"
+		"bunyan": "^1.8.15",
+		"date-fns": "^2.20.1",
+		"dot-prop": "^6.0.1",
+		"entities": "^2.2.0",
+		"xml2js": "^0.4.23",
+		"xmldom": "^0.5.0",
+		"xpath.js": "^1.1.0"
 	},
 	"devDependencies": {
 		"ava": "^3.15.0"
 	},
 	"engines": {
-		"node": "~14.4.0"
+		"node": "^14.4.0"
 	},
 	"gitHead": "a273acc7d21a07d907e62df999ed12178ea356a6"
 }
