@@ -22,10 +22,6 @@ async function action(source, destination = null) {
 program
 	.arguments('<source> [destination]')
 	.action(async (source, destination) => {
-		try {
-			await action(source, destination);
-		} catch (error) {
-			log.error(error);
-		}
+		return action(source, destination).catch(error => console.error(error));
 	});
 program.parseAsync(process.argv);
