@@ -1,0 +1,7 @@
+**/*
+!/components/*
+!/pages/*
+!/public/*
+!/styles/*
+!/package.json
+!/package-lock.json
