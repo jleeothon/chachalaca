@@ -2,12 +2,12 @@ import formidable from 'formidable';
 const tmp = require('tmp');
 const { readFileSync } = require('fs');
 const AWS = require('aws-sdk');
-const bunyan = require('bunyan');
+// const bunyan = require('bunyan');
 const pMap = require('p-map');
 const formatISO = require('date-fns/formatISO');
 const chachalacaCore = require('@jleeothon/chachalaca-core');
 
-const log = bunyan.createLogger({ name: 'chachalaca' });
+// const log = bunyan.createLogger({ name: 'chachalaca' });
 
 const s3Endpoint = process.env.S3_ENDPOINT;
 const accessKeyId = process.env.S3_ACCESS_KEY_ID;
