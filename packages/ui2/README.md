@@ -2,7 +2,7 @@
 
 ## Developing
 
-To get started, copy .envrc.example into .envrc.
+To get started, copy `.env.example` to `.env`.
 
 To test locally:
 
