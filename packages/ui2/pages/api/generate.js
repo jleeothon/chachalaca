@@ -72,7 +72,7 @@ async function uploadFiles(filePaths) {
 
     const fileInfos = filePaths.map((filePath, index) => {
         const paddedIndex = (index + 1).toString().padStart(length, '0');
-        const key = `${date}/${dateTime} - ${paddedIndex}.xml`;
+        const key = `${date}/${dateTime}-${paddedIndex}.xml`;
         return { key, path: filePath };
     });
 
