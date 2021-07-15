@@ -1,5 +1,6 @@
 {
 	"name": "chachalaca-ui",
+	"private": true,
 	"scripts": {
 		"start": "([ \"$NODE_ENV\" = production ] && node ./bin/www || nodemon ./bin/www) | bunyan"
 	},
