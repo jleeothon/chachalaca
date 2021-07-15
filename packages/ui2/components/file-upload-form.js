@@ -38,12 +38,11 @@ function fileInputOnChange(event) {
 
 function requestOnLoad(event) {
     if (event.target.status === 200) {
-        console.log(event.target);
         const a = document.createElement('a');
         a.style = 'display: none';
         document.body.append(a);
         const dateTime = format(new Date(), 'yyyy-MM-dd-aa-hh-mm-ss');
-        
+
         const url = window.URL.createObjectURL(this.response);
         a.href = url;
         a.download = `comprobantes-${dateTime}.xlsx`;

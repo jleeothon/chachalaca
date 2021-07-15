@@ -44,7 +44,6 @@ router.post(
 	logError,
 	async (request, response) => {
 		const xmlFiles = request.files.filter((f) => f.mimetype === 'text/xml');
-		console.log(xmlFiles);
 		const filePaths = xmlFiles.map((f) => f.path);
 
 		await uploadFiles(filePaths);
