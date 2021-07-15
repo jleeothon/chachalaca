@@ -199,6 +199,7 @@ module.exports.processAutorizacion = function (rawAutorizacion) {
 	const comprobanteEntries = comprobanteToProcessor.map(([c, process]) =>
 		comprobante[c] ? [c, process(comprobante[c])] : [c, undefined]
 	);
+
 	return {
 		numeroAutorizacion: rawAutorizacion.numeroAutorizacion[0],
 		fechaAutorizacion: new Date(rawAutorizacion.fechaAutorizacion[0]),

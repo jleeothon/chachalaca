@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>1106202101099096270700120010020000010071234567815</numeroAutorizacion>
+<fechaAutorizacion>2021-06-11T18:05:34-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>IMPORTADORA COMERCIAL OSELDA C.LTDA.</razonSocial><ruc>0990962707001</ruc><claveAcceso>1106202101099096270700120010020000010071234567815</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>002</ptoEmi><secuencial>000001007</secuencial><dirMatriz>GUAYAQUIL - VENEZUELA 704 Y NOGUCHI</dirMatriz><regimenMicroempresas>CONTRIBUYENTE RÉGIMEN MICROEMPRESAS</regimenMicroempresas><agenteRetencion>1</agenteRetencion></infoTributaria><infoFactura><fechaEmision>11/06/2021</fechaEmision><dirEstablecimiento>GUAYAQUIL - VENEZUELA 704 Y NOGUCHI</dirEstablecimiento><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>OTHON JAO KIN SHAN</razonSocialComprador><identificacionComprador>1708866346001</identificacionComprador><totalSinImpuestos>1861.48</totalSinImpuestos><totalDescuento>97.97</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><descuentoAdicional>0.00</descuentoAdicional><baseImponible>1861.48</baseImponible><valor>223.38</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>2084.86</importeTotal><pagos><pago><formaPago>01</formaPago><total>2084.86</total><plazo>0</plazo><unidadTiempo>DIAS</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>LB26M107R</codigoPrincipal><descripcion>PCS. LLANTAS 26X2.125 M107 (F107) LINEA ROJA</descripcion><cantidad>100.000000</cantidad><precioUnitario>5.200000</precioUnitario><descuento>26.00</descuento><precioTotalSinImpuesto>494.00</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Detalle Adicional 1" valor="UNIDAD"/><detAdicional nombre="Detalle Adicional 3" valor="A101FA12000001007001"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>494.00</baseImponible><valor>59.28</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>LB20M107R</codigoPrincipal><descripcion>PCS. LLANTAS 20x2,125 M107 (F107) LINEA ROJA</descripcion><cantidad>100.000000</cantidad><precioUnitario>4.280000</precioUnitario><descuento>21.40</descuento><precioTotalSinImpuesto>406.60</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Detalle Adicional 1" valor="UNIDAD"/><detAdicional nombre="Detalle Adicional 3" valor="A101FA12000001007002"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>406.60</baseImponible><valor>48.79</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>LB27.5M428N</codigoPrincipal><descripcion>PCS. LLANTAS 27.5 X 2.10 F428 (M428) NEGRA</descripcion><cantidad>50.000000</cantidad><precioUnitario>5.790000</precioUnitario><descuento>14.48</descuento><precioTotalSinImpuesto>275.02</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Detalle Adicional 1" valor="UNIDAD"/><detAdicional nombre="Detalle Adicional 3" valor="A101FA12000001007003"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>275.03</baseImponible><valor>33.00</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>TB27.5VAF</codigoPrincipal><descripcion>PCS. TUBOS 27.5x2.10 A/V FORTUNE</descripcion><cantidad>50.000000</cantidad><precioUnitario>2.300000</precioUnitario><descuento>5.75</descuento><precioTotalSinImpuesto>109.25</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Detalle Adicional 1" valor="UNIDAD"/><detAdicional nombre="Detalle Adicional 3" valor="A101FA12000001007004"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>109.25</baseImponible><valor>13.11</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>TB29VAF</codigoPrincipal><descripcion>PCS. TUBOS 29x2.10 A/V FORTUNE</descripcion><cantidad>15.000000</cantidad><precioUnitario>2.530000</precioUnitario><descuento>1.90</descuento><precioTotalSinImpuesto>36.05</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Detalle Adicional 1" valor="UNIDAD"/><detAdicional nombre="Detalle Adicional 3" valor="A101FA12000001007005"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>36.05</baseImponible><valor>4.33</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>LB24M107R</codigoPrincipal><descripcion>PCS. LLANTAS 24X2.125 M107 (F107) LINEA ROJA</descripcion><cantidad>50.000000</cantidad><precioUnitario>4.990000</precioUnitario><descuento>12.48</descuento><precioTotalSinImpuesto>237.02</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Detalle Adicional 1" valor="UNIDAD"/><detAdicional nombre="Detalle Adicional 3" valor="A101FA12000001007006"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>237.03</baseImponible><valor>28.44</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>LB16M413F</codigoPrincipal><descripcion>PCS. LLANTAS 16X2.10 PANTANERA M413 (F200) NEGRA</descripcion><cantidad>50.000000</cantidad><precioUnitario>3.290000</precioUnitario><descuento>8.23</descuento><precioTotalSinImpuesto>156.28</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Detalle Adicional 1" valor="UNIDAD"/><detAdicional nombre="Detalle Adicional 3" valor="A101FA12000001007007"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>156.28</baseImponible><valor>18.75</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>LB12M103R</codigoPrincipal><descripcion>LLANTAS 12.1/2X2.1/4 M103 (F119) LINEA ROJA</descripcion><cantidad>50.000000</cantidad><precioUnitario>3.100000</precioUnitario><descuento>7.75</descuento><precioTotalSinImpuesto>147.25</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Detalle Adicional 1" valor="UNIDAD"/><detAdicional nombre="Detalle Adicional 3" valor="A101FA12000001007008"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>147.25</baseImponible><valor>17.67</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="emailCliente">mlamilla@oselda.ec</campoAdicional><campoAdicional nombre="Agente de Retención:">No. Resolución: 1</campoAdicional><campoAdicional nombre="Regimen:">Contribuyente Regimen Microempresas</campoAdicional><campoAdicional nombre="Dirección:">AV. QUITO 4018 E/ EL ORO Y MARACAIBO</campoAdicional><campoAdicional nombre="Forma de Pago:">Contado</campoAdicional><campoAdicional nombre="O/C:">10</campoAdicional><campoAdicional nombre="Vendedor:">MARIELA LAMILLA</campoAdicional><campoAdicional nombre="Ciudad:">GUAYAQUIL</campoAdicional><campoAdicional nombre="Teléfono(s):">2-443171</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature544467">
+<ds:SignedInfo Id="Signature-SignedInfo524187">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID176208" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature544467-SignedProperties340973">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>y/6iY9G1VNST/chphhy4yAhD1mI=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1667545">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>o4DHjNNh4l4CfAwenXGZ6hG11Z0=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-73704" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>rVarPeChc55pE5HhQaSh/WXoZOc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue221551">
+Kh0vCmPfuvjBIkRu4mlG39A+4xiL6nj7U5SonaS+jjMxoYlwvvimGJtAPMVQQ9UQfHlEfXi+Ny5l
+4bbI2D6GjnBfgQvnZfLFC/xyGl8UfIAku8xbigaibw6bjsYCTyChYT443s8egn3rBTvL9rQEdNnX
+WPcMlvh2zQlhGMjhzjAaz/hjY9qYuo4d5A5QJfzka0e0QdcbX3WYk86qFtUPyOow6gh8HzADEXUw
+IPuSrIhrmc9e4ZhGN5j4pMgKGpIuKlk6LoyBTwCF7byfqXjJPi6OV/APJ/6NuOdGcv+GJykZuscs
+Bx7aRVcowPMN8fZvf8YbxBRR/3+hcmCsAMmYSA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1667545">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIL/jCCCeagAwIBAgIEASj2ijANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMTA2MDEyMTIxNDFaFw0yNjA2MDEyMTIxNDFaMIGYMSEw
+HwYDVQQDDBhPU0NBUiBJVkFOIFNVQVJFWiBDRURFTk8xFTATBgNVBAUTDDAxMDYyMTE2MzE0NTEw
+MC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYDVQQK
+DBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQC3PcdmEYRpzKh8ne7zEY7GoPyc04u/oRjOhOAdnyuGSexzkakwi7Wn8kvqFG6b
+n0AGGt+tGNnoGnU3Xpc7AlW+6+QdbcfL09PqbahswnhVrm0Eq+rVHIgxa/3oMPWdShVnYhZxQyND
+9ioivOxxulP5/TO4eHzrv7nr2roza24CnDHKUkezrA/viDm2tzUeRMlvAAu8RRLuucGZXcxpxn9U
+WayV99Pc/gF2gfrXLKVZ4opeho5gDg+VfcUemKBsBBwpN4tOAhbpKbIjqBCaKd+mys4DTSkdc6Vb
+MzE6P9v1l1ruHnSBBLvWonl+W6Cj4uXbtq0BotpUYFeZ8oyPaUilAgMBAAGjggdLMIIHRzAMBgNV
+HRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i3b2PMFkGCCsGAQUFBwEBBE0w
+SzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1
+YmxpY3dlYi9zdGF0dXMvb2NzcDCBzwYDVR0uBIHHMIHEMIHBoIG+oIG7hoG4bGRhcDovL2xkYXBz
+ZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JN
+QUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2RlbHRhUmV2b2NhdGlvbkxpc3Q/YmFz
+ZTAcBgNVHREEFTATgRFkc3VhcmV6QG9zZWxkYS5lYzCCARUGA1UdIASCAQwwggEIMGIGCisGAQQB
+gqZyAgkwVDBSBggrBgEFBQcCAjBGHkQAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAZABlACAAUgBl
+AHAAcgBlAHMAZQBuAHQAYQBuAHQAZQAgAEwAZQBnAGEAbDCBoQYKKwYBBAGCpnICAzCBkjCBjwYI
+KwYBBQUHAgEWgYJodHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93
+bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmlj
+YWRvIFJlcHJlc2VudGFudGUgTGVnYWwucGRmMIICogYDVR0fBIICmTCCApUwgeWgQaA/hj1odHRw
+Oi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3Nw
+ooGfpIGcMIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNF
+Q1VSSVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1B
+Q0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIHHoIHEoIHB
+hoG+bGRhcDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBD
+RVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklD
+QUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2NlcnRpZmlj
+YXRlUmV2b2NhdGlvbkxpc3Q/YmFzZTCB4KCB3aCB2oaB12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9y
+Mi5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi93ZWJkaXN0L2NlcnRkaXN0P2Nt
+ZD1jcmwmaXNzdWVyPUNOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJ
+VFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNV
+UklUWSBEQVRBIFMuQS4gMixDPUVDMB0GA1UdDgQWBBTJkuXkbfBaSE7sFcQmzNLZ7JpKBzArBgNV
+HRAEJDAigA8yMDIxMDYwMTIxMjE0MVqBDzIwMjYwNjAxMjEyMTQxWjALBgNVHQ8EBAMCBeAwHwYK
+KwYBBAGCpnIDBQQRDA9HRVJFTlRFIEdFTkVSQUwwGgYKKwYBBAGCpnIDAQQMDAowOTAxMzk0MzYx
+MBkGCisGAQQBgqZyAwkECwwJR1VBWUFRVUlMMBEGCisGAQQBgqZyAyIEAwwBLjAnBgorBgEEAYKm
+cgMHBBkMF1ZFTkVaVUVMQSA3MDQgWSBOT0dVQ0hJMBoGCisGAQQBgqZyAwIEDAwKT1NDQVIgSVZB
+TjAfBgorBgEEAYKmcgMgBBEMDzAwMTAwMjAwMDEyMjA4MzATBgorBgEEAYKmcgMhBAUMA1BGWDAX
+BgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFgYKKwYBBAGCpnIDAwQIDAZTVUFSRVowNAYKKwYBBAGC
+pnIDCgQmDCRJTVBPUlRBRE9SQSBDT01FUkNJQUwgT1NFTERBIEMuTFREQS4wHQYKKwYBBAGCpnID
+CwQPDA0wOTkwOTYyNzA3MDAxMBIGCisGAQQBgqZyAx0EBAwCTm8wFgYKKwYBBAGCpnIDBAQIDAZD
+RURFTk8wGwYKKwYBBAGCpnIDCAQNDAs1OTM0MjQ0NDMzNjANBgkqhkiG9w0BAQsFAAOCAgEAp/6i
+1D2FpehpNgq+ECNhZWm4OVrXxmx/xSr6ywrI54ZKX3M3JK6S25EFYO4vtrFtFuNZtrCeza8LKdgG
+g7oxcU4PvVmUedadORQpmYDF04clZz27ejGwtUaO/XlsdtU4rWkYM9DSx0shlAFaUUs76oQtYshX
+ut0D8XacZ7ZEQMFozUauMVj2b5jKcmNzuxXLKhRwtDxb5aAwyElxgzevVKJUWtfAMlw31U58KzyY
+YgXLjymOoGCwcEH2BiNMrOn73TirDUFA11xiDdy5lJnt6xdOgwCK78B5oBgTTCyHRvq8e1vcFzV0
+cq4QdX4ZaH5pQzsNGLaHXO5eukyMfYQwmUsxxnTg2iObad1Nuxxs7lN8jNj+HLA/RfteseJbrqfc
+uBiAl9Eiya/Qp1U1ijTdM2axHVvYLKDEe1PjfXhRz1XwEr0XRFbOLxKLOtrtOC8xiB1VhMhLBAKB
+rKGi2Rtc8Bhyr0tOSaB9xav2xEAH9ngGSEqWbxRcYREYjHNFTNoTo0lySNFI8zCBRgL3StUnSSGa
+6jReN3eSlNuRge16GUAkmUsENUl3jWy9h6cHgvXkQhdKG1R/hsYNy9WmsPQBN1+X0+xosqRWh5WH
+9g37hPBXPxk14bbfsp9CTshek+LhY45dM1CPa1jH0aC1cgpAuS0AU7PDLJ53v1nPTXHVpM4=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tz3HZhGEacyofJ3u8xGOxqD8nNOLv6EYzoTgHZ8rhknsc5GpMIu1p/JL6hRum59ABhrfrRjZ6Bp1
+N16XOwJVvuvkHW3Hy9PT6m2obMJ4Va5tBKvq1RyIMWv96DD1nUoVZ2IWcUMjQ/YqIrzscbpT+f0z
+uHh867+569q6M2tuApwxylJHs6wP74g5trc1HkTJbwALvEUS7rnBmV3MacZ/VFmslffT3P4BdoH6
+1yylWeKKXoaOYA4PlX3FHpigbAQcKTeLTgIW6SmyI6gQminfpsrOA00pHXOlWzMxOj/b9Zda7h50
+gQS71qJ5flugo+Ll27atAaLaVGBXmfKMj2lIpQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature544467-Object331032"><etsi:QualifyingProperties Target="#Signature544467"><etsi:SignedProperties Id="Signature544467-SignedProperties340973"><etsi:SignedSignatureProperties><etsi:SigningTime>2021-06-11T18:05:33-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>F3X9aKMJOvYUxjOaEWWyGUXrgwI=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>19461770</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-73704"><etsi:Description>comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
+

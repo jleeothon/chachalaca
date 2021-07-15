@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>1106202101099085832200124320240000713850990858318</numeroAutorizacion>
+<fechaAutorizacion>2021-06-11T17:49:28-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?><factura version="1.1.0" id="comprobante"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>DISTRIBUIDORA FARMACEUTICA ECUATORIANA DIFARE S.A</razonSocial><nombreComercial>DIFARE S.A.</nombreComercial><ruc>0990858322001</ruc><claveAcceso>1106202101099085832200124320240000713850990858318</claveAcceso><codDoc>01</codDoc><estab>432</estab><ptoEmi>024</ptoEmi><secuencial>000071385</secuencial><dirMatriz>Urb. Ciudad Colón, Mz. 275 Solar 5 Etapa Tres Edif. Corporativo Uno Piso 4 Ofic 423</dirMatriz></infoTributaria><infoFactura><fechaEmision>11/06/2021</fechaEmision><dirEstablecimiento>PLAZA PORTAL AL SOL KM 11.5 VIA GUAYAQUIL - SALINAS LOCAL 15</dirEstablecimiento><contribuyenteEspecial>6925</contribuyenteEspecial><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>05</tipoIdentificacionComprador><razonSocialComprador>KIN SAM OTHON JAO</razonSocialComprador><identificacionComprador>1708866346</identificacionComprador><totalSinImpuestos>16.19</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><baseImponible>13.69</baseImponible><valor>0.00</valor></totalImpuesto><totalImpuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><baseImponible>2.50</baseImponible><valor>0.30</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>16.49</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>01</formaPago><total>16.49</total><plazo>0</plazo><unidadTiempo>DIAS</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>79796</codigoPrincipal><descripcion>RECARGO ENTREGA DOMICILIO</descripcion><cantidad>1.0000</cantidad><precioUnitario>2.5</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>2.50</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="detAdicional1" valor="1u|0f|S||"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>2.50</baseImponible><valor>0.30</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>2567</codigoPrincipal><descripcion>ALERCET GOTx10MG/1MLx15ML</descripcion><cantidad>1.0000</cantidad><precioUnitario>5.59</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>5.59</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="detAdicional1" valor="1u|0f|N|LS1|"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><tarifa>0.00</tarifa><baseImponible>5.59</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>78156</codigoPrincipal><descripcion>FUNDA PH PEQx100 EXONERADO</descripcion><cantidad>0.0100</cantidad><precioUnitario>0.1964</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>0.00</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="detAdicional1" valor="0u|1f|N|SDESA|"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><tarifa>0.00</tarifa><baseImponible>0.00</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle><detalle><codigoPrincipal>2565</codigoPrincipal><descripcion>ALERCET D CAPx5/120MGx10</descripcion><cantidad>1.0000</cantidad><precioUnitario>8.1</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>8.10</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="detAdicional1" valor="1u|0f|N|LS1|"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><tarifa>0.00</tarifa><baseImponible>8.10</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="factura">486360123|11/06/2021 17:10:42|raguilars|PG042A||PG042|6925 Julio-04/1995|1708866346|16.49|0.30|13.69|0|0</campoAdicional><campoAdicional nombre="Telefono">0998699811</campoAdicional><campoAdicional nombre="Direccion">PORTO FINO MZ 214 V7</campoAdicional><campoAdicional nombre="TipoVenta">I</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1459435814">
+	<ds:SignedInfo>
+		<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+		<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+		<ds:Reference URI="#comprobante">
+			<ds:Transforms>
+				<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+			</ds:Transforms>
+			<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<ds:DigestValue>ThGShVgT9NWHGRXLYa1aOyo3Acw=</ds:DigestValue>
+		</ds:Reference>
+		<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1712523804">
+			<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<ds:DigestValue>AQsWAsH2L6AInhid47WqYujg1LM=</ds:DigestValue>
+		</ds:Reference>
+	</ds:SignedInfo>
+	<ds:SignatureValue>
+KLDm4//rXx4klCkyd+zG9mki1RwYaL/ER/dGQAajEjpntc4kunXgtjPamqcCDeJ8
+rM7iBhv858V3xjW60WL7MaRpoutzhZx4w2KXAXy4+9fC2Vq7sLfpzzSGYDHgR42B
+2uvh3XAHv8GhGWxZ75hA2LYILlJ557YUXFN5g3i8YRRCtOpaiu4u6cwBmDMBo0uX
+nHYDlD3EhYcWWijAv7dBR4sniOp38oNODZa8c3bUkEZCbVNLRgLrA1hEhadDcsDc
+h9De2qMDa2bvjdY1Qk0qIRBCZIWGhcQf1z0xHyxh54YCOKZSbw3C5pjXsLkv6Fku
+z+GbQvoldjnSHJFC8fQWSw==
+	</ds:SignatureValue>
+	<ds:KeyInfo>
+		<ds:KeyValue>
+			<ds:RSAKeyValue>
+				<ds:Modulus>
+oacI11dvWNiwrOpIYW5SL475g+sjDSHg7TNldUuw5kZExGJGQuxdnAHG+SbLoTkl
+l2rL8jLCXVaE98EgjBgDITS3lxF0fFJRJZC+QdUYyToNfpGttoWmFaIlBus4DsJo
+H4klBof0i6gu8GmGWgoS/mnAOJzKV1wNgKVPNJHaEAnfftggS2Jxh518fTHD7nkG
+DZMErORxBKQdZfwUTIrbK1ZU6R7SSDbkbCnpQLa/AFzfYZaDZRSgEAL0zoKCsmuC
+EmaXy/ZrMqThR1nfblw45iLNIxQjemXHW/BRzypQp2Wq9TuCU53TJ5gTFK4xOBls
+iKAvq4E59l9MdymKVOhOfw==
+				</ds:Modulus>
+				<ds:Exponent>AQAB</ds:Exponent>
+			</ds:RSAKeyValue>
+		</ds:KeyValue>
+		<ds:X509Data>
+			<ds:X509IssuerSerial>
+				<ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName>
+				<ds:X509SerialNumber>1671813895</ds:X509SerialNumber>
+			</ds:X509IssuerSerial>
+			<ds:X509SubjectName>C=EC, O=SECURITY DATA S.A. 2, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, 2.5.4.5=200421104540, CN=LEONEL FRANCISCO IDROVO HURTADO</ds:X509SubjectName>
+			<ds:X509Certificate>
+MIIMGTCCCgGgAwIBAgIEY6XbBzANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMC
+RUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJ
+REFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFV
+VE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTAe
+Fw0yMTA0MjAxNTM1NDFaFw0yMzA0MjAxNTM1NDFaMIGfMSgwJgYDVQQDDB9MRU9O
+RUwgRlJBTkNJU0NPIElEUk9WTyBIVVJUQURPMRUwEwYDVQQFEwwyMDA0MjExMDQ1
+NDAxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1B
+Q0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVD
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoacI11dvWNiwrOpIYW5S
+L475g+sjDSHg7TNldUuw5kZExGJGQuxdnAHG+SbLoTkll2rL8jLCXVaE98EgjBgD
+ITS3lxF0fFJRJZC+QdUYyToNfpGttoWmFaIlBus4DsJoH4klBof0i6gu8GmGWgoS
+/mnAOJzKV1wNgKVPNJHaEAnfftggS2Jxh518fTHD7nkGDZMErORxBKQdZfwUTIrb
+K1ZU6R7SSDbkbCnpQLa/AFzfYZaDZRSgEAL0zoKCsmuCEmaXy/ZrMqThR1nfblw4
+5iLNIxQjemXHW/BRzypQp2Wq9TuCU53TJ5gTFK4xOBlsiKAvq4E59l9MdymKVOhO
+fwIDAQABo4IHXzCCB1swDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3gl
+gB1rCktVv42uYt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6
+Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3Rh
+dHVzL29jc3Awgc8GA1UdLgSBxzCBxDCBwaCBvqCBu4aBuGxkYXA6Ly9sZGFwc2Rj
+YTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1F
+Qz9kZWx0YVJldm9jYXRpb25MaXN0P2Jhc2UwKAYDVR0RBCEwH4EdbGVvbmVsLmlk
+cm92b0BncnVwb2RpZmFyZS5jb20wggESBgNVHSAEggEJMIIBBTBgBgorBgEEAYKm
+cgIKMFIwUAYIKwYBBQUHAgIwRB5CAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQA
+ZQAgAE0AaQBlAG0AYgByAG8AIABkAGUAIABFAG0AcAByAGUAcwBhMIGgBgorBgEE
+AYKmcgIEMIGRMIGOBggrBgEFBQcCARaBgWh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0
+YS5uZXQuZWMvd3AtY29udGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0Nl
+cnRpZmljYWRvcy9Qb2xpdGljYXMgZGUgQ2VydGlmaWNhZG8gTWllbWJybyBkZSBF
+bXByZXNhLnBkZjCCAqIGA1UdHwSCApkwggKVMIHloEGgP4Y9aHR0cDovL29jc3Bn
+dy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2Nz
+cKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04g
+U1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJ
+RklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEg
+Uy5BLiAyMQswCQYDVQQGEwJFQzCBx6CBxKCBwYaBvmxkYXA6Ly9sZGFwc2RjYTIu
+c2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FD
+SU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9j
+ZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczov
+L3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJs
+aWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklE
+QUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5U
+SURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkg
+REFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQU8kt8V4jzVXDtPztJmc5/Ph2KpY4w
+KwYDVR0QBCQwIoAPMjAyMTA0MjAxNTM1NDFagQ8yMDIzMDQyMDE1MzU0MVowCwYD
+VR0PBAQDAgXgMCUGCisGAQQBgqZyAwUEFwwVQU5BTElTVEEgREUgSU1QVUVTVE9T
+MBoGCisGAQQBgqZyAwEEDAwKMDkyNTkyNzY3NTAZBgorBgEEAYKmcgMJBAsMCUdV
+QVlBUVVJTDARBgorBgEEAYKmcgMiBAMMAS4wGAYKKwYBBAGCpnIDBwQKDAggU09M
+QVIgNTAgBgorBgEEAYKmcgMCBBIMEExFT05FTCBGUkFOQ0lTQ08wHwYKKwYBBAGC
+pnIDIAQRDA8wMDEwMDIwMDAxMTE1NDQwEwYKKwYBBAGCpnIDIQQFDANQRlgwFwYK
+KwYBBAGCpnIDDAQJDAdFQ1VBRE9SMBYGCisGAQQBgqZyAwMECAwGSURST1ZPMEAG
+CisGAQQBgqZyAwoEMgwwRElTVFJJQlVJRE9SQSBGQVJNQUNFVVRJQ0EgRUNVQVRP
+UklBTkEgRElGQVJFIFNBMB0GCisGAQQBgqZyAwsEDwwNMDk5MDg1ODMyMjAwMTAS
+BgorBgEEAYKmcgMdBAQMAk5vMBcGCisGAQQBgqZyAwQECQwHSFVSVEFETzAcBgor
+BgEEAYKmcgMIBA4MDDU5Mzk4NDMwMjg0NzANBgkqhkiG9w0BAQsFAAOCAgEAebXl
+/+67nT9uRRNrQ43d5tA37xmxdFmvbICFmkeZS/4tozHkK8ONOt+sqUFR+BgXIaLP
+xboGAg9nFhBybZ3TAEJAcVb3nB/bct73MJFckmDZ6GV+NFNADrwmFSVbpqek0CRo
+D96DCik9mu/e2xa1pS5al+mTQvmece0zLBflZ2rYOSWovoeGMCDjnTdz/WTlpa7H
+Dz+pCJ2EfgyzCE+hd2Pw72uFan2Iy3AtuuBRuavAOajtuwsNK7SF0m3dQcgFJXUo
+C8Na+Gj3CHBgGFbHdJk+x4Zo6UrJyOVZCUw37gMfp+UITWNDHzMYbyzo5QK7QgCx
+F+8ki+CMeNG2u0rEkq7c7FFi+fSGRq5r/2/gHs7JpM1w4mUTlm1KNWKO1KbTY6Z0
+QiNbH2AShtfgwrejl1RZrMBswpJwtKyVm8K9Lmziw9GZgLdsnZb/dV+x7o0Ac18j
+lv+AkJXbwIFBtoGfpDunA7LYNx9KOvpDu/1SmdFG9XXrSl78b1U53aC5BuPyw8iN
+NSyX6a+gQillHixg03qu9iy07dseRrYoF3PE2zlJvrHUz6qSKgJayXVBzj1HeoEt
+/09e3hVkOqqDw5ZEavESMDoPAhCUYyyUJCX+74PkFE18/G5ajQF0PaPQ9KLjp1lW
+LxnPlHLP3TqeijnP6GC0cuo/u/g2GG6uHVLIy1Q=
+			</ds:X509Certificate>
+		</ds:X509Data>
+	</ds:KeyInfo>
+	<ds:Object>
+		<etsi:QualifyingProperties xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1459435814">
+			<etsi:SignedProperties Id="SignedProperties-1712523804">
+				<etsi:SignedSignatureProperties>
+					<etsi:SigningTime>2021-06-11T17:51:29.039Z</etsi:SigningTime>
+					<etsi:SigningCertificate>
+						<etsi:Cert>
+							<etsi:CertDigest>
+								<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+								<ds:DigestValue>AqzqFOrrHUrfg0Vb4jejVPMjr5M=</ds:DigestValue>
+							</etsi:CertDigest>
+							<etsi:IssuerSerial>
+								<ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName>
+								<ds:X509SerialNumber>1671813895</ds:X509SerialNumber>
+							</etsi:IssuerSerial>
+						</etsi:Cert>
+					</etsi:SigningCertificate>
+				</etsi:SignedSignatureProperties>
+			</etsi:SignedProperties>
+		</etsi:QualifyingProperties>
+	</ds:Object>
+</ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
+

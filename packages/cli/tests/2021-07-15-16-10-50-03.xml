@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>1906202101099264744200120010020000159440000000011</numeroAutorizacion>
+<fechaAutorizacion>2021-06-19T12:10:09-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="utf-8"?><factura id="comprobante" version="1.1.0"><infoTributaria><ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>COMERCIAL TAIWAN S.A.</razonSocial>
+<nombreComercial>COMTAIWAN</nombreComercial>
+<ruc>0992647442001</ruc>
+<claveAcceso>1906202101099264744200120010020000159440000000011</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>002</ptoEmi>
+<secuencial>000015944</secuencial>
+<dirMatriz>COLON 507 Y CHIMBORAZO</dirMatriz>
+<agenteRetencion>1</agenteRetencion>
+</infoTributaria>
+<infoFactura><fechaEmision>19/06/2021</fechaEmision>
+<dirEstablecimiento>COLON 507 Y CHIMBORAZO</dirEstablecimiento>
+<obligadoContabilidad>SI</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>KIN SAM OTHON JAO</razonSocialComprador>
+<identificacionComprador>1708866346001</identificacionComprador>
+<direccionComprador>QUITO 4018 Y MARACAIBO</direccionComprador>
+<totalSinImpuestos>221.10</totalSinImpuestos>
+<totalDescuento>0</totalDescuento>
+<totalConImpuestos><totalImpuesto><codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<baseImponible>221.10</baseImponible>
+<tarifa>12</tarifa>
+<valor>26.53</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0</propina>
+<importeTotal>247.63</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos><pago><formaPago>01</formaPago>
+<total>247.63</total>
+<plazo>1</plazo>
+<unidadTiempo>DIAS</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles><detalle><codigoPrincipal>PARCHE </codigoPrincipal>
+<codigoAuxiliar>PARCHE </codigoAuxiliar>
+<descripcion>PARCHE TW 48 PCS</descripcion>
+<cantidad>100</cantidad>
+<precioUnitario>0.88</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>88.00</precioTotalSinImpuesto>
+<impuestos><impuesto><codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>88.00</baseImponible>
+<valor>10.56</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle><codigoPrincipal>PARCHE </codigoPrincipal>
+<codigoAuxiliar>PARCHE</codigoAuxiliar>
+<descripcion>PARCHE DE 24 PCS TW </descripcion>
+<cantidad>100</cantidad>
+<precioUnitario>0.88</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>88.00</precioTotalSinImpuesto>
+<impuestos><impuesto><codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>88.00</baseImponible>
+<valor>10.56</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle><codigoPrincipal>PARRILLA </codigoPrincipal>
+<codigoAuxiliar>PARRILLA </codigoAuxiliar>
+<descripcion>PARRILLA DE TUBO #24 C.P</descripcion>
+<cantidad>10.00</cantidad>
+<precioUnitario>3.21</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>32.10</precioTotalSinImpuesto>
+<impuestos><impuesto><codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>32.10</baseImponible>
+<valor>3.85</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle><codigoPrincipal>CONO</codigoPrincipal>
+<codigoAuxiliar>CONO</codigoAuxiliar>
+<descripcion>CONO DEL GRUESO FINO TW</descripcion>
+<cantidad>100</cantidad>
+<precioUnitario>0.13</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>13.00</precioTotalSinImpuesto>
+<impuestos><impuesto><codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>13.00</baseImponible>
+<valor>1.56</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional><campoAdicional nombre="email">othon_isa@hotmail.com</campoAdicional></infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-6673760c-3a22-4bb6-9ac9-73934a04a4c6"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-65ca1990-1b4d-461e-8ee8-b77b1e5b9f13" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>BFhZ4Z2L/6t5CJVeON4S10jXqQulzeNpedOtec3pNd4=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-6673760c-3a22-4bb6-9ac9-73934a04a4c6"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>eALwg0+MNV0O0DWzBp1yF4FBVWipV+oGV/mTnqToLH0=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-6673760c-3a22-4bb6-9ac9-73934a04a4c6"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>TdEjCvwgBubliX+WftlX7uUr9f9s5KvZ1sYBI6fMRB8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-6673760c-3a22-4bb6-9ac9-73934a04a4c6">FdBHLqoeYr847pdcgP5+euLi9hyXL584UaieDUbhy8KyGmjSax87FWApPz8FaBilyeW3EYHBh6QBkAR5Cif/tcnv8uk52gIp54wsiC5Smvimroy37A+sP8ufarC58YHFdNUENrWDT6sf06Tl5CKcRjDjzMNm88Et/4ov9HG0FiHTDmq/dNPjKg78HY6MUr8XPkOE2l84ABGJ/YKBfSK5glwjxMd2h14AR0Qqc3YCHK3dmoRepE6Yg200QxDgVSHwATbETmC6Z1NEqNXuGP2lbi/TloMMOeLYQPXqv+d8rilKAVCFUZBe7XSphnKlIuwGdjzY4vVb177F05EQVZfRsw==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-6673760c-3a22-4bb6-9ac9-73934a04a4c6"><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>wR3wQ9h/aJcRfVFz+3GtqXB5egTzuPpjg2wVbZ+wwnioPYy6+iGXK7LWXIQAeLZUTYynXyk5/VcBdLYObgymAkhWqXu1329WnhXKk9ZH5G1iyR1e8I2LtzEPSkj1MRLV+FwGQ3I1yEdUICXzeWu3bikkHstc32qUZvGEFzKd91RPmQspwzt8U/0SJOUXS0X2qpvWYIIAk0cOxWf9q0YrjFqhYRQhyKryTMBbcJmsrgZ+58drMkB1gF6ABlDiJx5NPBPVzUZOwnz/OuWcGT6HoMLRjT2a4vyaJaGfttMOWhh3Lcll/52B9yjVBSsk2UanVmnOlJDCkiPI9Ylf50OyJQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-4a77e4f4-1ab1-4887-9116-ac2a19c0d07c"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-ffbb4468-9e4f-4095-bba5-915f43fda693" Target="#Signature-6673760c-3a22-4bb6-9ac9-73934a04a4c6"><xades:SignedProperties Id="SignedProperties-Signature-6673760c-3a22-4bb6-9ac9-73934a04a4c6"><xades:SignedSignatureProperties><xades:SigningTime>2021-06-19T12:10:04-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>fSbG+x25xSJJEC004VtcBbOPwBcJmoqslm/BgvrgZbQ=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR, L=QUITO, OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE, O=BANCO CENTRAL DEL ECUADOR, C=EC</ds:X509IssuerName><ds:X509SerialNumber>1533133586</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-65ca1990-1b4d-461e-8ee8-b77b1e5b9f13"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
+

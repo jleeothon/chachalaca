@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>1006202101019007200200120297010000006308442794817</numeroAutorizacion>
+<fechaAutorizacion>2021-06-10T11:24:12-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version = '1.0' encoding = 'UTF-8'?>
+<factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>GERARDO ORTIZ E HIJOS CIA LTDA</razonSocial>
+<nombreComercial>GERARDO ORTIZ E HIJOS CIA LTDA</nombreComercial>
+<ruc>0190072002001</ruc>
+<claveAcceso>1006202101019007200200120297010000006308442794817</claveAcceso>
+<codDoc>01</codDoc>
+<estab>029</estab>
+<ptoEmi>701</ptoEmi>
+<secuencial>000000630</secuencial>
+<dirMatriz>AV. CARLOS JULIO AROSEMENA S/N</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>10/06/2021</fechaEmision>
+<dirEstablecimiento>AV FRANCISCO DE ORELLANA</dirEstablecimiento>
+<contribuyenteEspecial>3517</contribuyenteEspecial>
+<obligadoContabilidad>SI</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>Kin Sam Othon Jao</razonSocialComprador>
+<identificacionComprador>1708866346001</identificacionComprador>
+<direccionComprador>Via a la costa km 11.5-Urb portofino</direccionComprador>
+<totalSinImpuestos>109.33</totalSinImpuestos>
+<totalDescuento>11.05</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<baseImponible>31.99</baseImponible>
+<valor>0.00</valor>
+</totalImpuesto>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<baseImponible>77.34</baseImponible>
+<valor>9.28</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>118.61</importeTotal>
+<moneda>DOLAR AMERICANO</moneda>
+<pagos>
+<pago>
+<formaPago>19</formaPago>
+<total>118.61</total>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>CDE1006</codigoPrincipal>
+<descripcion>ALCOHOL ANTISEPTICO ADHEPLAST GALON</descripcion>
+<cantidad>6.0000</cantidad>
+<precioUnitario>6.1817</precioUnitario>
+<descuento>4.45</descuento>
+<precioTotalSinImpuesto>32.64</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12.00</tarifa>
+<baseImponible>32.64</baseImponible>
+<valor>3.92</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>X7079SE</codigoPrincipal>
+<descripcion>CEPILLO DENTAL ORALB KIDS MICKEY 3ANOS X1</descripcion>
+<cantidad>3.0000</cantidad>
+<precioUnitario>2.0088</precioUnitario>
+<descuento>0.72</descuento>
+<precioTotalSinImpuesto>5.30</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12.00</tarifa>
+<baseImponible>5.30</baseImponible>
+<valor>0.64</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>X9601K4</codigoPrincipal>
+<descripcion>PASTA DENTAL BLENDY BABY SIN DEDAL 25ML</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>1.9880</precioUnitario>
+<descuento>0.26</descuento>
+<precioTotalSinImpuesto>1.73</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12.00</tarifa>
+<baseImponible>1.73</baseImponible>
+<valor>0.21</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>XY8L945</codigoPrincipal>
+<descripcion>CREMA DENTAL FRUIT MENTA BLENDAX KIDS 75CC</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>2.1549</precioUnitario>
+<descuento>0.28</descuento>
+<precioTotalSinImpuesto>1.87</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12.00</tarifa>
+<baseImponible>1.87</baseImponible>
+<valor>0.22</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>X8E811Y</codigoPrincipal>
+<descripcion>NUGGETS DE POLLO CON JAMON 320G</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>4.4520</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>4.45</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12.00</tarifa>
+<baseImponible>4.45</baseImponible>
+<valor>0.53</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>X8375BI</codigoPrincipal>
+<descripcion>PAPRIKA NATURES HEART 50G</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>2.3805</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>2.38</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12.00</tarifa>
+<baseImponible>2.38</baseImponible>
+<valor>0.29</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>XY8A923</codigoPrincipal>
+<descripcion>AJO EN POLVO ILE 50G</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>0.4076</precioUnitario>
+<descuento>0.05</descuento>
+<precioTotalSinImpuesto>0.36</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>0.36</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>XYK003O</codigoPrincipal>
+<descripcion>TOMATE RINON KG</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>1.2143</precioUnitario>
+<descuento>0.15</descuento>
+<precioTotalSinImpuesto>1.07</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="KG"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>1.07</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>XYK003G</codigoPrincipal>
+<descripcion>CEBOLLA PERLA</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>1.2429</precioUnitario>
+<descuento>0.15</descuento>
+<precioTotalSinImpuesto>1.09</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="KG"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>1.09</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>X8C3048</codigoPrincipal>
+<descripcion>SALCHICHA DE POLLO TIPO I JURIS 300G</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>2.1845</precioUnitario>
+<descuento>0.26</descuento>
+<precioTotalSinImpuesto>1.92</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>1.92</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>X8CJ007</codigoPrincipal>
+<descripcion>JAMON DE PAVO LIGHT JURIS 200G</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>3.9852</precioUnitario>
+<descuento>0.52</descuento>
+<precioTotalSinImpuesto>3.47</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>3.47</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>X8CJ00B</codigoPrincipal>
+<descripcion>JAMON PRAGA PREMIUM JURIS 200G</descripcion>
+<cantidad>2.0000</cantidad>
+<precioUnitario>4.3493</precioUnitario>
+<descuento>1.04</descuento>
+<precioTotalSinImpuesto>7.65</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>7.65</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>X8C3057</codigoPrincipal>
+<descripcion>TOCINO AHUMADO JURIS 200G</descripcion>
+<cantidad>2.0000</cantidad>
+<precioUnitario>3.9852</precioUnitario>
+<descuento>1.04</descuento>
+<precioTotalSinImpuesto>6.93</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12.00</tarifa>
+<baseImponible>6.93</baseImponible>
+<valor>0.83</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>XY2000E</codigoPrincipal>
+<descripcion>BROCOLI UD</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>0.5286</precioUnitario>
+<descuento>0.06</descuento>
+<precioTotalSinImpuesto>0.47</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>0.47</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>X9602I6</codigoPrincipal>
+<descripcion>PAPA SUPER CHOLA MALLA 4KG</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>3.2857</precioUnitario>
+<descuento>0.39</descuento>
+<precioTotalSinImpuesto>2.89</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>2.89</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>XY2004F</codigoPrincipal>
+<descripcion>APIO FUNDA LA HUERTA</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>1.0250</precioUnitario>
+<descuento>0.12</descuento>
+<precioTotalSinImpuesto>0.90</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>0.90</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>XY2000H</codigoPrincipal>
+<descripcion>ACELGA ATADO</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>0.3571</precioUnitario>
+<descuento>0.04</descuento>
+<precioTotalSinImpuesto>0.31</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>0.31</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>XY20021</codigoPrincipal>
+<descripcion>LECHUGA CRIOLLA HORTANA</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>0.9286</precioUnitario>
+<descuento>0.11</descuento>
+<precioTotalSinImpuesto>0.82</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>0.82</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>X8L086Q</codigoPrincipal>
+<descripcion>QUESO MOZARELLA 500G EL KIOSKO</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>4.3093</precioUnitario>
+<descuento>0.52</descuento>
+<precioTotalSinImpuesto>3.79</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>3.79</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>X9605GX</codigoPrincipal>
+<descripcion>CARNE PARA HAMBURGUESA BEYOND MEAT 227G</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>7.4359</precioUnitario>
+<descuento>0.89</descuento>
+<precioTotalSinImpuesto>6.54</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12.00</tarifa>
+<baseImponible>6.54</baseImponible>
+<valor>0.78</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>5D1055Q</codigoPrincipal>
+<descripcion>FUNDA DE BASURA PLATA LA DURA 23X28" X10</descripcion>
+<cantidad>10.0000</cantidad>
+<precioUnitario>1.1496</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>11.50</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12.00</tarifa>
+<baseImponible>11.50</baseImponible>
+<valor>1.38</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>XY8E019</codigoPrincipal>
+<descripcion>ATUN LOMITOS EN AGUA ABRE FACIL REAL 180G</descripcion>
+<cantidad>5.0000</cantidad>
+<precioUnitario>1.4500</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>7.25</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0.00</tarifa>
+<baseImponible>7.25</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>FLETE02</codigoPrincipal>
+<descripcion>SERVICIO ENTREGA</descripcion>
+<cantidad>1.0000</cantidad>
+<precioUnitario>4.0000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>4.00</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="Medida" valor="UNIDAD"/>
+<detAdicional nombre="Bodega" valor="29"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12.00</tarifa>
+<baseImponible>4.00</baseImponible>
+<valor>0.48</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="Lugar Venta">CORAL ALBORADA</campoAdicional>
+<campoAdicional nombre="ICE FUNDA EXCENTO">Resolucion Nro. MPCEIP-SCIT-2020-0041-R</campoAdicional>
+<campoAdicional nombre="Codigo">9999999</campoAdicional>
+<campoAdicional nombre="Direccion">Via a la costa km 11.5-Urb portofino</campoAdicional>
+<campoAdicional nombre="Ciudad">GUAYAQUIL</campoAdicional>
+<campoAdicional nombre="Correo">maryleeothon@outlook.com</campoAdicional>
+<campoAdicional nombre="Deducible Alimentacion">49.42</campoAdicional>
+<campoAdicional nombre="Deducible Medicina">32.64</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature406132" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo667314">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="#Signature406132-SignedProperties915159" Id="SignedPropertiesID448331" Type="http://uri.etsi.org/01903#SignedProperties">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>Q/YH6C6WWyaNYbLUOPm1n2jqxkY=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1895134">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>myUUMwwOGSB5wHUM2WPT7Jv2S8Y=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#comprobante" Id="Reference-ID-1025622">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>lGVtS9x0+bp2Ia9of4HclcWw3TY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue181160">
+GRjjNCxd3pV9iQ5PygAO2UTZadaIfI7fdNsp1Qhx6W+sLt75Fa2ITTkT4Ml/58LSxHchY2veWVbn
+5CVE3Ug/FMnuzamZUYdmC4ahYLW1aKBOeG20O3cgJPvvaGw+7+Nk+PZlV7KWXHosQ5liLMRgM36N
+ho6PDWKjhH2At4ZHifP7me5Ieas8RSVUadk/TmEywfgLgt9tKmIMu+Ub2uXBq+1s4XA7QkksnXsq
+s/4VMrf0KZqpeQpGj7abbZzFLNqFugoaLOYaVs59TdxbXRSTaZPOd7hNIopDjxqFtWwjxZklCk3Q
+mghERMtuiz0uSg9nAWtf9o84RzpbpnNl81tXCA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1895134">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJ+TCCB+GgAwIBAgIEW2JJ0jANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTIwMDExMzEzMzg1NFoXDTIyMDExMzE0MDg1
+NFowgbUxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE5MBEGA1UEBRMKMDAwMDEwNDE3MTAkBgNVBAMTHUhVR08gQU5EUkVTIFFV
+RVpBREEgSVpRVUlFUkRPMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvfjeQ4T+DLaM
+9/JWcMxVlKNy0v0ciZXXCkufr/MuXlt8WmdwFBS5EpznO3V46Lt24b7T1JqA35vBkqPMllXfJYwH
+PwIQzKWwFCI4DWENK+AikJaPWh/VI+lw7E5798JIm20fC0WaTiravSjrPMAW3YDJoOzGKEDqGCXM
+qse9zqwoehplF0fz0gQe6CI6CZq2SybtnW363j0QF4IOlRGS7/fKmVbxJD9OvKvYC7zg4kjuW1QP
+/o7icwL8aBPKjYexQd1TSbH1iOY/N2ko7CONkhF+PNCrBcwrIzHXkHWHNqw7jwvAucLyr5Vn01aw
+Mw7eWb9wTMO3c6hhFHOilllp6wIDAQABo4IFITCCBR0wCwYDVR0PBAQDAgeAMGcGA1UdIARgMF4w
+XAYLKwYBBAGCqDsCAgEwTTBLBggrBgEFBQcCARY/aHR0cDovL3d3dy5lY2kuYmNlLmVjL3BvbGl0
+aWNhLWNlcnRpZmljYWRvL3BlcnNvbmEtanVyaWRpY2EucGRmMIGRBggrBgEFBQcBAQSBhDCBgTA+
+BggrBgEFBQcwAYYyaHR0cDovL29jc3AuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVz
+L29jc3AwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwMS5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dl
+Yi9zdGF0dXMvb2NzcDAuBgorBgEEAYKoOwMKBCATHkdFUkFSRE8gT1JUSVogRSBISUpPUyBDSUEg
+TFREQTAdBgorBgEEAYKoOwMLBA8TDTAxOTAwNzIwMDIwMDEwGgYKKwYBBAGCqDsDAQQMEwowMTA0
+NzE0MDE5MBsGCisGAQQBgqg7AwIEDRMLSFVHTyBBTkRSRVMwFwYKKwYBBAGCqDsDAwQJEwdRVUVa
+QURBMBkGCisGAQQBgqg7AwQECxMJSVpRVUlFUkRPMBcGCisGAQQBgqg7AwUECRMHR0VSRU5URTAv
+BgorBgEEAYKoOwMHBCETH0FWIENBUkxPUyBKVUxJTyBBUk9TRU1FTkEgS00gMTUwGQYKKwYBBAGC
+qDsDCAQLEwkwNDI1MDY2MzIwGQYKKwYBBAGCqDsDCQQLEwlHdWF5YXF1aWwwFwYKKwYBBAGCqDsD
+DAQJEwdFQ1VBRE9SMCAGCisGAQQBgqg7AzMEEhMQU09GVFdBUkUtQVJDSElWTzAkBgNVHREEHTAb
+gRllY2FycmlvbkBnZXJhcmRvb3J0aXouY29tMIIB3wYDVR0fBIIB1jCCAdIwggHOoIIByqCCAcaG
+gdVsZGFwOi8vYmNlcWxkYXBzdWJwMS5iY2UuZWMvY249Q1JMOTA0LGNuPUFDJTIwQkFOQ08lMjBD
+RU5UUkFMJTIwREVMJTIwRUNVQURPUixsPVFVSVRPLG91PUVOVElEQUQlMjBERSUyMENFUlRJRklD
+QUNJT04lMjBERSUyMElORk9STUFDSU9OLUVDSUJDRSxvPUJBTkNPJTIwQ0VOVFJBTCUyMERFTCUy
+MEVDVUFET1IsYz1FQz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2WGNGh0dHA6Ly93d3cu
+ZWNpLmJjZS5lYy9DUkwvZWNpX2JjZV9lY19jcmxmaWxlY29tYi5jcmykgbUwgbIxCzAJBgNVBAYT
+AkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcwNQYDVQQLEy5FTlRJREFE
+IERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4wDAYDVQQHEwVRVUlUTzEl
+MCMGA1UEAxMcQUMgQkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjEPMA0GA1UEAxMGQ1JMOTA0MCsG
+A1UdEAQkMCKADzIwMjAwMTEzMTMzODU0WoEPMjAyMjAxMTMxNDA4NTRaMB8GA1UdIwQYMBaAFEii
+3yMfHfgsUXqMA81JMqUJwZSrMB0GA1UdDgQWBBTdzOppXUrIDWmd3lAE/7r3h9PHXjAJBgNVHRME
+AjAAMBkGCSqGSIb2fQdBAAQMMAobBFY4LjEDAgSwMA0GCSqGSIb3DQEBCwUAA4ICAQAPi6dZjl0m
+y5i6WUmYt1NdrTYg2HzUEOZxLO/t28M3bMnaySxAtqsFRrCiqyJB0BIiygrgniU5Ek87TSEIdUEB
+s8UHRk2maWB70wTFkIqghcYR2MKLwrxT/OhZh8Dt7L+pPva4+krzxs40Scjj80PZzNWWrjWHV/bE
+BCSBCodA0ycTxo7Idl4OxHGoq3CIEjoZsJyUHWIbklM06SddjmA5jUaufN2BiGPj0ErHo892uunO
+Cts1OVL13klHc8Gt7b61iO4ocE74o7cd/e819e0awWqF/WXiTyMLQ6Oif7ESquD1NkOipxqR8hpz
+XefoNFX9Vr0NZiqy5jTW0ol0OyHGS6MhUh454ABoHD316QjvA9VvE4zimS9BbnQUMjd8034M3e2Z
+P7ru50vp04xQMFPVd6Ha6puX37CFUQvAFzKgEDa7al06+zDCf+5AE19+U/e9L3Sf8VVxSGcG42I+
+k98FgPEOT2+YptYpe/f+4XIbeey/XqLODJaPjh0mE83oyqDa2s9arUcS3NqJxPKTZBSvL5RY594P
+wkVOEbxZwB7YDhbJYD+GzzMwzGaUg4N8bcOVYgVJzfAjYA0fsYplOIn+200xkxUtSrZqjn1bDzYF
+Xh7RW6v3PuGh8epQsiTLrOsmxTDTohjmkiOWjSIT0r3177V/g6AUSzvJ8mpDM8PPIQ==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vfjeQ4T+DLaM9/JWcMxVlKNy0v0ciZXXCkufr/MuXlt8WmdwFBS5EpznO3V46Lt24b7T1JqA35vB
+kqPMllXfJYwHPwIQzKWwFCI4DWENK+AikJaPWh/VI+lw7E5798JIm20fC0WaTiravSjrPMAW3YDJ
+oOzGKEDqGCXMqse9zqwoehplF0fz0gQe6CI6CZq2SybtnW363j0QF4IOlRGS7/fKmVbxJD9OvKvY
+C7zg4kjuW1QP/o7icwL8aBPKjYexQd1TSbH1iOY/N2ko7CONkhF+PNCrBcwrIzHXkHWHNqw7jwvA
+ucLyr5Vn01awMw7eWb9wTMO3c6hhFHOilllp6w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature406132-Object222164"><etsi:QualifyingProperties Target="#Signature406132"><etsi:SignedProperties Id="Signature406132-SignedProperties915159"><etsi:SignedSignatureProperties><etsi:SigningTime>2021-06-10T12:24:11-04:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>mVf9a5AwwBcG0edk8mbVh5MVRVY=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1533168082</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-1025622"><etsi:Description>Contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
+

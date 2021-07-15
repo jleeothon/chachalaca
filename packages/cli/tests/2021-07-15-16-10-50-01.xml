@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>2306202101090708384400120031040006013542306135416</numeroAutorizacion>
+<fechaAutorizacion>2021-06-23T14:06:33-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>OFELIA DE JESUS SANCHEZ MENDIETA</razonSocial>
+    <nombreComercial>DIST. FARM. EL TREBOL VERDE</nombreComercial>
+    <ruc>0907083844001</ruc>
+    <claveAcceso>2306202101090708384400120031040006013542306135416</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>003</estab>
+    <ptoEmi>104</ptoEmi>
+    <secuencial>000601354</secuencial>
+    <dirMatriz>XIMENA Y MANUEL GALECIO</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>23/06/2021</fechaEmision>
+    <dirEstablecimiento>XIMENA Y MANUEL GALECIO</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>KIN SAM OTHON JAO</razonSocialComprador>
+    <identificacionComprador>1708866346</identificacionComprador>
+    <direccionComprador>URBANIZACION PORTO FINO MZ 214 V7</direccionComprador>
+    <totalSinImpuestos>110.16</totalSinImpuestos>
+    <totalDescuento>7.05</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>110.16</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>110.16</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>110.16</total>
+        <plazo>0</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>21VD</codigoPrincipal>
+      <codigoAuxiliar>21VD</codigoAuxiliar>
+      <descripcion>AUGMENTIN  TAB 500MG/125 X 10*1</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>8.4200</precioUnitario>
+      <descuento>0.59</descuento>
+      <precioTotalSinImpuesto>7.83</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="Unidad" valor="C"></detAdicional>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>7.83</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>28DS</codigoPrincipal>
+      <codigoAuxiliar>28DS</codigoAuxiliar>
+      <descripcion>OXA 15MG TAB X 10*1</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>6.4200</precioUnitario>
+      <descuento>0.51</descuento>
+      <precioTotalSinImpuesto>5.91</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="Unidad" valor="C"></detAdicional>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>5.91</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>37ÑA</codigoPrincipal>
+      <codigoAuxiliar>37ÑA</codigoAuxiliar>
+      <descripcion>OMEZZOL 20MG CAP X 10*1</descripcion>
+      <cantidad>2</cantidad>
+      <precioUnitario>8.1700</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>16.34</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="Unidad" valor="C"></detAdicional>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>16.34</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>44ED</codigoPrincipal>
+      <codigoAuxiliar>44ED</codigoAuxiliar>
+      <descripcion>EDAPIL M 5% ESPUMA AEROSOL X 100G *1</descripcion>
+      <cantidad>5</cantidad>
+      <precioUnitario>16.5000</precioUnitario>
+      <descuento>5.78</descuento>
+      <precioTotalSinImpuesto>76.72</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="Unidad" valor="C"></detAdicional>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>76.72</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>49NM</codigoPrincipal>
+      <codigoAuxiliar>49NM</codigoAuxiliar>
+      <descripcion>DIPROGENTA CREMA 30GR *1</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>3.5300</precioUnitario>
+      <descuento>0.18</descuento>
+      <precioTotalSinImpuesto>3.35</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="Unidad" valor="C"></detAdicional>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>3.35</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature843507">
+<ds:SignedInfo Id="Signature-SignedInfo918005">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID1028587" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature843507-SignedProperties136715">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>mnOxSkXzW8NhY9D23T/jdaSDTD4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1507182">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>BwX/gC0rQQWI3ITtr/0S2xbuuDo=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-766116" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>RTj/pCJ1RNpTkFSd275n9jJYHtQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue870155">
+RJ54xKwxqpKUx17K7YOLggt85pI+TmlHz7tFZZD7oAuBmodvek32h0q5QO/pZsEZsiydtvTUzUC+
+KGT++OZlwZuiMyWI2P5pZqgzUAtahG1kMQcST4Kbk3cauJeuHLSJ1Bi4lTnoVbJx+soF69FnCXAU
+Fb42iik/B++PWUD2A5QuHKm5pUuVkL26na9u/VvucjlJPUv4zi4SlPfl6uVW4E8nJ8vJqsC5UZgl
+nqz1SSCVAtgfCUJ4po9cl7xWnMyTXhc4+PEE6M/p/n/qAQPVY8ZBE+PfV9oqAs++0gBHWUFAF+oW
+AJrsvriNNcJBmhbdnPpUTKg438EHvTlt1oltww==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1507182">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJHjCCBwagAwIBAgIEW2IF7jANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE5MTIxODIxMTY1MloXDTIxMTIxODE5NDMz
+M1owgbgxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE8MBEGA1UEBRMKMDAwMDQyNTI4NDAnBgNVBAMTIE9GRUxJQSBERSBKRVNV
+UyBTQU5DSEVaIE1FTkRJRVRBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6phSe1gS
+2HUVBnFBEI/32CxVGetxWQwV8CHpjn6QK1cA09DxEFmegxJ+iJZTik13Rk1mAKEPsch69ZnVhKRI
+MdLDWhQa7X5/j/9NL9gaZVLHk1Nv7kcCK6NLfeWrBetCgrgfJEbZy50jwCFBwvxXGwb9Yk2ONHMz
+N8WMWwfKlZPvRhqFa3w6sZd7/As+WG2gPnTMH9SpCOD64H4J6mJkEVTEHsDFIrNANgtNH+FuBN0e
+R8+vzC8Ocl28qfP8YesVVjEIUinMVEgwbHa4qNBQGWV8oVJKQ67mA67csg84o7BOcd12apntvMct
+ffm9xOMUgyrKEASE4EZLDm+8AVpZqQIDAQABo4IEQzCCBD8wgZEGCCsGAQUFBwEBBIGEMIGBMD4G
+CCsGAQUFBzABhjJodHRwOi8vb2NzcC5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMv
+b2NzcDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AxLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2Vi
+L3N0YXR1cy9vY3NwMBoGCisGAQQBgqg7AwEEDBMKMDkwNzA4Mzg0NDAfBgorBgEEAYKoOwMCBBET
+D09GRUxJQSBERSBKRVNVUzAXBgorBgEEAYKoOwMDBAkTB1NBTkNIRVowGAYKKwYBBAGCqDsDBAQK
+EwhNRU5ESUVUQTAqBgorBgEEAYKoOwMHBBwTGlhJTUVOQSAzMDYgWSBBTEVKTyBMQVNDQU5PMBkG
+CisGAQQBgqg7AwgECxMJMDQyMzA1MjYxMBkGCisGAQQBgqg7AwkECxMJR3VheWFxdWlsMBcGCisG
+AQQBgqg7AwwECRMHRUNVQURPUjAdBgorBgEEAYKoOwMLBA8TDTA5MDcwODM4NDQwMDEwIAYKKwYB
+BAGCqDsDMwQSExBTT0ZUV0FSRS1BUkNISVZPMCcGA1UdEQQgMB6BHGVyaWNrYS5sb2phbkBncnVw
+b2Rpc2Zvci5jb20wggHfBgNVHR8EggHWMIIB0jCCAc6gggHKoIIBxoaB1WxkYXA6Ly9iY2VxbGRh
+cHN1YnAxLmJjZS5lYy9jbj1DUkw4OTEsY249QUMlMjBCQU5DTyUyMENFTlRSQUwlMjBERUwlMjBF
+Q1VBRE9SLGw9UVVJVE8sb3U9RU5USURBRCUyMERFJTIwQ0VSVElGSUNBQ0lPTiUyMERFJTIwSU5G
+T1JNQUNJT04tRUNJQkNFLG89QkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNVQURPUixjPUVDP2Nl
+cnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZYY0aHR0cDovL3d3dy5lY2kuYmNlLmVjL0NSTC9l
+Y2lfYmNlX2VjX2NybGZpbGVjb21iLmNybKSBtTCBsjELMAkGA1UEBhMCRUMxIjAgBgNVBAoTGUJB
+TkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxBQyBCQU5D
+TyBDRU5UUkFMIERFTCBFQ1VBRE9SMQ8wDQYDVQQDEwZDUkw4OTEwCwYDVR0PBAQDAgUgMB8GA1Ud
+IwQYMBaAFEii3yMfHfgsUXqMA81JMqUJwZSrMB0GA1UdDgQWBBSlRM4mxVhprqrcA3ZH9300wuGb
+ADAJBgNVHRMEAjAAMBkGCSqGSIb2fQdBAAQMMAobBFY4LjEDAgQQMA0GCSqGSIb3DQEBCwUAA4IC
+AQB1z8lL3OknQRGhoUm7WcDU+nNlQIsO8Iwj732T8GJotiygjOUOfCejkkIqVrMkQ3sIll8awD12
+3ccFhITGLSyhyHjuZWhcnA2UdPp238rV17Awt1M4gcxm5cP7Ai0Zfpj2BYLb5WfDuXXI4NSOeTmw
+fjlqbvSb40Q0RwmAlGMlK64iZEjzD+FLPweiQbaYXmFMt5US4IHH3IaWBG2qlqDsndh2sTWfTuZG
+Usku1XPyUAymsvxx7kEa3P5GK6kvGr+L4Ps5tqz5Y3QSWPi1ejLY4iesdEhl10+Ik7Xd3/i6SERF
+6N4/FKC9xLWmsQfHlc90zXoPKPOtSqSmDuzZp/A8Xq7OzThTGZVexYneW5tprrqS2lJemmb8BJRB
+8+AnMwPCuidSmz/goU+zNs5v8JJWOcVx+73QRGuqbTerZ0d/5QSylYzQltHcM+f7LrEV3CcFMAUl
+QuiA0pkCvI10d0PwdYnbmjyanq+fW1C4ESD5UkmoRyVX9LItEBD/xY+fOMr9+B9qLN1FGnxq+ZIU
+vzk2gIyyhO0FQkrEjiWx7Fdhu3AH534dtSF1YPMa33d5VHyPvTT5zXMKgL2CT+Px8aI2sybWV022
+OYpKjjibfuNVrAcY010MAS/1+CvKdG2qtXTULwBtXDorqtsURJaDubounxEt2Jc3m/Oj0/Al5Isp
+9w==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6phSe1gS2HUVBnFBEI/32CxVGetxWQwV8CHpjn6QK1cA09DxEFmegxJ+iJZTik13Rk1mAKEPsch6
+9ZnVhKRIMdLDWhQa7X5/j/9NL9gaZVLHk1Nv7kcCK6NLfeWrBetCgrgfJEbZy50jwCFBwvxXGwb9
+Yk2ONHMzN8WMWwfKlZPvRhqFa3w6sZd7/As+WG2gPnTMH9SpCOD64H4J6mJkEVTEHsDFIrNANgtN
+H+FuBN0eR8+vzC8Ocl28qfP8YesVVjEIUinMVEgwbHa4qNBQGWV8oVJKQ67mA67csg84o7BOcd12
+apntvMctffm9xOMUgyrKEASE4EZLDm+8AVpZqQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature843507-Object99440"><etsi:QualifyingProperties Target="#Signature843507"><etsi:SignedProperties Id="Signature843507-SignedProperties136715"><etsi:SignedSignatureProperties><etsi:SigningTime>2021-06-23T14:06:31-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>BUlSaCnkLrDY7lxFT46zhO11h8w=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1533150702</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-766116"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
+

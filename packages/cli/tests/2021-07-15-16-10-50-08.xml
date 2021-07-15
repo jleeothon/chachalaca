@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns2:autorizacionComprobanteResponse xmlns:ns2="http://ec.gob.sri.ws.autorizacion">
+      <RespuestaAutorizacionComprobante>
+        <claveAccesoConsultada>1706202101099255878400120010020000020000000007213</claveAccesoConsultada>
+        <numeroComprobantes>1</numeroComprobantes>
+        <autorizaciones>
+          <autorizacion>
+            <estado>AUTORIZADO</estado>
+            <numeroAutorizacion>1706202101099255878400120010020000020000000007213</numeroAutorizacion>
+            <fechaAutorizacion>2021-06-18T16:40:06-05:00</fechaAutorizacion>
+            <ambiente>PRODUCCIÓN</ambiente>
+            <comprobante>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;factura id="comprobante" version="1.1.0"&gt;
+  &lt;infoTributaria&gt;
+    &lt;ambiente&gt;2&lt;/ambiente&gt;
+    &lt;tipoEmision&gt;1&lt;/tipoEmision&gt;
+    &lt;razonSocial&gt;IMPORTVISION SA&lt;/razonSocial&gt;
+    &lt;nombreComercial&gt;IMPORTVISION&lt;/nombreComercial&gt;
+    &lt;ruc&gt;0992558784001&lt;/ruc&gt;
+    &lt;claveAcceso&gt;1706202101099255878400120010020000020000000007213&lt;/claveAcceso&gt;
+    &lt;codDoc&gt;01&lt;/codDoc&gt;
+    &lt;estab&gt;001&lt;/estab&gt;
+    &lt;ptoEmi&gt;002&lt;/ptoEmi&gt;
+    &lt;secuencial&gt;000002000&lt;/secuencial&gt;
+    &lt;dirMatriz&gt;SUCRE 533 Y BOYACA&lt;/dirMatriz&gt;
+    &lt;regimenMicroempresas&gt;CONTRIBUYENTE RÉGIMEN MICROEMPRESAS&lt;/regimenMicroempresas&gt;
+    &lt;agenteRetencion&gt;1&lt;/agenteRetencion&gt;
+  &lt;/infoTributaria&gt;
+  &lt;infoFactura&gt;
+    &lt;fechaEmision&gt;17/06/2021&lt;/fechaEmision&gt;
+    &lt;dirEstablecimiento&gt;SUCRE 533 Y BOYACA&lt;/dirEstablecimiento&gt;
+    &lt;obligadoContabilidad&gt;SI&lt;/obligadoContabilidad&gt;
+    &lt;tipoIdentificacionComprador&gt;04&lt;/tipoIdentificacionComprador&gt;
+    &lt;razonSocialComprador&gt;KIN SAM OTHON JAO&lt;/razonSocialComprador&gt;
+    &lt;identificacionComprador&gt;1708866346001&lt;/identificacionComprador&gt;
+    &lt;totalSinImpuestos&gt;252.11&lt;/totalSinImpuestos&gt;
+    &lt;totalDescuento&gt;100.99&lt;/totalDescuento&gt;
+    &lt;totalConImpuestos&gt;
+      &lt;totalImpuesto&gt;
+        &lt;codigo&gt;2&lt;/codigo&gt;
+        &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+        &lt;baseImponible&gt;252.11&lt;/baseImponible&gt;
+        &lt;valor&gt;30.25&lt;/valor&gt;
+      &lt;/totalImpuesto&gt;
+    &lt;/totalConImpuestos&gt;
+    &lt;propina&gt;0.00&lt;/propina&gt;
+    &lt;importeTotal&gt;282.36&lt;/importeTotal&gt;
+    &lt;moneda&gt;DOLAR&lt;/moneda&gt;
+    &lt;pagos&gt;
+      &lt;pago&gt;
+        &lt;formaPago&gt;01&lt;/formaPago&gt;
+        &lt;total&gt;282.36&lt;/total&gt;
+      &lt;/pago&gt;
+    &lt;/pagos&gt;
+  &lt;/infoFactura&gt;
+  &lt;detalles&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-CAS003&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;CASCO CICLISTA C/REGULACION&lt;/descripcion&gt;
+      &lt;cantidad&gt;4.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;12.200000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;13.96&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;34.84&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;34.84&lt;/baseImponible&gt;
+          &lt;valor&gt;4.18&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-MON013&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;MONTURA 12/16 NIÑO COLOR&lt;/descripcion&gt;
+      &lt;cantidad&gt;20.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;1.380000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;7.89&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;19.71&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;19.71&lt;/baseImponible&gt;
+          &lt;valor&gt;2.36&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-MON007&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;MONTURA BMX 16/20" DUR 1134-2 CALIDAD A&lt;/descripcion&gt;
+      &lt;cantidad&gt;10.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;2.800000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;8.01&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;19.99&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;19.99&lt;/baseImponible&gt;
+          &lt;valor&gt;2.40&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-MON050&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;MONTURA BMX 20" AZ-194 BF CALIDAD TW&lt;/descripcion&gt;
+      &lt;cantidad&gt;20.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;2.490000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;14.24&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;35.56&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;35.56&lt;/baseImponible&gt;
+          &lt;valor&gt;4.27&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-MON043&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;MONTURA GT/BMX AZ-263LF-6Z1 ANTIPROSTATICA&lt;/descripcion&gt;
+      &lt;cantidad&gt;30.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;3.980000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;34.15&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;85.25&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;85.25&lt;/baseImponible&gt;
+          &lt;valor&gt;10.23&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-STE010&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;STEM MTB 22,2 CP CHP&lt;/descripcion&gt;
+      &lt;cantidad&gt;50.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;1.590000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;22.74&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;56.76&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;56.76&lt;/baseImponible&gt;
+          &lt;valor&gt;6.81&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+  &lt;/detalles&gt;
+  &lt;infoAdicional&gt;
+    &lt;campoAdicional nombre="Direccion"&gt;GUAYAQUIL - QUITO 4018 Y MARACAIBO&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="Telefono"&gt;042443171--&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="Email"&gt;othon_isa@hotmail.com&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="observacion"&gt;..&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="Contribuyente Régimen Microempresas"&gt;
+    &lt;/campoAdicional&gt;
+  &lt;/infoAdicional&gt;
+&lt;ds:Signature Id="Signature316157" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#"&gt;
+&lt;ds:SignedInfo Id="Signature-SignedInfo842318"&gt;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/&gt;
+&lt;ds:Reference Id="SignedPropertiesID66720" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature316157-SignedProperties997164"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;
+&lt;ds:DigestValue&gt;PvUBgh5sURp8jUwwkqCNLaYQDes=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference URI="#Certificate1818826"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;
+&lt;ds:DigestValue&gt;MKnAGBHxtcmJVmbZj/nZXswHnIE=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference Id="Reference-ID-497940" URI="#comprobante"&gt;
+&lt;ds:Transforms&gt;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;
+&lt;/ds:Transforms&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;
+&lt;ds:DigestValue&gt;MHvfxdCjkUH5PNI9tRp+7NQxfvU=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;/ds:SignedInfo&gt;
+&lt;ds:SignatureValue Id="SignatureValue714674"&gt;
+DERK7yTatZTx4u2q+1B5/M7RpiiCr6J/GMsC4w9ARHWPkNXoNnJHoVT2KZdjodm0k2Bp5lVfHqON
+6DIj6zhBAMFAvnSxK6aVAU+VXWwGA/QvRQKIf4+LmIVJGgwQJkODPQkcsH8fXQ+e1Qrcm18my5AH
+jwrx8MgQ8T0S5gRsqlLIijpnzBJGxUwMYOds5jRAn0hJYbQxBimrdEddMYxOmACv6EuZxf8iw7El
+v2UQlFzjln6jqJ8iy9zZ9YgMkq2r88yuu/qz4CPQhV0arHogRjouoPb6oJgo+ZPwCE+/3AfoA0g4
+k1dMGu1EzbZSKHFUIPb564KCrS2FfPDzVaSIxQ==
+&lt;/ds:SignatureValue&gt;
+&lt;ds:KeyInfo Id="Certificate1818826"&gt;
+&lt;ds:X509Data&gt;
+&lt;ds:X509Certificate&gt;
+MIIJkjCCCHqgAwIBAgIEVNORjTANBgkqhkiG9w0BAQsFADCBkzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoTElNFQ1VSSVRZIERBVEEgUy5BLjEwMC4GA1UECxMnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9O
+IERFIElORk9STUFDSU9OMTUwMwYDVQQDEyxBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUIg
+U0VDVVJJVFkgREFUQTAeFw0xOTAxMDIyMjAzMDZaFw0yNDAxMDIyMjMzMDZaMIGUMQswCQYDVQQG
+EwJFQzEbMBkGA1UEChMSU0VDVVJJVFkgREFUQSBTLkEuMTAwLgYDVQQLEydFTlRJREFEIERFIENF
+UlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xNjATBgNVBAUTDDIwMTIxODE5NDgzOTAfBgNVBAMT
+GE1BUlkgRUxJWkFCRVRIIExFRSBPVEhPTjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AK9JaaiZo1JlktepvF1EFDl3OltB91RFfwVzc2UNTvDSTrogHKrN7wqRNzRylcLFfk+l9XZ1uQiM
+YfEAh01m9rDSYy+fs8kJAfhdyQxVq8gtacmmhLOzOJO+uLaF/pCDPjyE57HtEjYBDCqUCcqUXlDZ
+kEBjhrkHlWkFrB0vVsfgXACipRuPUgd2NeH6CglrmaL7Plrjh9xgLEg9rGh2mFm7bulISUeyqYFq
+d7CdW6S47rta7wFVGQWC0qkdYtaqLmjBLOnT891kWWAjm5HrhXfloLQOnC7wTkPCDSnh9XyMMcHR
+cwU1YZ0MQOR8qO6HGjXfm6aMaO3sJnf4uCgQvWECAwEAAaOCBekwggXlMAsGA1UdDwQEAwIF4DBZ
+BggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5l
+dC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwgcwGA1UdIASBxDCBwTBABgorBgEEAYKm
+cgIJMDIwMAYIKwYBBQUHAgIwJBoiQ2VydGlmaWNhZG8gZGUgUmVwcmVzZW50YW50ZSBMZWdhbDB9
+BgorBgEEAYKmcgIDMG8wbQYIKwYBBQUHAgEWYWh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQu
+ZWMvbGV5ZXNfbm9ybWF0aXZhcy9Qb2xpdGljYXMgZGUgQ2VydGlmaWNhZG8gUmVwcmVzZW50YW50
+ZSBMZWdhbC5wZGYwIQYKKwYBBAGCpnIDCgQTExFJTVBPUlRWSVNJT04gUy5BLjAdBgorBgEEAYKm
+cgMLBA8TDTA5OTI1NTg3ODQwMDEwGgYKKwYBBAGCpnIDAQQMEwowOTE2NTIzNTI1MB4GCisGAQQB
+gqZyAwIEEBMOTUFSWSBFTElaQUJFVEgwEwYKKwYBBAGCpnIDAwQFEwNMRUUwFQYKKwYBBAGCpnID
+BAQHEwVPVEhPTjAfBgorBgEEAYKmcgMFBBETD0dFUkVOVEUgR0VORVJBTDAiBgorBgEEAYKmcgMH
+BBQTElNVQ1JFIDUzMyBZIEJPWUFDQTAbBgorBgEEAYKmcgMIBA0TCzU5MzQyMzI3MjE4MBkGCisG
+AQQBgqZyAwkECxMJR1VBWUFRVUlMMBcGCisGAQQBgqZyAwwECRMHRUNVQURPUjAfBgorBgEEAYKm
+cgMgBBETDzAwMTAwMjAwMDAyMTI1NjATBgorBgEEAYKmcgMhBAUTA1BGWDAkBgNVHREEHTAbgRlt
+YXJ5bGVlX290aG9uQGhvdG1haWwuY29tMIICewYDVR0fBIICcjCCAm4wggJqoIICZqCCAmKGPWh0
+dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29j
+c3CGgdVsZGFwOi8vZGlyZWN0LnNlY3VyaXR5ZGF0YS5uZXQuZWMvY249Q1JMMzE5LGNuPUFVVE9S
+SURBRCUyMERFJTIwQ0VSVElGSUNBQ0lPTiUyMFNVQiUyMFNFQ1VSSVRZJTIwREFUQSxvdT1FTlRJ
+REFEJTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJTkZPUk1BQ0lPTixvPVNFQ1VSSVRZJTIw
+REFUQSUyMFMuQS4sYz1FQz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2WGgZ5odHRwczov
+L2RpcmVjdC5zZWN1cml0eWRhdGEubmV0LmVjL35jcmwvYXV0b3JpZGFkX2RlX2NlcnRpZmljYWNp
+b25fc3ViX3NlY3VyaXR5X2RhdGFfZW50aWRhZF9kZV9jZXJ0aWZpY2FjaW9uX2RlX2luZm9ybWFj
+aW9uX2N1cml0eV9kYXRhX3MuYS5fY19lY19jcmxmaWxlLmNybKSBpzCBpDELMAkGA1UEBhMCRUMx
+GzAZBgNVBAoTElNFQ1VSSVRZIERBVEEgUy5BLjEwMC4GA1UECxMnRU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OMTUwMwYDVQQDEyxBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUIgU0VDVVJJVFkgREFUQTEPMA0GA1UEAxMGQ1JMMzE5MCsGA1UdEAQkMCKADzIwMTkwMTAy
+MjIwMzA2WoEPMjAyNDAxMDIyMjMzMDZaMB8GA1UdIwQYMBaAFPcvTOB152KjeJZbBrYucTvMbD+Q
+MB0GA1UdDgQWBBSmfmvHkNcvHF3gx21BpZLJ3RV+njAJBgNVHRMEAjAAMBkGCSqGSIb2fQdBAAQM
+MAobBFY4LjEDAgOoMA0GCSqGSIb3DQEBCwUAA4IBAQBv76OFQQUh1hTEO/yQpzHwlGPZTc+Saic9
+u/szDW1b4qhbzi3LXrhFFzRtPQo7O7SiO9gbx+5Q3yUZDYuwjp40WNrgxZiHiKLIFrWqEGAik9oM
+0wRfr4lkioGT/ccH/F6MvNNQ47YL2wZzZqUTqzpgP1NqO9l2hdspkYZhnHjvrrNkX1GU8iAsAQHc
+fuSvacDmiCD9iRUSYyq11jhSkW/2eeqDJykaJRJPbxTkHfx0cU7blAxi1VFqBUPLTly/C+IFlaXk
+y5V/MRAHgLzE/nB4ZGuqTXBSEjHn+o6KyVaatuLv5vdSw4fQlK9meJhLhul8WhyRmgI4mVEdHFW8
+3nQ3
+&lt;/ds:X509Certificate&gt;
+&lt;/ds:X509Data&gt;
+&lt;ds:KeyValue&gt;
+&lt;ds:RSAKeyValue&gt;
+&lt;ds:Modulus&gt;
+r0lpqJmjUmWS16m8XUQUOXc6W0H3VEV/BXNzZQ1O8NJOuiAcqs3vCpE3NHKVwsV+T6X1dnW5CIxh
+8QCHTWb2sNJjL5+zyQkB+F3JDFWryC1pyaaEs7M4k764toX+kIM+PITnse0SNgEMKpQJypReUNmQ
+QGOGuQeVaQWsHS9Wx+BcAKKlG49SB3Y14foKCWuZovs+WuOH3GAsSD2saHaYWbtu6UhJR7KpgWp3
+sJ1bpLjuu1rvAVUZBYLSqR1i1qouaMEs6dPz3WRZYCObkeuFd+WgtA6cLvBOQ8INKeH1fIwxwdFz
+BTVhnQxA5Hyo7ocaNd+bpoxo7ewmd/i4KBC9YQ==
+&lt;/ds:Modulus&gt;
+&lt;ds:Exponent&gt;AQAB&lt;/ds:Exponent&gt;
+&lt;/ds:RSAKeyValue&gt;
+&lt;/ds:KeyValue&gt;
+&lt;/ds:KeyInfo&gt;
+&lt;ds:Object Id="Signature316157-Object859624"&gt;&lt;etsi:QualifyingProperties Target="#Signature316157"&gt;&lt;etsi:SignedProperties Id="Signature316157-SignedProperties997164"&gt;&lt;etsi:SignedSignatureProperties&gt;&lt;etsi:SigningTime&gt;2021-06-18T16:40:05-05:00&lt;/etsi:SigningTime&gt;&lt;etsi:SigningCertificate&gt;&lt;etsi:Cert&gt;&lt;etsi:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;&lt;ds:DigestValue&gt;gr2Uke8Fv3HsEs2UzOn2alRZ5Ks=&lt;/ds:DigestValue&gt;&lt;/etsi:CertDigest&gt;&lt;etsi:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;CN=AUTORIDAD DE CERTIFICACION SUB SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A.,C=EC&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;1423151501&lt;/ds:X509SerialNumber&gt;&lt;/etsi:IssuerSerial&gt;&lt;/etsi:Cert&gt;&lt;/etsi:SigningCertificate&gt;&lt;/etsi:SignedSignatureProperties&gt;&lt;etsi:SignedDataObjectProperties&gt;&lt;etsi:DataObjectFormat ObjectReference="#Reference-ID-497940"&gt;&lt;etsi:Description&gt;contenido comprobante&lt;/etsi:Description&gt;&lt;etsi:MimeType&gt;text/xml&lt;/etsi:MimeType&gt;&lt;/etsi:DataObjectFormat&gt;&lt;/etsi:SignedDataObjectProperties&gt;&lt;/etsi:SignedProperties&gt;&lt;/etsi:QualifyingProperties&gt;&lt;/ds:Object&gt;&lt;/ds:Signature&gt;&lt;/factura&gt;</comprobante>
+            <mensajes />
+          </autorizacion>
+        </autorizaciones>
+      </RespuestaAutorizacionComprobante>
+    </ns2:autorizacionComprobanteResponse>
+  </soap:Body>
+</soap:Envelope>

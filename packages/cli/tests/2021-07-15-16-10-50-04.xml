@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns2:autorizacionComprobanteResponse xmlns:ns2="http://ec.gob.sri.ws.autorizacion">
+      <RespuestaAutorizacionComprobante>
+        <claveAccesoConsultada>2806202101099255878400120010020000020220000007211</claveAccesoConsultada>
+        <numeroComprobantes>1</numeroComprobantes>
+        <autorizaciones>
+          <autorizacion>
+            <estado>AUTORIZADO</estado>
+            <numeroAutorizacion>2806202101099255878400120010020000020220000007211</numeroAutorizacion>
+            <fechaAutorizacion>2021-06-29T15:44:01-05:00</fechaAutorizacion>
+            <ambiente>PRODUCCIÓN</ambiente>
+            <comprobante>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;factura id="comprobante" version="1.1.0"&gt;
+  &lt;infoTributaria&gt;
+    &lt;ambiente&gt;2&lt;/ambiente&gt;
+    &lt;tipoEmision&gt;1&lt;/tipoEmision&gt;
+    &lt;razonSocial&gt;IMPORTVISION SA&lt;/razonSocial&gt;
+    &lt;nombreComercial&gt;IMPORTVISION&lt;/nombreComercial&gt;
+    &lt;ruc&gt;0992558784001&lt;/ruc&gt;
+    &lt;claveAcceso&gt;2806202101099255878400120010020000020220000007211&lt;/claveAcceso&gt;
+    &lt;codDoc&gt;01&lt;/codDoc&gt;
+    &lt;estab&gt;001&lt;/estab&gt;
+    &lt;ptoEmi&gt;002&lt;/ptoEmi&gt;
+    &lt;secuencial&gt;000002022&lt;/secuencial&gt;
+    &lt;dirMatriz&gt;SUCRE 533 Y BOYACA&lt;/dirMatriz&gt;
+    &lt;regimenMicroempresas&gt;CONTRIBUYENTE RÉGIMEN MICROEMPRESAS&lt;/regimenMicroempresas&gt;
+    &lt;agenteRetencion&gt;1&lt;/agenteRetencion&gt;
+  &lt;/infoTributaria&gt;
+  &lt;infoFactura&gt;
+    &lt;fechaEmision&gt;28/06/2021&lt;/fechaEmision&gt;
+    &lt;dirEstablecimiento&gt;SUCRE 533 Y BOYACA&lt;/dirEstablecimiento&gt;
+    &lt;obligadoContabilidad&gt;SI&lt;/obligadoContabilidad&gt;
+    &lt;tipoIdentificacionComprador&gt;04&lt;/tipoIdentificacionComprador&gt;
+    &lt;razonSocialComprador&gt;KIN SAM OTHON JAO&lt;/razonSocialComprador&gt;
+    &lt;identificacionComprador&gt;1708866346001&lt;/identificacionComprador&gt;
+    &lt;totalSinImpuestos&gt;790.49&lt;/totalSinImpuestos&gt;
+    &lt;totalDescuento&gt;316.64&lt;/totalDescuento&gt;
+    &lt;totalConImpuestos&gt;
+      &lt;totalImpuesto&gt;
+        &lt;codigo&gt;2&lt;/codigo&gt;
+        &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+        &lt;baseImponible&gt;790.49&lt;/baseImponible&gt;
+        &lt;valor&gt;94.86&lt;/valor&gt;
+      &lt;/totalImpuesto&gt;
+    &lt;/totalConImpuestos&gt;
+    &lt;propina&gt;0.00&lt;/propina&gt;
+    &lt;importeTotal&gt;885.35&lt;/importeTotal&gt;
+    &lt;moneda&gt;DOLAR&lt;/moneda&gt;
+    &lt;pagos&gt;
+      &lt;pago&gt;
+        &lt;formaPago&gt;01&lt;/formaPago&gt;
+        &lt;total&gt;885.35&lt;/total&gt;
+      &lt;/pago&gt;
+    &lt;/pagos&gt;
+  &lt;/infoFactura&gt;
+  &lt;detalles&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-CAN001&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;CANASTILLA CENTRAL (1/4X9) C/U&lt;/descripcion&gt;
+      &lt;cantidad&gt;200.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;0.100000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;5.72&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;14.28&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;14.28&lt;/baseImponible&gt;
+          &lt;valor&gt;1.71&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-EJE038&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;EJE POST. 27" C/BOC-CUB. 190MM&lt;/descripcion&gt;
+      &lt;cantidad&gt;155.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;0.800000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;35.46&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;88.54&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;88.54&lt;/baseImponible&gt;
+          &lt;valor&gt;10.62&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-EJE008&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;EJE THOMPSON P/GRANDE 40MM&lt;/descripcion&gt;
+      &lt;cantidad&gt;9.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;3.150000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;8.11&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;20.24&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;20.24&lt;/baseImponible&gt;
+          &lt;valor&gt;2.43&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-FRE025&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;FRENO V-BRAKE ALUM. COMPLETO&lt;/descripcion&gt;
+      &lt;cantidad&gt;30.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;6.800000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;58.34&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;145.66&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;145.66&lt;/baseImponible&gt;
+          &lt;valor&gt;17.48&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-LLV008&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;LLAVE CALAVERA&lt;/descripcion&gt;
+      &lt;cantidad&gt;5.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;0.980000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;1.40&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;3.50&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;3.50&lt;/baseImponible&gt;
+          &lt;valor&gt;0.42&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-GUI003&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;LUCES USB INTERM. DT-6001 ROJO/AZUL&lt;/descripcion&gt;
+      &lt;cantidad&gt;10.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;7.500000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;21.45&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;53.55&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;53.55&lt;/baseImponible&gt;
+          &lt;valor&gt;6.43&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-GUI002&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;LUCES USB INTERM. DT-75B ROJO/AZUL&lt;/descripcion&gt;
+      &lt;cantidad&gt;10.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;7.850000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;22.45&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;56.05&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;56.05&lt;/baseImponible&gt;
+          &lt;valor&gt;6.73&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-GUI100&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;GUIA STOP USB RECARGABLE XC251D&lt;/descripcion&gt;
+      &lt;cantidad&gt;50.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;3.500000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;50.05&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;124.95&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;124.95&lt;/baseImponible&gt;
+          &lt;valor&gt;14.99&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-MAJ008&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;MANIJA MTB C/ABRAZ. PLAST Q-16&lt;/descripcion&gt;
+      &lt;cantidad&gt;20.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;0.950000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;5.43&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;13.57&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;13.57&lt;/baseImponible&gt;
+          &lt;valor&gt;1.63&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-MAZ008&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;MAZA DELT. 28H&lt;/descripcion&gt;
+      &lt;cantidad&gt;16.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;1.400000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;6.41&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;15.99&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;15.99&lt;/baseImponible&gt;
+          &lt;valor&gt;1.92&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-MAZ012&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;MAZA POST. 20H&lt;/descripcion&gt;
+      &lt;cantidad&gt;17.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;1.690000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;8.22&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;20.51&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;20.51&lt;/baseImponible&gt;
+          &lt;valor&gt;2.46&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-MAZ018&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;MAZA POST. 36H C/BOCIN 14G (3/8 X 190MM)&lt;/descripcion&gt;
+      &lt;cantidad&gt;50.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;1.690000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;24.17&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;60.33&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;60.33&lt;/baseImponible&gt;
+          &lt;valor&gt;7.24&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-PIS001&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;PISTA DELT. C/CEJA&lt;/descripcion&gt;
+      &lt;cantidad&gt;100.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;0.120000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;3.43&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;8.57&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;8.57&lt;/baseImponible&gt;
+          &lt;valor&gt;1.03&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-PRO009&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;PROTECTOR ESPONJA 27" NEGRO&lt;/descripcion&gt;
+      &lt;cantidad&gt;15.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;1.550000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;6.65&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;16.60&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;16.60&lt;/baseImponible&gt;
+          &lt;valor&gt;1.99&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-RAC002&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;RACHE 18T&lt;/descripcion&gt;
+      &lt;cantidad&gt;100.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;1.590000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;45.47&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;113.53&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;113.53&lt;/baseImponible&gt;
+          &lt;valor&gt;13.62&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;B-TRI001&lt;/codigoPrincipal&gt;
+      &lt;descripcion&gt;TRINCHE 20" BMX LASER CHP&lt;/descripcion&gt;
+      &lt;cantidad&gt;10.000000&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;4.850000&lt;/precioUnitario&gt;
+      &lt;descuento&gt;13.87&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;34.63&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;2&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;12&lt;/tarifa&gt;
+          &lt;baseImponible&gt;34.63&lt;/baseImponible&gt;
+          &lt;valor&gt;4.16&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+  &lt;/detalles&gt;
+  &lt;infoAdicional&gt;
+    &lt;campoAdicional nombre="Direccion"&gt;GUAYAQUIL - QUITO 4018 Y MARACAIBO&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="Telefono"&gt;042443171--&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="Email"&gt;othon_isa@hotmail.com&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="observacion"&gt;..&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="Contribuyente Régimen Microempresas"&gt;
+    &lt;/campoAdicional&gt;
+  &lt;/infoAdicional&gt;
+&lt;ds:Signature Id="Signature361440" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#"&gt;
+&lt;ds:SignedInfo Id="Signature-SignedInfo765887"&gt;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/&gt;
+&lt;ds:Reference Id="SignedPropertiesID1045412" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature361440-SignedProperties440374"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;
+&lt;ds:DigestValue&gt;t1BW7Seigf4vBmzZQSa5o8tlafk=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference URI="#Certificate1757332"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;
+&lt;ds:DigestValue&gt;QWKKQoAC+8njmtZVVRKYBp4D0m4=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference Id="Reference-ID-358322" URI="#comprobante"&gt;
+&lt;ds:Transforms&gt;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;
+&lt;/ds:Transforms&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;
+&lt;ds:DigestValue&gt;A/qc0t8Sj+t4aiJLzWhtogKNTXM=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;/ds:SignedInfo&gt;
+&lt;ds:SignatureValue Id="SignatureValue314465"&gt;
+CWGmVI1jkrIzQNppf7HbDQAjAQ1tdt3Rlbf84qvgVPLZx63G3vpayHafcb+eqxlFPwLVFvX+At7R
+IxjlRX4FGSna8ydYTtHNqvDYakZIJozrH5f+vB9PSIqD2NAEyaezHlNUjH8zw6vEL93gB8Xg222I
+KZPC+wRL79ZCAE7nbW2ARalHs7zWmlNeaC6/0TGOGk107J6+ZQKz1a1IDxeHY85ppU0g6kaeZiRL
+ua+NtFRsfCrKHwtP4/a9Bc3hwyY+0eXLua1AMcBd6d/mVXfc5DenV7Mn6ae0Juqp5OzbrpsPh+v/
+jps62HjU4itpXyUjZOpNACie/hXwliAymkOC7Q==
+&lt;/ds:SignatureValue&gt;
+&lt;ds:KeyInfo Id="Certificate1757332"&gt;
+&lt;ds:X509Data&gt;
+&lt;ds:X509Certificate&gt;
+MIIJkjCCCHqgAwIBAgIEVNORjTANBgkqhkiG9w0BAQsFADCBkzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoTElNFQ1VSSVRZIERBVEEgUy5BLjEwMC4GA1UECxMnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9O
+IERFIElORk9STUFDSU9OMTUwMwYDVQQDEyxBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUIg
+U0VDVVJJVFkgREFUQTAeFw0xOTAxMDIyMjAzMDZaFw0yNDAxMDIyMjMzMDZaMIGUMQswCQYDVQQG
+EwJFQzEbMBkGA1UEChMSU0VDVVJJVFkgREFUQSBTLkEuMTAwLgYDVQQLEydFTlRJREFEIERFIENF
+UlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xNjATBgNVBAUTDDIwMTIxODE5NDgzOTAfBgNVBAMT
+GE1BUlkgRUxJWkFCRVRIIExFRSBPVEhPTjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AK9JaaiZo1JlktepvF1EFDl3OltB91RFfwVzc2UNTvDSTrogHKrN7wqRNzRylcLFfk+l9XZ1uQiM
+YfEAh01m9rDSYy+fs8kJAfhdyQxVq8gtacmmhLOzOJO+uLaF/pCDPjyE57HtEjYBDCqUCcqUXlDZ
+kEBjhrkHlWkFrB0vVsfgXACipRuPUgd2NeH6CglrmaL7Plrjh9xgLEg9rGh2mFm7bulISUeyqYFq
+d7CdW6S47rta7wFVGQWC0qkdYtaqLmjBLOnT891kWWAjm5HrhXfloLQOnC7wTkPCDSnh9XyMMcHR
+cwU1YZ0MQOR8qO6HGjXfm6aMaO3sJnf4uCgQvWECAwEAAaOCBekwggXlMAsGA1UdDwQEAwIF4DBZ
+BggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5l
+dC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwgcwGA1UdIASBxDCBwTBABgorBgEEAYKm
+cgIJMDIwMAYIKwYBBQUHAgIwJBoiQ2VydGlmaWNhZG8gZGUgUmVwcmVzZW50YW50ZSBMZWdhbDB9
+BgorBgEEAYKmcgIDMG8wbQYIKwYBBQUHAgEWYWh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQu
+ZWMvbGV5ZXNfbm9ybWF0aXZhcy9Qb2xpdGljYXMgZGUgQ2VydGlmaWNhZG8gUmVwcmVzZW50YW50
+ZSBMZWdhbC5wZGYwIQYKKwYBBAGCpnIDCgQTExFJTVBPUlRWSVNJT04gUy5BLjAdBgorBgEEAYKm
+cgMLBA8TDTA5OTI1NTg3ODQwMDEwGgYKKwYBBAGCpnIDAQQMEwowOTE2NTIzNTI1MB4GCisGAQQB
+gqZyAwIEEBMOTUFSWSBFTElaQUJFVEgwEwYKKwYBBAGCpnIDAwQFEwNMRUUwFQYKKwYBBAGCpnID
+BAQHEwVPVEhPTjAfBgorBgEEAYKmcgMFBBETD0dFUkVOVEUgR0VORVJBTDAiBgorBgEEAYKmcgMH
+BBQTElNVQ1JFIDUzMyBZIEJPWUFDQTAbBgorBgEEAYKmcgMIBA0TCzU5MzQyMzI3MjE4MBkGCisG
+AQQBgqZyAwkECxMJR1VBWUFRVUlMMBcGCisGAQQBgqZyAwwECRMHRUNVQURPUjAfBgorBgEEAYKm
+cgMgBBETDzAwMTAwMjAwMDAyMTI1NjATBgorBgEEAYKmcgMhBAUTA1BGWDAkBgNVHREEHTAbgRlt
+YXJ5bGVlX290aG9uQGhvdG1haWwuY29tMIICewYDVR0fBIICcjCCAm4wggJqoIICZqCCAmKGPWh0
+dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29j
+c3CGgdVsZGFwOi8vZGlyZWN0LnNlY3VyaXR5ZGF0YS5uZXQuZWMvY249Q1JMMzE5LGNuPUFVVE9S
+SURBRCUyMERFJTIwQ0VSVElGSUNBQ0lPTiUyMFNVQiUyMFNFQ1VSSVRZJTIwREFUQSxvdT1FTlRJ
+REFEJTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJTkZPUk1BQ0lPTixvPVNFQ1VSSVRZJTIw
+REFUQSUyMFMuQS4sYz1FQz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2WGgZ5odHRwczov
+L2RpcmVjdC5zZWN1cml0eWRhdGEubmV0LmVjL35jcmwvYXV0b3JpZGFkX2RlX2NlcnRpZmljYWNp
+b25fc3ViX3NlY3VyaXR5X2RhdGFfZW50aWRhZF9kZV9jZXJ0aWZpY2FjaW9uX2RlX2luZm9ybWFj
+aW9uX2N1cml0eV9kYXRhX3MuYS5fY19lY19jcmxmaWxlLmNybKSBpzCBpDELMAkGA1UEBhMCRUMx
+GzAZBgNVBAoTElNFQ1VSSVRZIERBVEEgUy5BLjEwMC4GA1UECxMnRU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OMTUwMwYDVQQDEyxBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBTVUIgU0VDVVJJVFkgREFUQTEPMA0GA1UEAxMGQ1JMMzE5MCsGA1UdEAQkMCKADzIwMTkwMTAy
+MjIwMzA2WoEPMjAyNDAxMDIyMjMzMDZaMB8GA1UdIwQYMBaAFPcvTOB152KjeJZbBrYucTvMbD+Q
+MB0GA1UdDgQWBBSmfmvHkNcvHF3gx21BpZLJ3RV+njAJBgNVHRMEAjAAMBkGCSqGSIb2fQdBAAQM
+MAobBFY4LjEDAgOoMA0GCSqGSIb3DQEBCwUAA4IBAQBv76OFQQUh1hTEO/yQpzHwlGPZTc+Saic9
+u/szDW1b4qhbzi3LXrhFFzRtPQo7O7SiO9gbx+5Q3yUZDYuwjp40WNrgxZiHiKLIFrWqEGAik9oM
+0wRfr4lkioGT/ccH/F6MvNNQ47YL2wZzZqUTqzpgP1NqO9l2hdspkYZhnHjvrrNkX1GU8iAsAQHc
+fuSvacDmiCD9iRUSYyq11jhSkW/2eeqDJykaJRJPbxTkHfx0cU7blAxi1VFqBUPLTly/C+IFlaXk
+y5V/MRAHgLzE/nB4ZGuqTXBSEjHn+o6KyVaatuLv5vdSw4fQlK9meJhLhul8WhyRmgI4mVEdHFW8
+3nQ3
+&lt;/ds:X509Certificate&gt;
+&lt;/ds:X509Data&gt;
+&lt;ds:KeyValue&gt;
+&lt;ds:RSAKeyValue&gt;
+&lt;ds:Modulus&gt;
+r0lpqJmjUmWS16m8XUQUOXc6W0H3VEV/BXNzZQ1O8NJOuiAcqs3vCpE3NHKVwsV+T6X1dnW5CIxh
+8QCHTWb2sNJjL5+zyQkB+F3JDFWryC1pyaaEs7M4k764toX+kIM+PITnse0SNgEMKpQJypReUNmQ
+QGOGuQeVaQWsHS9Wx+BcAKKlG49SB3Y14foKCWuZovs+WuOH3GAsSD2saHaYWbtu6UhJR7KpgWp3
+sJ1bpLjuu1rvAVUZBYLSqR1i1qouaMEs6dPz3WRZYCObkeuFd+WgtA6cLvBOQ8INKeH1fIwxwdFz
+BTVhnQxA5Hyo7ocaNd+bpoxo7ewmd/i4KBC9YQ==
+&lt;/ds:Modulus&gt;
+&lt;ds:Exponent&gt;AQAB&lt;/ds:Exponent&gt;
+&lt;/ds:RSAKeyValue&gt;
+&lt;/ds:KeyValue&gt;
+&lt;/ds:KeyInfo&gt;
+&lt;ds:Object Id="Signature361440-Object310785"&gt;&lt;etsi:QualifyingProperties Target="#Signature361440"&gt;&lt;etsi:SignedProperties Id="Signature361440-SignedProperties440374"&gt;&lt;etsi:SignedSignatureProperties&gt;&lt;etsi:SigningTime&gt;2021-06-29T15:44:00-05:00&lt;/etsi:SigningTime&gt;&lt;etsi:SigningCertificate&gt;&lt;etsi:Cert&gt;&lt;etsi:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;&lt;ds:DigestValue&gt;gr2Uke8Fv3HsEs2UzOn2alRZ5Ks=&lt;/ds:DigestValue&gt;&lt;/etsi:CertDigest&gt;&lt;etsi:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;CN=AUTORIDAD DE CERTIFICACION SUB SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A.,C=EC&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;1423151501&lt;/ds:X509SerialNumber&gt;&lt;/etsi:IssuerSerial&gt;&lt;/etsi:Cert&gt;&lt;/etsi:SigningCertificate&gt;&lt;/etsi:SignedSignatureProperties&gt;&lt;etsi:SignedDataObjectProperties&gt;&lt;etsi:DataObjectFormat ObjectReference="#Reference-ID-358322"&gt;&lt;etsi:Description&gt;contenido comprobante&lt;/etsi:Description&gt;&lt;etsi:MimeType&gt;text/xml&lt;/etsi:MimeType&gt;&lt;/etsi:DataObjectFormat&gt;&lt;/etsi:SignedDataObjectProperties&gt;&lt;/etsi:SignedProperties&gt;&lt;/etsi:QualifyingProperties&gt;&lt;/ds:Object&gt;&lt;/ds:Signature&gt;&lt;/factura&gt;</comprobante>
+            <mensajes />
+          </autorizacion>
+        </autorizaciones>
+      </RespuestaAutorizacionComprobante>
+    </ns2:autorizacionComprobanteResponse>
+  </soap:Body>
+</soap:Envelope>

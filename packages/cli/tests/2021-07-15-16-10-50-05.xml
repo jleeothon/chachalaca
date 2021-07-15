@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>1706202101099011066200120011000000941020013286011</numeroAutorizacion>
+<fechaAutorizacion>2021-06-18T21:12:31-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>ASOCIACION COLEGIO ALEMAN HUMBOLDT DE GUAYAQUIL</razonSocial>
+    <ruc>0990110662001</ruc>
+    <claveAcceso>1706202101099011066200120011000000941020013286011</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>100</ptoEmi>
+    <secuencial>000094102</secuencial>
+    <dirMatriz>CDLA. LOS CEIBOS CALLE DR. HECTOR ROMERO 216 Y AV. DR. JOSE M. GARCIA MORENO</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>17/06/2021</fechaEmision>
+    <dirEstablecimiento>LOS CEIBOS,DR HECTOR ROMERO 216 Y DR. JOSE GARCIA M.</dirEstablecimiento>
+    <contribuyenteEspecial>5505</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>KIN SAM OTHON JAO</razonSocialComprador>
+    <identificacionComprador>1708866346001</identificacionComprador>
+    <direccionComprador>AV. QUITO 4018 Y MARACAIBO</direccionComprador>
+    <totalSinImpuestos>45.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>45.00</baseImponible>
+        <tarifa>0</tarifa>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>45.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>45.00</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>N/A</codigoPrincipal>
+      <descripcion>SEGURO ESCOLAR CEIBOS - 06/2021</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>45.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>45.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>45.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="campoadicional0">Código Estudiante: 9188</campoAdicional>
+    <campoAdicional nombre="campoadicional1">Nombre Estudiante: CORTEZ LEE DAVID AMIR</campoAdicional>
+    <campoAdicional nombre="campoadicional2">Curso: PRIMERO EGB</campoAdicional>
+    <campoAdicional nombre="campoadicional3">Dirección: AV. QUITO 4018 Y MARACAIBO</campoAdicional>
+    <campoAdicional nombre="campoadicional4">Telf: 0998699811</campoAdicional>
+    <campoAdicional nombre="campoadicional5">Email: maryleeothon@outlook.com</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature133909">
+<ds:SignedInfo Id="Signature-SignedInfo135341">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID751329" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature133909-SignedProperties756636">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>uMlRvA97Lvymjrzsc4KMphAc1Ak=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1463574">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>vMQimPqPXeYtwzM/MXY5g/bulTw=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-732068" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>9zIlDxil2tNb918/7+ArZkEO+Vc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue709611">
+GHFXk5h908LlzU5CsUGUz88CRv3oE2yf/YP0+dUlbPq9WyRno1rzKyt6hlYGCEsxYEsUd/ic4sVE
+WQKnSRNRt22UztbbgkSdGFGUGTmT5rZtDZEyr8MHefvOsRSNoTHtTTSeoHuMdMxQDMvJFKT3eOYg
+KcKanCQRQtq0++YZ+iZS5sAQyTyJI8lCnq7J3zlIpDMGEsf7JTOcHoks8sId4ecBn3wlpX5Q7dXF
+Bhq+WyUeMotGwwrgsOuvwr0IPg/DTIWFc9qOrAGos3txZW3SukOpreZ8UdBcrjdBzpXeA4HTouxT
+RoFvQuCMK7oyf5mNSxtlgBVHD7IDcT21+z4zLg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1463574">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKBjCCCO6gAwIBAgIEXcr/mjANBgkqhkiG9w0BAQsFADCBkzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoTElNFQ1VSSVRZIERBVEEgUy5BLjEwMC4GA1UECxMnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9O
+IERFIElORk9STUFDSU9OMTUwMwYDVQQDEyxBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUIg
+U0VDVVJJVFkgREFUQTAeFw0yMDAxMDMyMjAxNDlaFw0yMjAxMDMyMjMxNDlaMIGaMQswCQYDVQQG
+EwJFQzEbMBkGA1UEChMSU0VDVVJJVFkgREFUQSBTLkEuMTAwLgYDVQQLEydFTlRJREFEIERFIENF
+UlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xPDATBgNVBAUTDDAzMDEyMDE3MjgxMDAlBgNVBAMT
+HlNJTFZJQSBNQVJJQSBBTkRSQURFIERFU1NPTU1FUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAMYdOC9+FfaIhaEUxFiKn3p56ga6OFJklZGg47vpnirpDUK8biDV7vdpr9hmT/OAMRkD
+xrfuPfwGuj1MUB0QhZi8cow8S+P2dPNfzeTmbK8JRS1gd1Xchgv8bNdDghF2IU68HVvABNO51ew7
+0BuCR6RP9jxFUZzbpl++za3jYRqYJUzqas2YJCPNfjiOtx9buYBMFM4kkNqjXh69QsuEVS+SIyId
+R1sxkZ4mjPlJ49cmHHGs2RG+CbED1mWXbdxl/Nwqjiz8BkQgQfAtFAct6pKFB6zqURsIZ3bH3Wox
+CfiSipJ4lvXefHAIJ9YkW1feMEbYrJfcsxZ0kzN0kZ4edXECAwEAAaOCBlcwggZTMAsGA1UdDwQE
+AwIF4DBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlk
+YXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwgcoGA1UdIASBwjCBvzA/Bgor
+BgEEAYKmcgIKMDEwLwYIKwYBBQUHAgIwIxohQ2VydGlmaWNhZG8gZGUgTWllbWJybyBkZSBFbXBy
+ZXNhMHwGCisGAQQBgqZyAgQwbjBsBggrBgEFBQcCARZgaHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRh
+Lm5ldC5lYy9sZXllc19ub3JtYXRpdmFzL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBNaWVtYnJv
+IGRlIEVtcHJlc2EucGRmMD8GCisGAQQBgqZyAwoEMRMvQVNPQ0lBQ0lPTiBDT0xFR0lPIEFMRU1B
+TiBIVU1CT0xEVCBERSBHVUFZQVFVSUwwHQYKKwYBBAGCpnIDCwQPEw0wOTkwMTEwNjYyMDAxMBoG
+CisGAQQBgqZyAwEEDBMKMDkwODkwMjcyOTAcBgorBgEEAYKmcgMCBA4TDFNJTFZJQSBNQVJJQTAX
+BgorBgEEAYKmcgMDBAkTB0FORFJBREUwGQYKKwYBBAGCpnIDBAQLEwlERVNTT01NRVMwKAYKKwYB
+BAGCpnIDBQQaExhESVJFQ1RPUkEgQURNSU5JU1RSQVRJVkEwSAYKKwYBBAGCpnIDBwQ6EzhET0NU
+T1IgSEVDVE9SIFJPTUVSTyAyMTYgWSBBVi4gRE9DVE9SIEpPU0UgR0FSQ0lBIE1PUkVOTzAcBgor
+BgEEAYKmcgMIBA4TDDU5Mzk4NjU3Njg1MjAZBgorBgEEAYKmcgMJBAsTCUdVQVlBUVVJTDAXBgor
+BgEEAYKmcgMMBAkTB0VDVUFET1IwHwYKKwYBBAGCpnIDIAQREw8wMDEwMDIwMDAwMzI3MzIwGgYK
+KwYBBAGCpnIDIQQMEwpVU0JTRC0yNjI4MDkGA1UdEQQyMDCBLmRpcmVjY2lvbi5hZG1pbmlzdHJh
+Y2lvbkBhbGVtYW5odW1ib2xkdC5lZHUuZWMwggJ7BgNVHR8EggJyMIICbjCCAmqgggJmoIICYoY9
+aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMv
+b2NzcIaB1WxkYXA6Ly9kaXJlY3Quc2VjdXJpdHlkYXRhLm5ldC5lYy9jbj1DUkw1OTAsY249QVVU
+T1JJREFEJTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwU1VCJTIwU0VDVVJJVFklMjBEQVRBLG91PUVO
+VElEQUQlMjBERSUyMENFUlRJRklDQUNJT04lMjBERSUyMElORk9STUFDSU9OLG89U0VDVVJJVFkl
+MjBEQVRBJTIwUy5BLixjPUVDP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZYaBnmh0dHBz
+Oi8vZGlyZWN0LnNlY3VyaXR5ZGF0YS5uZXQuZWMvfmNybC9hdXRvcmlkYWRfZGVfY2VydGlmaWNh
+Y2lvbl9zdWJfc2VjdXJpdHlfZGF0YV9lbnRpZGFkX2RlX2NlcnRpZmljYWNpb25fZGVfaW5mb3Jt
+YWNpb25fY3VyaXR5X2RhdGFfcy5hLl9jX2VjX2NybGZpbGUuY3JspIGnMIGkMQswCQYDVQQGEwJF
+QzEbMBkGA1UEChMSU0VDVVJJVFkgREFUQSBTLkEuMTAwLgYDVQQLEydFTlRJREFEIERFIENFUlRJ
+RklDQUNJT04gREUgSU5GT1JNQUNJT04xNTAzBgNVBAMTLEFVVE9SSURBRCBERSBDRVJUSUZJQ0FD
+SU9OIFNVQiBTRUNVUklUWSBEQVRBMQ8wDQYDVQQDEwZDUkw1OTAwKwYDVR0QBCQwIoAPMjAyMDAx
+MDMyMjAxNDlagQ8yMDIyMDEwMzIyMzE0OVowHwYDVR0jBBgwFoAU9y9M4HXnYqN4llsGti5xO8xs
+P5AwHQYDVR0OBBYEFH1n2lSicQWZxOQkKIgHOKmlVMaNMAkGA1UdEwQCMAAwGQYJKoZIhvZ9B0EA
+BAwwChsEVjguMQMCA6gwDQYJKoZIhvcNAQELBQADggEBAFQDlsVuEWk94xHPhoPtYgGtlgqKfY/A
+lStqCxv8Irnc5e5DDAB73U8PXMd15kRHwH0DeyGR6EczGhYswyrU3X4mSMTwo+sHSQWwws68yWXd
+LZTspWg6bAM4JM8qao72URoBbapml1mIC6A9py2l3MpZoR8rxA/aZ9U4mNGiD3+wkQak1VQtcwV2
+oNGQMaAwYwmMZnLY1SJMDSrbseq/7aewlF9Qiz8HVMdD8ZoEa0mOvkeJAcB9S0N3XeI/Z8zopNOv
+/At7AMtCnWYlVPC2DH1Df3yP5IWKrt8Cm6qWfnC8jEumNGcknJGUNzQl3loBI2mMY/46A6NdDYh9
+IhitA+U=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xh04L34V9oiFoRTEWIqfennqBro4UmSVkaDju+meKukNQrxuINXu92mv2GZP84AxGQPGt+49/Aa6
+PUxQHRCFmLxyjDxL4/Z081/N5OZsrwlFLWB3VdyGC/xs10OCEXYhTrwdW8AE07nV7DvQG4JHpE/2
+PEVRnNumX77NreNhGpglTOpqzZgkI81+OI63H1u5gEwUziSQ2qNeHr1Cy4RVL5IjIh1HWzGRniaM
++Unj1yYccazZEb4JsQPWZZdt3GX83CqOLPwGRCBB8C0UBy3qkoUHrOpRGwhndsfdajEJ+JKKkniW
+9d58cAgn1iRbV94wRtisl9yzFnSTM3SRnh51cQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature133909-Object752471"><etsi:QualifyingProperties Target="#Signature133909"><etsi:SignedProperties Id="Signature133909-SignedProperties756636"><etsi:SignedSignatureProperties><etsi:SigningTime>2021-06-18T21:12:30-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>2uLGiwbKlvoTpQI63Td9xxYUKuE=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUB SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1573584794</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-732068"><etsi:Description>comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
+
