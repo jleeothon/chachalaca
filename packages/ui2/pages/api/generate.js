@@ -2,12 +2,9 @@ import formidable from 'formidable';
 const tmp = require('tmp');
 const { readFileSync } = require('fs');
 const AWS = require('aws-sdk');
-// const bunyan = require('bunyan');
 const pMap = require('p-map');
-const formatISO = require('date-fns/formatISO');
+const {formatISO} = require('date-fns');
 const chachalacaCore = require('@jleeothon/chachalaca-core');
-
-// const log = bunyan.createLogger({ name: 'chachalaca' });
 
 const s3Endpoint = process.env.S3_ENDPOINT;
 const accessKeyId = process.env.S3_ACCESS_KEY_ID;
@@ -60,7 +57,6 @@ export default async function (request, response) {
     await generateFromFiles(filePaths, temporaryFilePath);
     const responseType =
         'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
-    // response.type(responseType);
     response.setHeader('Content-Type', 'text/html');
     response.send(readFileSync(temporaryFilePath));
 };
